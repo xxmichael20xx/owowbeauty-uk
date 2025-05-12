@@ -1,0 +1,1088 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "loox_reviews_loox_rating_MV3KnT": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "tolstoy_shoppable_video_ugc_stories_block_irNxKx": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "uko83md7r69t2"
+          }
+        },
+        "image_gXWxnM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Size_Chart.png",
+            "image_size": 900,
+            "image_size_mobile": 700,
+            "alignment": "center",
+            "column_placement": "right"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "How to apply",
+            "heading_tag": "h3",
+            "content": "<p><strong>Step 1 .</strong></p><p>Start the application with clean lashes. Curl them up so that all lashes are aligned.</p><p><strong>Step 2.</strong></p><p>Apply bond. Starting from the bottom of your own lash line apply the black mascara bond only halfway through the lash - avoid applying it all the way to the tip of the lashes like you would apply a regular mascara. Let it dry for 30 seconds and then apply a thin layer of the white bond to the lower part of the lashes and allow another 30seconds unit both the black and the white bonds get tacky.</p><p><strong>Step 3.</strong></p><p>Apply segments. With the tweezers, grab each segment and start applying the segments underneath your natural lash - get them as close to the lash line as possible but make sure they don’t touch your wet lash line and gently pull the segment upwards so that it will stick to the natural lash. With the other end of the tweezer gently push the clusters like this. Start from the inner corner of the eye and work outwards. If the outer segment is too wide and exceeds the corner of your eye, cut a few mm to fit your eye. To finish up, with the bottom tip of the tweezers press the segments towards your natural lash.</p><p></p><p><strong>Step 4.</strong></p><p>Seal and pinch. After the application wait 5min and apply the sealant with the tip of the brush under your lashes and allow 2min. Apply a small amount of sealant to the silicone parts of the pitchers and start pinching the lashes together starting from the inner corner of the eye and working outwards. Hold each pitch for 5 seconds.<br/><br/>Check our lash tutorial videos <a href=\"https://answr.uk/pages/lashguide\" title=\"https://answr.uk/pages/lashguide\">HERE</a>.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion_LfRfJA": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Tools needed",
+            "heading_tag": "h3",
+            "content": "<p>For proper application you need:</p><ul><li>Double adhesive (hyperlink to the product page). Please note that regular strip lash adhesive is not suitable.</li><li>Sealant (hyperlink to the product page)</li><li>Lash cluster tweezers (hyperlink to the product page)</li><li>Pinchers (hyperlink to the product page)</li><li>Oil remover (hyperlink to the product page)</li></ul><p>If this is your first purchase, we recommend ordering our <a href=\"https://answr.uk/collections/all-products-page/products/at-home-lash-extensions-kit\" target=\"_blank\" title=\"https://answr.uk/collections/all-products-page/products/at-home-lash-extensions-kit\">Tool Kit</a>, which contains everything you need to get started.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_MV3KnT",
+        "product_header",
+        "description",
+        "tolstoy_shoppable_video_ugc_stories_block_irNxKx",
+        "image_gXWxnM",
+        "variant_picker",
+        "buy_buttons",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "accordion_LfRfJA",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": true,
+        "hide_mobile_carousel_dots": true,
+        "enable_gift_card_recipient": false,
+        "enable_animation": true
+      }
+    },
+    "rich_text_V4a67B": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_8YMQzw": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_8YMQzw"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/bond.gif",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "bond",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Starting with clean dry lashes apply the black mascara bond to the bottom of your lashes and let it dry for 30 seconds.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/double_bond.webp",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "double-bond",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Apply a thin layer of white bond at the bottom of the lashes and wait 30 seconds until it gets tacky.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cluster_0763db3d-6a0f-4256-9a9d-91635204f88c.webp",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "cluster",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Starting from the inner corner of the eye and working outwards, apply the clusters underneath your lash using the tweezers</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_MxtBji": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/seal.webp",
+            "image_width": 100,
+            "aspect_ratio": "portrait",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "seal",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Apply sealant to the lashes to remove any tackiness and wait 2 min. Using the pinchers press the lashes together for that strong finish.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6",
+        "image_column_MxtBji"
+      ],
+      "settings": {
+        "title": "BEGINNER-PROOF APPLICATION - AS EASY AS IT GETS",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_DGNTLf": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_RVkQai": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_RVkQai"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "gallery_carousel_97zNgt": {
+      "type": "gallery-carousel",
+      "blocks": {
+        "image_mgrzdd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sara_Before_and_afters_vertical.jpg",
+            "focal_point": "image_presentation",
+            "title": "",
+            "text": ""
+          }
+        },
+        "image_aHnmww": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Eve_Before_and_afters_vertical.jpg",
+            "focal_point": "image_presentation",
+            "title": "",
+            "text": ""
+          }
+        },
+        "image_a3rAEG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Affro_Before_and_afters_vertical.jpg",
+            "focal_point": "image_presentation",
+            "title": "",
+            "text": ""
+          }
+        },
+        "image_eBiJWz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Asian_Before_and_afters_vertical.jpg",
+            "focal_point": "image_presentation",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mgrzdd",
+        "image_aHnmww",
+        "image_a3rAEG",
+        "image_eBiJWz"
+      ],
+      "settings": {
+        "heading": "Before & After",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "2",
+        "mobile_columns": "1",
+        "loop_carousel": true,
+        "aspect_ratio": "portrait",
+        "image_caption_style": "beneath",
+        "image_caption_size": "fs-body-100",
+        "overlay_text_background_style": "solid",
+        "overlay_text_color": "#ffffff",
+        "overlay_text_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_wR89JJ": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_gaY3Yw": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_gaY3Yw"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_with_text_VwwDqb": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_RaCY6a": {
+          "type": "heading",
+          "settings": {
+            "title": "APPLY IN MINUTES. <br>WEAR FOR DAYS.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_MQyrKD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all know that great lashes are the ultimate frame for your face. </p><p>So why hassle with messy mascara or beyond pricey, time-consuming salon trips when you can apply flawless lash extensions at home in minutes that last for days.</p><p>Developed with the finest attention to quality, our damage-free at-home lash extensions give you the power to be your own lash expert, with absolutely no prior skills required.</p><p>Your lash game just got a zillion times better!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RaCY6a",
+        "text_MQyrKD"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/lash_close_up_4.mp4",
+        "poster": "shopify://shop_images/freepik__enhance__31239.jpg",
+        "autoplay": true,
+        "controls": false,
+        "muted": true,
+        "desk_height": 800,
+        "mob_height": 300,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_HTa8A6": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_RBYy6j": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_RBYy6j"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "APPROVED BY ATHENA EFSTATHIOU",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready to take your lash game to the next level with the guidance from the best out there! Athena Efstathiou, is joining us as the official lash educator, and trust us - you could not be in better hands.</p><p>With a client list including stars like Vogue Williams and Pixie Lott, and campaigns for L’Oréal and Adidas under her belt, Athena has built her reputation on delivering stunning transformations that enhance natural beauty.</p><p>Her expertise goes beyond makeup, empowering everyone to embrace their own beauty from the inside out. Athena is bringing her industry know-how to help you master flawless at-home lash extensions with ease.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Untitled_design_0789210a-c846-4097-8503-c5b2d11384f7.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_fJRtiJ": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_yM9GCx": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_yM9GCx"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_slider_dNmLBN": {
+      "type": "video-slider",
+      "blocks": {
+        "video_Awenaa": {
+          "type": "video",
+          "settings": {
+            "video_title": "how to lash",
+            "description": "",
+            "video_url": "https://answr.uk/cdn/shop/videos/c/vp/672da947972342f89e43573763c11257/672da947972342f89e43573763c11257.HD-1080p-3.3Mbps-37796495.mp4",
+            "video_thumbnail": "shopify://shop_images/Athena_how_to_lash.jpg"
+          }
+        },
+        "video_tdKxcB": {
+          "type": "video",
+          "settings": {
+            "video_title": "The tools",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/600927922a1a4c098d89224f9368e315/600927922a1a4c098d89224f9368e315.HD-1080p-2.5Mbps-37692007.mp4?v=0",
+            "video_thumbnail": "shopify://shop_images/Athena_tools_15a2cada-e423-45c0-8dc7-3a5001f107c8.jpg"
+          }
+        },
+        "video_yNdk34": {
+          "type": "video",
+          "settings": {
+            "video_title": "sizing",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/b7cbadd2e7f6473e8812e1a48dd2af42/b7cbadd2e7f6473e8812e1a48dd2af42.HD-1080p-2.5Mbps-37692086.mp4?v=0",
+            "video_thumbnail": "shopify://shop_images/freepik__enhance__30076.png"
+          }
+        },
+        "video_MhAbEw": {
+          "type": "video",
+          "settings": {
+            "video_title": "bonding",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/205f18e9a21b4ad48383225138693878/205f18e9a21b4ad48383225138693878.HD-1080p-3.3Mbps-37692143.mp4?v=0",
+            "video_thumbnail": "shopify://shop_images/Athena_bonds.jpg"
+          }
+        },
+        "video_TK6fFf": {
+          "type": "video",
+          "settings": {
+            "video_title": "cluster",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/b83a31d714bd4d32b6f851ba8dcf1ed8/b83a31d714bd4d32b6f851ba8dcf1ed8.HD-1080p-3.3Mbps-37692250.mp4?v=0",
+            "video_thumbnail": "shopify://shop_images/Athena_cluster.jpg"
+          }
+        },
+        "video_JPUG4w": {
+          "type": "video",
+          "settings": {
+            "video_title": "makeup removal",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/dc4706131de04d3b97540909a25d8129/dc4706131de04d3b97540909a25d8129.HD-1080p-3.3Mbps-37692471.mp4",
+            "video_thumbnail": "shopify://shop_images/freepik__enhance__30081.jpg"
+          }
+        },
+        "video_eWKQMx": {
+          "type": "video",
+          "settings": {
+            "video_title": "showering",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/75152b52b36a4675b79169137d0cf6fc/75152b52b36a4675b79169137d0cf6fc.HD-1080p-2.5Mbps-37692853.mp4",
+            "video_thumbnail": "shopify://shop_images/freepik__enhance__30083.png"
+          }
+        },
+        "video_Dfpiyn": {
+          "type": "video",
+          "settings": {
+            "video_title": "aftercare",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/fa6cf514258b494abb131fae54867594/fa6cf514258b494abb131fae54867594.HD-1080p-2.5Mbps-37693052.mp4",
+            "video_thumbnail": "shopify://shop_images/freepik__enhance__30084.png"
+          }
+        },
+        "video_9MnDCy": {
+          "type": "video",
+          "settings": {
+            "video_title": "lash removal",
+            "description": "",
+            "video_url": "https://answrbeauty.com/cdn/shop/videos/c/vp/b4ba622a9471418b8d575c0a9003a668/b4ba622a9471418b8d575c0a9003a668.HD-1080p-3.3Mbps-37693219.mp4",
+            "video_thumbnail": "shopify://shop_images/freepik__enhance__30082.png"
+          }
+        }
+      },
+      "block_order": [
+        "video_Awenaa",
+        "video_tdKxcB",
+        "video_yNdk34",
+        "video_MhAbEw",
+        "video_TK6fFf",
+        "video_JPUG4w",
+        "video_eWKQMx",
+        "video_Dfpiyn",
+        "video_9MnDCy"
+      ],
+      "settings": {
+        "section_heading": "ANYONE CAN DO IT – WATCH AND LEARN",
+        "p": "",
+        "layout": "wide",
+        "range": 4,
+        "stack": true
+      }
+    },
+    "rich_text_Ny6kPD": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_4fameD": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_4fameD"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_hero_Bw3DCh": {
+      "type": "image-hero",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 60,
+        "mobile_height": 60,
+        "image": "shopify://shop_images/Wink_gif.gif",
+        "image_mobile": "shopify://shop_images/Wink_gif_mobile_034e9542-41c3-432b-914c-4009d7aad6a1.gif",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_AaXTWg": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_LJG3Kr": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_LJG3Kr"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "grid_eazYB4": {
+      "type": "grid",
+      "blocks": {
+        "item_q4fpEX": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 800,
+            "mobile_height": 800,
+            "image": "shopify://shop_images/Lash_macro_product_page_images_c8326ebd-3b44-43e5-ba99-a796a3ddaa5c.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bKGY4W": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 800,
+            "mobile_height": 800,
+            "image": "shopify://shop_images/Lash_USP_423dbb7f-76dd-4302-8ec9-f7ff9020c4ff.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_q4fpEX",
+        "item_bKGY4W"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 0,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_UjprEn": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_wQhVwc": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_wQhVwc"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "167534388725ba3dcf": {
+      "type": "apps",
+      "blocks": {
+        "c84f10b0-5fe2-4cb9-a683-db709fd7ebd3": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_carousel_product/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "heading": "",
+            "description": "",
+            "campaign_id": "none",
+            "shadow_size": 10,
+            "width": 300,
+            "width_mobile": 150,
+            "slide_gap": 10,
+            "autoplay": true,
+            "force_aspect": false,
+            "align_heading": "left",
+            "align_items": "center",
+            "order_by": "date_desc",
+            "color_play_button": "#000000",
+            "color_play_button_inner": "#ffffff",
+            "load_background_color": "rgba(0,0,0,0)",
+            "border_color": "#000000",
+            "border_size": 0,
+            "overflow": false
+          }
+        }
+      },
+      "block_order": [
+        "c84f10b0-5fe2-4cb9-a683-db709fd7ebd3"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_BEpY7H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Yqnexj": {
+          "type": "heading",
+          "settings": {
+            "title": "LASH MAGIC OR YOUR MONEY BACK.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_4hfNDk": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_q8qbCm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order risk-free and see the difference for yourself. If you're not satisfied, just let us know within 30 days and we'll give you a full refund - no questions asked.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yqnexj",
+        "spacer_4hfNDk",
+        "text_q8qbCm"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/affro_close_up.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/guarantee_stamp_3_days.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long do the lashes stay on?",
+            "text": "<p>Our lashes are developed to last a minimum of 7 days, but with proper application and care, they can easily stay on for up to 10 days. We recommend watching our tutorial videos for the best tips and techniques to maximize wear time.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does the application require prior experience?",
+            "text": "<p>Not at all! Like all of our products, our lashes are made for easy at-home use, with no prior skills required. Thanks to the under-lash cluster method, the application is simple and takes around 10 minutes from start to finish. Just follow the instructions, and you're good to go!</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does it take to apply the lashes?",
+            "text": "<p>Thanks to the under-lash cluster technique, applying a full set of lashes takes just 10 minutes—quick, easy, and completely fuss-free!</p>"
+          }
+        },
+        "item_FxC6AR": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are the lashes reusable?",
+            "text": "<p>No, our lashes are intended for single use to ensure hygiene and the best possible results each time. The delicate faux silk fibers we use create the most natural look and feel but are more prone to breaking during removal.</p>"
+          }
+        },
+        "item_9K7Qh6": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I wear mascara or eyeliner with the lashes?",
+            "text": "<p>Yes, you can! However, the lashes look so natural that most users find they don’t need additional eye makeup. It's entirely up to your personal preference.</p>"
+          }
+        },
+        "item_4mizRy": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Will the lash extensions damage my natural lashes?",
+            "text": "<p>No. Unlike traditional salon lash extensions that can create tension due to the fiber-by-fiber application and strong adhesive, our lashes are applied with gentle adhesive in clusters under your natural lashes. This creates no tension and ensures no damage when applied and removed correctly.</p>"
+          }
+        },
+        "item_YbCPYL": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use traditional strip lash adhesive?",
+            "text": "<p>This is a big no. Strip lash adhesives are formulated for one-day wear and won’t provide the hold necessary for our at-home lash extensions. Using them will make it impossible for the lashes to stay in place.</p>"
+          }
+        },
+        "item_6ECghc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What do I need to get started?",
+            "text": "<p>For the best application, you will need the following:<br/>•⁠  ⁠Double Adhesive<br/>•⁠  ⁠Sealant<br/>•⁠  ⁠Lash Cluster Tweezers<br/>•⁠  ⁠Pinchers<br/>•⁠  ⁠Oil Remover</p><p>If this is your first purchase, we recommend ordering our <a href=\"/products/at-home-lash-extensions-kit\" title=\"At-home lash extensions tool kit\">Tool Kit</a>, which contains everything you need to get started.</p>"
+          }
+        },
+        "item_fgt9Dp": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "⁠Are the lashes suitable for sensitive eyes?",
+            "text": "<p>Yes! Our lashes are made from hypoallergenic materials, and the adhesive is formulated to be gentle enough for sensitive eyes. If you experience any discomfort, it’s likely that the lash clusters were applied too close to your waterline. In this case, or if you feel any burning or irritation, we recommend removing the lashes and reapplying them slightly further from the lash line for a more comfortable fit.</p>"
+          }
+        },
+        "item_wtUDHP": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I care for my lashes to make them last longer?",
+            "text": "<p>To maximize the wear time of your lashes, avoid getting them wet for the first 24 hours after application. Additionally, steer clear of oil-based products around your eyes, as these can weaken the adhesive and shorten the life of your lashes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "item_FxC6AR",
+        "item_9K7Qh6",
+        "item_4mizRy",
+        "item_YbCPYL",
+        "item_6ECghc",
+        "item_fgt9Dp",
+        "item_wtUDHP"
+      ],
+      "settings": {
+        "title": "frequently asked questions.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_V4a67B",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "rich_text_DGNTLf",
+    "gallery_carousel_97zNgt",
+    "rich_text_wR89JJ",
+    "video_with_text_VwwDqb",
+    "rich_text_HTa8A6",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "rich_text_fJRtiJ",
+    "video_slider_dNmLBN",
+    "rich_text_Ny6kPD",
+    "image_hero_Bw3DCh",
+    "rich_text_AaXTWg",
+    "grid_eazYB4",
+    "rich_text_UjprEn",
+    "167534388725ba3dcf",
+    "image_with_text_BEpY7H",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "loox-product-reviews-app-section"
+  ]
+}

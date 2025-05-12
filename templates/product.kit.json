@@ -1,0 +1,371 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "chip_layout": "3col"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "settings": {
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "product_header",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "gallery_style": "grid",
+        "gallery_size": "large",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_animation": true
+      }
+    },
+    "1661257330a622ee37": {
+      "type": "testimonials",
+      "blocks": {
+        "1661257330d7023e45-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "at-home-keratin-treatment",
+            "image_position": "right",
+            "image": "shopify://shop_images/2.after.jpg",
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "“My hair is shinier and softer than ever. I like that my hair isn’t falling as flat to my scalp after the initial wash as it used to do.”",
+            "author": "– Diana"
+          }
+        },
+        "1661257330d7023e45-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "at-home-keratin-treatment",
+            "image_position": "right",
+            "image": "shopify://shop_images/Flyaway_awareness_ad_4x5_c78805ed-45ed-4fcf-a7c3-c565688d9222.gif",
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "“Very nice experience. It was so easy to apply and my hair was very silky for two months. Would recommend to all my friends.”",
+            "author": "– Angela"
+          }
+        },
+        "1661257330d7023e45-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "at-home-keratin-treatment",
+            "image_position": "right",
+            "image": "shopify://shop_images/ANSWR_girls_all_647476ce-de47-44da-8e11-d89f80d8156c.jpg",
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "“This is a god-send for all the frizzy hair ladies out there!! My hair was frizz-free for 3 months”",
+            "author": "– Jane Doe"
+          }
+        },
+        "f6f5381c-2ba2-444e-acda-8deccb9da050": {
+          "type": "testimonial",
+          "settings": {
+            "product": "at-home-keratin-treatment",
+            "image_position": "right",
+            "image": "shopify://shop_images/Goup_image_answr.jpg",
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"This is the first time any treatment has ever managed to get my hair smooth and frizzfree. Ever! And I just let it airdry. Love it!\"",
+            "author": "– Tester"
+          }
+        }
+      },
+      "block_order": [
+        "1661257330d7023e45-0",
+        "1661257330d7023e45-1",
+        "1661257330d7023e45-2",
+        "f6f5381c-2ba2-444e-acda-8deccb9da050"
+      ],
+      "settings": {
+        "image_size": "medium",
+        "quote_font": "body",
+        "background_color": "",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1661258330f418073a": {
+      "type": "image-with-text",
+      "blocks": {
+        "9b83e844-492c-4abb-ad4a-1cfede07b9f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VeratinTech_logo.webp",
+            "image_size": 400,
+            "image_size_mobile": 200
+          }
+        },
+        "18bc918e-1c23-42e7-8e47-16aac22215b3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vegan Keratin With Pineapple Ceramides & Grape Seed Extract</strong></p><p>Vegan keratin sourced from wheat and soy - is the magic behind our exclusive VeratinTech™ technology that enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p><p>Ceramides work on the scalp and hair by thoroughly protecting it from any further damage and help to keep the cuticle closed and restore moisture. </p><p>Grape Seed Extract is used as a deep moisturizer, sealant, and shine enhancer.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "16612583302ead7379-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "16612583302ead7379-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "16612583302ead7379-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "9b83e844-492c-4abb-ad4a-1cfede07b9f8",
+        "18bc918e-1c23-42e7-8e47-16aac22215b3",
+        "16612583302ead7379-0",
+        "16612583302ead7379-1",
+        "16612583302ead7379-2"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Pineapple.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1661256091800bb8d7": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "b9c321e5-dde4-447a-9517-0d94138b4706": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VeratinTech_logo.webp",
+            "image_size": 400,
+            "image_size_mobile": 200
+          }
+        },
+        "380fbd9b-5d39-40bf-aa20-2debab228ff2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vegan Keratin With Pineapple Ceramides & Grape Seed Extract</strong></p><p>Vegan keratin sourced from wheat and soy - is the magic behind our exclusive VeratinTech™ technology that enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p><p>Ceramides work on the scalp and hair by thoroughly protecting it from any further damage and help to keep the cuticle closed and restore moisture. </p><p>Grape Seed Extract is used as a deep moisturizer, sealant, and shine enhancer.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "b9c321e5-dde4-447a-9517-0d94138b4706",
+        "380fbd9b-5d39-40bf-aa20-2debab228ff2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "below-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/Pineapple_2.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "center",
+        "content_alignment": "left",
+        "background_color": "#ff8674",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "disabled": true,
+      "settings": {
+        "title": "Recommended products",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1661413899a92b4c41": {
+      "type": "apps",
+      "blocks": {
+        "0c19639b-0638-4e7a-bb02-6e5fecb4f3d6": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "heading": "Customers Love our products",
+            "description": "Watch some short reviews from our customers",
+            "show_names": true,
+            "names_size": "text-sm",
+            "names_size_mobile": "text-base",
+            "show_verified": true,
+            "show_box": false,
+            "width": "w-72",
+            "width_mobile": "w-72",
+            "shadow_size": "shadow-xl",
+            "color_verified": "#76a9fa",
+            "color_verified_tick": "#1e439f",
+            "color_play_button": "#ffffff",
+            "color_play_button_inner": "transparent"
+          }
+        },
+        "30b25cde-61fb-4d18-9d38-a6affacbd473": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_collection/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "campaign_id": "cl78pe5cy00270al4gush32vs"
+          }
+        }
+      },
+      "block_order": [
+        "0c19639b-0638-4e7a-bb02-6e5fecb4f3d6",
+        "30b25cde-61fb-4d18-9d38-a6affacbd473"
+      ],
+      "settings": {}
+    },
+    "1661255749f4289276": {
+      "type": "apps",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "1661257330a622ee37",
+    "1661258330f418073a",
+    "1661256091800bb8d7",
+    "recommendations",
+    "1661413899a92b4c41",
+    "1661255749f4289276"
+  ]
+}

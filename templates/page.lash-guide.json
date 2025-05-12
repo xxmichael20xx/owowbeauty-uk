@@ -1,0 +1,466 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_with_text_fnhUV8": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_7iQfR7": {
+          "type": "heading",
+          "settings": {
+            "title": "apply the lashes",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_QjyqXq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "All the steps covered to apply your lashes in 10 minutes",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7iQfR7",
+        "subheading_QjyqXq"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/eedc8a232e2d4c3bb9f84cab16f91b5d.mp4",
+        "poster": "shopify://shop_images/Athena_how_to_lash.jpg",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_4Wi6qP": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_hicjpn": {
+          "type": "heading",
+          "settings": {
+            "title": "understand the tools",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_xqBULg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Walking you through all the tools needed for the application",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hicjpn",
+        "subheading_xqBULg"
+      ],
+      "settings": {
+        "video_position": "left",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/THE TOOLS.mp4",
+        "poster": "shopify://shop_images/Athena_tools_15a2cada-e423-45c0-8dc7-3a5001f107c8.jpg",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_8KWXdX": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_dWtazc": {
+          "type": "heading",
+          "settings": {
+            "title": "lash sizing",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_HQfTfe": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our lashes come in S, M and L size. Which one is the best for you?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dWtazc",
+        "subheading_HQfTfe"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/SIZING.mp4",
+        "poster": "shopify://shop_images/freepik__enhance__30076.png",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_P74hH3": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_CirAcb": {
+          "type": "heading",
+          "settings": {
+            "title": "bonding techniques",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_pTebk8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "There are two techniques that you can choose between depending if you want a stronger or lighter hold.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CirAcb",
+        "subheading_pTebk8"
+      ],
+      "settings": {
+        "video_position": "left",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/BONDING TECHNIQUE.mp4",
+        "poster": "shopify://shop_images/Athena_bonds.jpg",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 800,
+        "mob_height": 300,
+        "aspect_ratio": "natural",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_YetiaN": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_JViTQ4": {
+          "type": "heading",
+          "settings": {
+            "title": "cluster application",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_UfpB8R": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Before your first application it’s advised to dry practice the cluster placement technique.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JViTQ4",
+        "subheading_UfpB8R"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/CLUSTER PLACEMENT.mp4",
+        "poster": "shopify://shop_images/Athena_cluster.jpg",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_LWUHUV": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_KmbjXj": {
+          "type": "heading",
+          "settings": {
+            "title": "makeup removal",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_Utb8ib": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Removing your makeup while wearing our lashes is simple - just check the best tips for doing that.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KmbjXj",
+        "subheading_Utb8ib"
+      ],
+      "settings": {
+        "video_position": "left",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/REMOVE MAKEUP WHILE LASHING.mp4",
+        "poster": "shopify://shop_images/freepik__enhance__30081.jpg",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3YJJba": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_dTkzbP": {
+          "type": "heading",
+          "settings": {
+            "title": "shower with lashes",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_JHPRqK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Simply avoid direct water flow on your lashes",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dTkzbP",
+        "subheading_JHPRqK"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/SHOWERING WITH LASHES .mp4",
+        "poster": "shopify://shop_images/freepik__enhance__30083.png",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_3nCHzn": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_zHJwjW": {
+          "type": "heading",
+          "settings": {
+            "title": "aftercare",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_43LT9x": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Just a few things to keep in mind to ensure the longest wear",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHJwjW",
+        "subheading_43LT9x"
+      ],
+      "settings": {
+        "video_position": "left",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/AFTERCARE.mp4",
+        "poster": "shopify://shop_images/freepik__enhance__30084.png",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_with_text_aiKEcj": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_NRGbtJ": {
+          "type": "heading",
+          "settings": {
+            "title": "lash removal",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_gr4a64": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "All you need is our oil remover and Athena’s tips",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NRGbtJ",
+        "subheading_gr4a64"
+      ],
+      "settings": {
+        "video_position": "right",
+        "video_position_mobile": "above-content",
+        "video": "shopify://files/videos/LASH REMOVAL.mp4",
+        "poster": "shopify://shop_images/freepik__enhance__30082.png",
+        "autoplay": false,
+        "controls": true,
+        "muted": false,
+        "desk_height": 750,
+        "mob_height": 550,
+        "aspect_ratio": "portrait",
+        "aspect_ratio_mobile": "natural",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_with_text_fnhUV8",
+    "video_with_text_4Wi6qP",
+    "video_with_text_8KWXdX",
+    "video_with_text_P74hH3",
+    "video_with_text_YetiaN",
+    "video_with_text_LWUHUV",
+    "video_with_text_3YJJba",
+    "video_with_text_3nCHzn",
+    "video_with_text_aiKEcj"
+  ]
+}

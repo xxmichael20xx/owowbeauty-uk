@@ -1,0 +1,1022 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_GFqNCG": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  .unicorn-embed-link {\n    display: block;\n    text-decoration: none;\n  }\n\n  .unicorn-embed-wrapper {\n    position: relative;\n    width: 100vw;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    padding-bottom: 62.5%;\n    height: 0;\n    overflow: hidden;\n    background-color: #FF8476;\n  }\n\n  @media (max-width: 768px) {\n    .unicorn-embed-wrapper {\n      padding-bottom: 200%;\n    }\n  }\n\n  .unicorn-embed-wrapper iframe {\n    transform: scale(1);\n    transform-origin: top left;\n    image-rendering: optimizeQuality;\n    pointer-events: none; /* allows the click to pass through to the link */\n  }\n</style>\n\n<a \n  class=\"unicorn-embed-link\" \n  href=\"https://answr.uk/collections/all-products-page\"\n>\n  <div class=\"unicorn-embed-wrapper\">\n    <iframe \n      src=\"https://www.unicorn.studio/embed/bKIpTGr5Rhry9p8YLUPN\" \n      style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" \n      loading=\"lazy\" \n      allowfullscreen>\n    </iframe>\n  </div>\n</a>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_hero_WVCwwb": {
+      "type": "image-hero",
+      "disabled": true,
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/Easter_2025_Desktop.jpg",
+        "image_mobile": "shopify://shop_images/Easter_2025_Mobile_58d507ea-a8b2-4d66-8c1c-dab23fcf1d64.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "shopify://collections/all-products-page",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "edf7f54d-27ac-4601-b0ba-56bc3479f2c8": {
+      "type": "video-hero",
+      "blocks": {
+        "12611356-3798-4807-ad8b-bda3a7a478b6": {
+          "type": "button",
+          "settings": {
+            "link": "https://answr.uk/collections/all-products-page",
+            "link_text": "Shop Now",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "12611356-3798-4807-ad8b-bda3a7a478b6"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 70,
+        "mobile_height": 50,
+        "video": "shopify://files/videos/76dcaeff666348c7b2ff07ce6fb9c117.mp4",
+        "media_link": "",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "image_hero_YbwAdm": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_7CnRet": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "EASTER  SALE",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "button_WmMYi4": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/all-products-page",
+            "link_text": "25% OFF STOREWIDE",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7CnRet",
+        "button_WmMYi4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/Easter_2025_Mobile_58d507ea-a8b2-4d66-8c1c-dab23fcf1d64.jpg",
+        "image_mobile": "shopify://shop_images/Easter_2025_Mobile_no_text.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "left",
+        "media_link": "shopify://collections/all-products-page",
+        "text_position": "flex-start_center",
+        "text_position_mobile": "center_flex-start",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_fREP8k": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_Ha6ebt": {
+          "type": "text",
+          "settings": {
+            "text": "BLACK WEEK  SALE",
+            "link": ""
+          }
+        },
+        "text_e4MBBx": {
+          "type": "text",
+          "settings": {
+            "text": "30% OFF SITEWIDE",
+            "link": ""
+          }
+        },
+        "text_t3i3Ly": {
+          "type": "text",
+          "settings": {
+            "text": "OR 40% ON ORDERS OVER £100",
+            "link": ""
+          }
+        },
+        "text_xbaWq7": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SHIPPING",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_Ha6ebt",
+        "text_e4MBBx",
+        "text_t3i3Ly",
+        "text_xbaWq7"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "87061153-9c8c-4726-8de0-e4065283693b": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "template--16155227914403__87061153-9c8c-4726-8de0-e4065283693b-16751656497e8045d7-0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "all-products-page",
+            "collection_name": "First collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155227914403__87061153-9c8c-4726-8de0-e4065283693b-16751656497e8045d7-0"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "bestsellers",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/all-products-page",
+        "link_text": "SHOP OUR AWARD-WINNING PRODUCTS",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_Qf6HHi": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_ikUb34": {
+          "type": "text",
+          "settings": {
+            "text": "500k+ happy customers",
+            "link": ""
+          }
+        },
+        "text_EtxWzP": {
+          "type": "text",
+          "settings": {
+            "text": "money-back guarantee",
+            "link": ""
+          }
+        },
+        "text_Rg39ff": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SHIPPING",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ikUb34",
+        "text_EtxWzP",
+        "text_Rg39ff"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 10,
+        "direction": "reverse",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1654880426b1f83355": {
+      "type": "image-with-text",
+      "blocks": {
+        "16548804264c48a1d9-0": {
+          "type": "heading",
+          "settings": {
+            "title": "award-winning at-home keratin treatment",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "4720305c-fadc-4eaa-97a0-a9475b860015": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First-ever salon-level at-home keratin treatment that transforms your hair to incredibly smooth and shiny, eliminating all the frizz for three months with just one application. Priced at 1/10th of salon prices, there is a reason why this magic treatment has sold over 500,000 units.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "16548804264c48a1d9-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/at-home-keratin-treatment",
+            "link_text": "SHOP SALON-LIKE HAIR",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "16548804264c48a1d9-0",
+        "4720305c-fadc-4eaa-97a0-a9475b860015",
+        "16548804264c48a1d9-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Swedisn_woman_holding_ANSWR_at-home_keratin_treatment_bottle.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Keratin_both.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "top",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_r4mXVU": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_d3mi7a": {
+          "type": "text",
+          "settings": {
+            "text": "award-winning beauty",
+            "link": ""
+          }
+        },
+        "text_LzG7mp": {
+          "type": "text",
+          "settings": {
+            "text": "100% vegan & cruelty-free",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_d3mi7a",
+        "text_LzG7mp"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-display-3",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "165489980473ecbf41": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654899804e4fc48ec-0": {
+          "type": "heading",
+          "settings": {
+            "title": "VOLUMEWAVE HEATED BRUSH",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "4e7891a1-51f8-46d1-ab48-ff59aad5327e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heated brush that gives you salon blowouts and curls without the fuss. Two heads to switch up your look - add volume, smooth frizz, or define curls. Easy to use, always sleek.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "1654899804e4fc48ec-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/volumewave-heated-brush",
+            "link_text": "PUMP UP THE VOLUME",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "1654899804e4fc48ec-0",
+        "4e7891a1-51f8-46d1-ab48-ff59aad5327e",
+        "1654899804e4fc48ec-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Amira_volumewave_brush_front_flip.webp",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Volumewave_heated_brush_Answr.jpg",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16611663361d7797b7": {
+      "type": "quote",
+      "blocks": {
+        "1661166336bbef79f2-0": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/BuzzFeed_4f9780c0-203f-4889-b196-c71b7576b3db.png",
+            "quote": "<p>“Seriously, the results just speak for themselves.”</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        },
+        "1661166336bbef79f2-1": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Daily_mail_e95d71d9-842d-4255-b536-374fc9207638.png",
+            "quote": "<p>\"Brings the salon to your home\"</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        },
+        "da75710d-ebff-4dea-a956-3cb48463d0a0": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/TheSun_b2b814e8-7581-4c19-a6c4-5da1fe63b9a2.png",
+            "quote": "<p>“Beauty industry professionals praised the brand's innovative product”</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        },
+        "bdff563a-198f-48be-ad6a-b8f96ad2deef": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/MarieClaire_6a2952ac-ca59-4a9f-99f7-9edc64a0366d.png",
+            "quote": "<p>“I was left to admire the finished result: soft and shiny hair that now feels completely transformed.”</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        },
+        "82d56860-3010-4f61-a993-9e0149401954": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Forbes_b35a03b3-469a-417f-a50d-6bc206a15f41.png",
+            "quote": "<p>“The ultimate hair-care essential for powerful anti-frizz action”</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        },
+        "6d2ee25a-0ca6-48e5-9359-4354d1b260d9": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Independend_copy.png",
+            "quote": "<p>“You’ll love the innovative new keratin treatment that’s been virtually flying off the shelves.”</p>",
+            "title": "",
+            "quote_tag": "h4",
+            "font_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "1661166336bbef79f2-0",
+        "1661166336bbef79f2-1",
+        "da75710d-ebff-4dea-a956-3cb48463d0a0",
+        "bdff563a-198f-48be-ad6a-b8f96ad2deef",
+        "82d56860-3010-4f61-a993-9e0149401954",
+        "6d2ee25a-0ca6-48e5-9359-4354d1b260d9"
+      ],
+      "settings": {
+        "autoplay_enabled": true,
+        "autoplay_delay": 5,
+        "pagination_style": "dots",
+        "font_choice": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "7461e9a7-21af-4a3d-9833-dc21beb5319d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155227914403__7461e9a7-21af-4a3d-9833-dc21beb5319d-1675170132ae906e77-0": {
+          "type": "heading",
+          "settings": {
+            "title": "At-HOME LASH eXTENSIONS starter kit",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "e9d70b85-9fd8-4f4f-8279-86d430f91f38": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This starter kit includes 4 pre-mapped lash pairs and all tools needed for applying your lash extensions at home. Using the highest quality of Korean vegan silk, the pre-mapped lash clusters are designed to be applied under your natural lash creating a natural 7-day wear salon-line look in 10 minutes.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "template--16155227914403__7461e9a7-21af-4a3d-9833-dc21beb5319d-1675170132ae906e77-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/at-home-lash-extensions-starter-kit",
+            "link_text": "SHOP Starter kit",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155227914403__7461e9a7-21af-4a3d-9833-dc21beb5319d-1675170132ae906e77-0",
+        "e9d70b85-9fd8-4f4f-8279-86d430f91f38",
+        "template--16155227914403__7461e9a7-21af-4a3d-9833-dc21beb5319d-1675170132ae906e77-2"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/lash_vip_dektop.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/lash_box_vertical_trans.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_TLhhw3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Egqd7b": {
+          "type": "heading",
+          "settings": {
+            "title": "exfoliating hair removal drop",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_9FaU3J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The only hair removal method that exfoliates as it works giving you that glass-like skin. No more razor cuts or waxing pain.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "button_LqH9Yk": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/exfoliating-hair-removal-drop",
+            "link_text": "DROP YOUR ORDER NOW",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Egqd7b",
+        "text_9FaU3J",
+        "button_LqH9Yk"
+      ],
+      "custom_css": [
+        "* {padding-top: 10px !important; padding-bottom: 10px !important;}"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Answr_hair_removal_tool_02.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Hair_drop_and_box_01.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "ca5b436e-891d-400e-a01c-291a5be03ca1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16155227914403__ca5b436e-891d-400e-a01c-291a5be03ca1-167517207239b39129-0": {
+          "type": "heading",
+          "settings": {
+            "title": "in action",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155227914403__ca5b436e-891d-400e-a01c-291a5be03ca1-167517207239b39129-0"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "full",
+        "custom_content_width": 750
+      }
+    },
+    "166141928680a3fcc3": {
+      "type": "apps",
+      "blocks": {
+        "tolstoy_shoppable_video_ugc_carousel_block_nehqX9": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "49zd7kid2l0ex"
+          }
+        }
+      },
+      "block_order": [
+        "tolstoy_shoppable_video_ugc_carousel_block_nehqX9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "w-full",
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_PQFMpG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Wp4b3M": {
+          "type": "heading",
+          "settings": {
+            "title": "On the Shelves Across the Globe",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "spacer_M6xCYY": {
+          "type": "spacer",
+          "settings": {
+            "space": 20
+          }
+        },
+        "text_iKxyRe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re proud to sit on the top shelves of beauty stores around the world. Explore our growing network of retailers who help make salon-level results accessible, everywhere.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wp4b3M",
+        "spacer_M6xCYY",
+        "text_iKxyRe"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "full",
+        "custom_content_width": 750
+      }
+    },
+    "gallery_carousel_9BFrT4": {
+      "type": "gallery-carousel",
+      "blocks": {
+        "image_BbGUTc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Printemps_Paris_01.jpg",
+            "focal_point": "image_presentation",
+            "title": "Paris",
+            "text": "<h2>Printemps</h2>"
+          }
+        },
+        "image_xDeKEU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Helsinki_Lyko.jpg",
+            "focal_point": "image_presentation",
+            "title": "Helsinki",
+            "text": "<h2>LYKO</h2>"
+          }
+        },
+        "image_YmEXtd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Printemps_New_York.jpg",
+            "focal_point": "image_presentation",
+            "title": "New York",
+            "text": "<h2>Printemps</h2>"
+          }
+        },
+        "image_McTQCH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ahlens_stockholm.jpg",
+            "focal_point": "image_presentation",
+            "title": "Stockholm",
+            "text": "<h2>Åhlens</h2>"
+          }
+        },
+        "image_bCdNyX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cosmoprof_bologna.jpg",
+            "focal_point": "image_presentation",
+            "title": "Bologna",
+            "text": "<h2>Cosmoprof</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "image_BbGUTc",
+        "image_xDeKEU",
+        "image_YmEXtd",
+        "image_McTQCH",
+        "image_bCdNyX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_tag": "h3",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "loop_carousel": true,
+        "aspect_ratio": "natural",
+        "image_caption_style": "beneath",
+        "image_caption_size": "fs-body-75",
+        "overlay_text_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_text_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "32558899-0011-4b2c-862d-3233ff258969": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16155227914403__32558899-0011-4b2c-862d-3233ff258969-167517207239b39129-0": {
+          "type": "heading",
+          "settings": {
+            "title": "loved by +500 000 customers",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "e393f54a-5cee-4af5-90fc-5e225f38232a": {
+          "type": "spacer",
+          "settings": {
+            "space": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16155227914403__32558899-0011-4b2c-862d-3233ff258969-167517207239b39129-0",
+        "e393f54a-5cee-4af5-90fc-5e225f38232a"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "full",
+        "custom_content_width": 750
+      }
+    },
+    "1719408335555d5b35": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_video_slider_KPRqTx": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "show-by-tag": true,
+            "layout": "classic",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 0,
+            "text-color": "",
+            "rating-icon-color": "#ffffff",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_KPRqTx"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "e68debcc-f0f1-451c-b482-7e013770eb53": {
+      "type": "rich-text",
+      "blocks": {
+        "c27ab8f5-532b-490e-bf2f-d7f6e837e62a": {
+          "type": "spacer",
+          "settings": {
+            "space": 48
+          }
+        },
+        "template--16155227914403__e68debcc-f0f1-451c-b482-7e013770eb53-167517207239b39129-0": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT ANSWR?",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "e3e2589b-d499-48f7-9bd3-fc41a6e12648": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "c27ab8f5-532b-490e-bf2f-d7f6e837e62a",
+        "template--16155227914403__e68debcc-f0f1-451c-b482-7e013770eb53-167517207239b39129-0",
+        "e3e2589b-d499-48f7-9bd3-fc41a6e12648"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom",
+        "custom_content_width": 1000
+      }
+    },
+    "18888725-fd26-408a-a5a9-b65f4ac3b52a": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "template--16155227914403__18888725-fd26-408a-a5a9-b65f4ac3b52a-1675323562790a79cc-1": {
+          "type": "heading",
+          "settings": {
+            "title": "own your beauty",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "306c6dde-13d6-4304-8d7b-c0081ebe7724": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Driven by our founder Georgiana Grudinschi’s mission to simplify beauty and make high-end salon treatments accessible to everyone, we are dedicated to empowering you to take charge of your beauty routines. Through innovative, convenient, and affordable home salon products, we challenge the “experts only” mindset, proving that you can become your own beauty expert.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "051d59c4-fe95-41b1-a7f8-c2f92a3af9ad": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/about",
+            "link_text": "Read our story",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155227914403__18888725-fd26-408a-a5a9-b65f4ac3b52a-1675323562790a79cc-1",
+        "306c6dde-13d6-4304-8d7b-c0081ebe7724",
+        "051d59c4-fe95-41b1-a7f8-c2f92a3af9ad"
+      ],
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/Geo_founder.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "fad1997e-3c65-43ba-8bf6-f15e42a24c60": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "7dcec7f0-333d-43c3-b107-7a93e1080446": {
+          "type": "heading",
+          "settings": {
+            "title": "award-winning products",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "8b7cc5a5-a52a-440e-8344-3620af4b7da9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don’t launch products just for the sake of it. Every product we bring to market is designed to make a real change, with the strongest commitment to being the best out there. The multiple industry awards we’ve won stand as proof of that dedication.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "3046d684-7d32-441d-afa8-90a14a4224d3": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/all",
+            "link_text": "SHOP now",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "7dcec7f0-333d-43c3-b107-7a93e1080446",
+        "8b7cc5a5-a52a-440e-8344-3620af4b7da9",
+        "3046d684-7d32-441d-afa8-90a14a4224d3"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/freepik__enhance__30089.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "dca6df9e-2131-4407-a8b1-cbf6c2c41987": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "36cbe374-e47c-419c-bb4c-df8b7d1031be": {
+          "type": "heading",
+          "settings": {
+            "title": "100% top-notch ingredients.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "fc6df148-c8b1-42e7-9c4c-6786cc2123be": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quality is at the heart of everything we do. We collaborate with industry experts and trusted manufacturing partners to create vegan, cruelty-free products, with no sulfates, parabens, alcohol, or silicones. Our products are all gentle yet deliver powerful results.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "36cbe374-e47c-419c-bb4c-df8b7d1031be",
+        "fc6df148-c8b1-42e7-9c4c-6786cc2123be"
+      ],
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/Pineapple_keratin.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_GFqNCG",
+    "image_hero_WVCwwb",
+    "edf7f54d-27ac-4601-b0ba-56bc3479f2c8",
+    "image_hero_YbwAdm",
+    "scrolling_content_fREP8k",
+    "87061153-9c8c-4726-8de0-e4065283693b",
+    "scrolling_content_Qf6HHi",
+    "1654880426b1f83355",
+    "scrolling_content_r4mXVU",
+    "165489980473ecbf41",
+    "16611663361d7797b7",
+    "7461e9a7-21af-4a3d-9833-dc21beb5319d",
+    "image_with_text_TLhhw3",
+    "ca5b436e-891d-400e-a01c-291a5be03ca1",
+    "166141928680a3fcc3",
+    "rich_text_PQFMpG",
+    "gallery_carousel_9BFrT4",
+    "32558899-0011-4b2c-862d-3233ff258969",
+    "1719408335555d5b35",
+    "e68debcc-f0f1-451c-b482-7e013770eb53",
+    "18888725-fd26-408a-a5a9-b65f4ac3b52a",
+    "fad1997e-3c65-43ba-8bf6-f15e42a24c60",
+    "dca6df9e-2131-4407-a8b1-cbf6c2c41987"
+  ]
+}

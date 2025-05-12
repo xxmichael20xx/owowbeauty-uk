@@ -1,0 +1,806 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "cd23e487-7a2c-4fad-b5b5-fed57cdf4194": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "d340b94d-d0f7-4e57-849c-aeb4e05b449a": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-100",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "ingredients",
+            "heading_tag": "h3",
+            "content": "<p><strong>Keratin treatment</strong></p><p>aqua (water/eau), glyoxylic acid, glyoxyloyl keratin amino acids, glyoxyloyl carbocysteine, propylene glycol, parfum (fragrance), sodium hydroxide, vinegar, vitis vinifera (grape) fruit extract, behentrimonium chloride, cetearyl alcohol, myristyl alcohol, cetrimonium chloride, tetrasodium glutamate diacetate, fructose, glucose, gluconic acid, gluconolactone, hexyl cinnamal, styrax benzoin resin extract, ananas sativus (pineapple) fruit extract, commiphora myrrha (myrrh) resin extract, etidronic acid, caesalpinia spinosa (tara) gum, myroxylon balsamum (balsam tolu) resin, ci 16035 (red 40), ci 19140 (yellow 5).</p><p><strong>Shampoo</strong></p><p>aqua (water), potassium laureth-4 carboxylate, sorbitan oleate decylglucoside crosspolymer, cocamidopropyl hydroxysultaine, maris sal (sea salt), polyquaternium-22, sodium benzoate, parfum (fragrance), citric acid, potassium sorbate, ananas sativus (pineapple) fruit extract, sodium pca, tetrasodium glutamate diacetate, ci 16035 (red 40), ci 19140 (yellow 5).</p><p><strong>Conditioner</strong></p><p>aqua (water), cetearyl alcohol, cetyl alcohol, stearamidopropyl dimethylamine, cetrimonium chloride, phenoxyethanol, citric acid, parfum (fragrance), potassium sorbate, ananas sativus (pineapple) fruit extract, glycerin, ethylhexylglycerin, tetrasodium glutamate diacetate, helianthus annuus (sunflower) seed extract, decyl glucoside, ci 16035 (red 40), ci 19140 (yellow 5).</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "cd23e487-7a2c-4fad-b5b5-fed57cdf4194",
+        "product_header",
+        "variant_picker",
+        "d340b94d-d0f7-4e57-849c-aeb4e05b449a",
+        "description",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "thumbnails",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "never",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "square",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493": {
+      "type": "rich-text",
+      "blocks": {
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "THREE MONTHS OF GLASS-LIKE HAIR",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "3b30f82a-3e21-42c6-82df-6f3144df95fe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "3b30f82a-3e21-42c6-82df-6f3144df95fe"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/keratin_user_hair.gif",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Keratin_kit_box.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "158b7518-69cc-4904-8f88-ff62e49064b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "6994dc0d-2024-496c-9216-d9d4c5669ffd": {
+          "type": "heading",
+          "settings": {
+            "title": "The Shampoo and Conditioner That Extend Your Results",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "186d1832-849a-47b1-82c5-cbc7071cd3ae": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "41cfa4d0-11a9-4288-86c9-a7bb2b4d6ac0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The sulfate-free shampoo and conditioner duo, specially formulated to prolong the results of your keratin treatment - protects your hair while enhancing the smoothness and shine you love. Free from drying sulfates yet rich in luxurious lather, it leaves your hair feeling fresher  and smooth for longer. Infused with powerful AHAs and Phyto-ceramides for added strength and moisture, plus the irresistible scent of tropical pineapple to elevate your hair care routine.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "6994dc0d-2024-496c-9216-d9d4c5669ffd",
+        "186d1832-849a-47b1-82c5-cbc7071cd3ae",
+        "41cfa4d0-11a9-4288-86c9-a7bb2b4d6ac0"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/44_4caa55eb-f397-4b32-831d-a144ef43c413.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Keratin_treatment_kit_box_open.gif",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_TWee8V": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y3mKTU": {
+          "type": "heading",
+          "settings": {
+            "title": "VeratinTech™ VEGAN FORMULA",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_ybgw4j": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_XfnVdz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that looking great should never come at the cost of our health or the well-being of our furry friends. That's why we prioritize gentle, effective ingredients and use 100% vegan keratin, derived from wheat and soy, to deliver the same benefits as traditional animal-based salon keratin treatments.<br/><br/>FORMALDEHYDE & SULFATE FREE<br/><br/>CRUELTY FREE & VEGAN<br/><br/>COSTS 1/10TH OF SALON TREATMENTS</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y3mKTU",
+        "spacer_ybgw4j",
+        "text_XfnVdz"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/13_99336282-d6cf-497a-96dc-855752176ece.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/spray_0bdd7a1b-44b9-447f-82d0-a3962805fd54.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. spray",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/dry_768f8d8b-7025-4741-9c98-6dca9506cd17.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. rinse & dry",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/straighten_9da968c9-1fb5-4a87-93a2-990bd1ae227a.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. SEAL",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "the hair of your dreams in 3 oh-so-easy steps",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_auto_play_4cGhCz": {
+      "type": "video-auto-play",
+      "blocks": {
+        "video_eqjD3G": {
+          "type": "video",
+          "settings": {
+            "video_title": "1. spray",
+            "description": "Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6aeb55d811e446ee815928a72acd44be.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_spray_combposter.jpg"
+          }
+        },
+        "video_BWQqkA": {
+          "type": "video",
+          "settings": {
+            "video_title": "2. rinse & dry",
+            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ea42694b60fa42d8b5c187e4dea32411.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_blowdry_poster.jpg"
+          }
+        },
+        "video_EdxbUc": {
+          "type": "video",
+          "settings": {
+            "video_title": "3. SEAL",
+            "description": "Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/863aa4b29f3c4474b59405d48ef48ade.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_straighten_posgter.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_eqjD3G",
+        "video_BWQqkA",
+        "video_EdxbUc"
+      ],
+      "settings": {
+        "section_heading": "THE HAIR OF YOUR DREAMS IN 3 OH-SO-EASY STEPS",
+        "p": "",
+        "layout": "section",
+        "range": 3,
+        "stack": true
+      }
+    },
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1": {
+      "type": "rich-text",
+      "blocks": {
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "167534388725ba3dcf": {
+      "type": "apps",
+      "blocks": {
+        "c84f10b0-5fe2-4cb9-a683-db709fd7ebd3": {
+          "type": "shopify://apps/vimonial-shoppable-videos-ugc/blocks/app-block_carousel_product/1dcd7963-8ac2-434c-ae02-8cb7de12e6a2",
+          "settings": {
+            "heading": "",
+            "description": "",
+            "campaign_id": "none",
+            "shadow_size": 10,
+            "width": 300,
+            "width_mobile": 150,
+            "slide_gap": 10,
+            "autoplay": true,
+            "force_aspect": false,
+            "align_heading": "left",
+            "align_items": "center",
+            "order_by": "date_desc",
+            "color_play_button": "#000000",
+            "color_play_button_inner": "#ffffff",
+            "load_background_color": "rgba(0,0,0,0)",
+            "border_color": "#000000",
+            "border_size": 0,
+            "overflow": false
+          }
+        }
+      },
+      "block_order": [
+        "c84f10b0-5fe2-4cb9-a683-db709fd7ebd3"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "1c9ee519-241f-41b2-8b53-411d2e94efc0": {
+      "type": "video",
+      "blocks": {
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Video",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this section to promote a particular feature with editorial video.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-2": {
+          "type": "play-button",
+          "disabled": true,
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-0",
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-1",
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-2"
+      ],
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify://files/videos/How to apply ANSWR's  at-home keratin treatment_.mp4",
+        "video_url": "",
+        "image": "shopify://shop_images/Bernardo_keratin_treatment_poster_03.jpg",
+        "loop": true,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "flex-end_flex-end",
+        "text_position_mobile": "center",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "faecffb1-b435-4cb8-b791-0c27d25890a1": {
+      "type": "rich-text",
+      "blocks": {
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "SMOOTHEST HAIR OR YOUR MONEY BACK",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered, no questions asked.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/7_b243c79d-e329-44de-94bd-c5056c095a81.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0b480e01-5326-48f8-8f12-40f4e9503c51": {
+      "type": "rich-text",
+      "blocks": {
+        "4b0f3501-8dc5-426e-9b74-7539b631c148": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "4b0f3501-8dc5-426e-9b74-7539b631c148"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the main benefits of using ANSWR at-home keratin treatment?",
+            "text": "<p>It is an at-home alternative to expensive salon keratin treatments. One easy application at home results in up to three months of perfectly frizz-free hair. The exclusive VeratinTechTM technology, a 100% vegan keratin, combined with gentle acids, helps control frizz, seal cuticles, and balance your hair’s pH while restoring softness and shine.</p><p></p><ul><li>Unique formula with antioxidant action which proves moisture retention resulting in incredibly smooth and shiny hair</li><li>Hair will maintain its natural body while becoming softer, shinier, and more manageable.</li><li>Quick and easy application process</li><li>Results last up to three months with only one easy application</li><li>Gives you 30 minutes of more sleep each morning as you are free from having to style your hair daily.</li><li>Say goodbye to daily-use of hair iron that burns your hair</li><li>Cuts blow-dry time by half</li><li>Effective on all hair types</li></ul>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it straighten the hair?",
+            "text": "<p>It is a smoothing treatment and not a straightening one. While it de-frizzes and might make your curls appear more loose it won't straighten your hair. After the first wash, your hair's natural volume will resume while the smoothness and shine will remain.</p><p>On a technical level,  our treatment differs from straightening treatments and perms because of the way it works on the hair. Straightening treatments and perms use harsh chemicals that alter the disulfide bonds in the hair to restructure the strands. On the other hand, our treatment uses natural chemicals that work on a different level and target the weaker, modified bonds in the hair. This allows us to achieve smooth, frizz-free locks without damaging the hair.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How often should I redo the treatment?",
+            "text": "<p>The results last for up to three months, yet we recommend repeating the treatment after two months so you will maintain the maximum shine and smoothness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2"
+      ],
+      "settings": {
+        "title": "frequently asked questions.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "167609460183b387ee": {
+      "type": "apps",
+      "blocks": {
+        "f17d5584-afc5-4179-9b12-703a1f1c1a5d": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "f17d5584-afc5-4179-9b12-703a1f1c1a5d"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "158b7518-69cc-4904-8f88-ff62e49064b5",
+    "image_with_text_TWee8V",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "video_auto_play_4cGhCz",
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1",
+    "167534388725ba3dcf",
+    "1c9ee519-241f-41b2-8b53-411d2e94efc0",
+    "faecffb1-b435-4cb8-b791-0c27d25890a1",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "0b480e01-5326-48f8-8f12-40f4e9503c51",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "167609460183b387ee"
+  ]
+}

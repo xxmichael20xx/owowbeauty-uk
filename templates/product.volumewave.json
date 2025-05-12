@@ -1,0 +1,684 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "7957712e-fefc-4ca2-be3c-1a4374f27f6c": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "tolstoy_shoppable_video_ugc_stories_block_dxALFx": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "uko83md7r69t2"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_znQjH4": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-U6j5Rz\"></div>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "features",
+            "heading_tag": "h3",
+            "content": "<p><strong>45mm and 30mm ceramic brush attachments - </strong>go bold with with the big brush for creating voluminous blowouts or embrace enchanting curlsusing the smaller brush.</p><p><strong>180°C / 356°F temperature - </strong>optimal temperature setting ensuring long-lasting styles, while creating no damage.</p><p><strong>Tangle-free bristles- </strong>optimal tension with zero pull!</p><p><strong>Fusion technology - </strong>brush barrel made of nano titanium ceramic, for a static-free and smooth styling. </p><p><strong>Functional design - </strong>lightweight, 360° rotating cord and a tip that stays chill.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion_aayAkC": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "how to use",
+            "heading_tag": "h3",
+            "content": "<p><strong>Step 1.</strong></p><p>Attach the brush you want to work with and power it on. Let it heat up for 5 minutes.</p><p><strong>Step 2.</strong></p><p>Apply a heat-protectant of your choice and start styling your clean and dry hair.</p><p><strong>Step 3</strong>.</p><p>Starting from the top down take small sections and twist the hair around the brush creating a good grip. Run it through a couple of times to eliminate frizz and then wrap the entire section around the brush until you reach the roots. Hold it for 20 seconds and release the section.</p><p><strong>Step 4.</strong></p><p>Work your way through each layer and section until your entire hair is styled.</p><p><strong>Step 5.</strong></p><p>Optional - for extra hold, finish off with a light mist of hairspray.</p><p></p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion_7gVjkj": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "instructions",
+            "heading_tag": "h3",
+            "content": "<ul><li>Auto shut-off - no worrying if you left the brush on as it automatically powers down after 30 minutes.</li><li>Cool tip - the tip of the brush stays cool to the touch, preventing burns.</li><li>Allow the brush to cool completely before storing it.</li><li>Rest only on heatproof surfaces</li><li>Keep the brush away from water. Avoid using near bathtubs, showers, sinks, or any containers filled with water.</li><li>After each use, gently remove any hairs entangled in the bristles and regularly wipe down the brush with a soft, dry cloth to prevent product buildup.</li></ul><p></p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "7957712e-fefc-4ca2-be3c-1a4374f27f6c",
+        "product_header",
+        "description",
+        "tolstoy_shoppable_video_ugc_stories_block_dxALFx",
+        "klaviyo_email_marketing_sms_form_embed_block_znQjH4",
+        "buy_buttons",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "accordion_aayAkC",
+        "accordion_7gVjkj"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": true,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "video_hero_YiYDw8": {
+      "type": "video-hero",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "video": "shopify://files/videos/1112.mp4",
+        "video_mobile": "shopify://files/videos/1113.mp4",
+        "media_link": "",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "outshining traditional blowdry brushes",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "562a955b-8bcb-40d9-bee3-a3dc8712fe83": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most blow-dry brushes on the market rely on hot air and feature single-size barrels designed primarily for wet styling, limiting versatility. Identifying this gap, our founder reimagined the concept, creating a brush tailored for dry use, second-day touch-ups, and a variety of styling needs, from blowouts to curls, offering a solution that bridges functionality and flexibility.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "562a955b-8bcb-40d9-bee3-a3dc8712fe83"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Amira_volumewave_brush_front_flip.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_GTJFft": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BxD6Bk": {
+          "type": "heading",
+          "settings": {
+            "title": "Bounce and volume made easy",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_g3kFDz": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_PkwrAb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 45mm barrel effortlessly creates a classic blowout style in minutes, eliminating the need for juggling a separate hair dryer and round brush. For more defined curls, simply switch to the smaller 30mm barrel. Perfectly designed for dry styling, it’s also ideal for second-day touch-ups, restoring that first-day magic in just minutes.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BxD6Bk",
+        "spacer_g3kFDz",
+        "text_PkwrAb"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/ANSR_volumewave_veronika_hair_491f59e0-746a-435c-9af8-9ce52a87b107.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Brush_product_shot_Big_brush_front_no_background_small_ff8efbd2-948e-46ea-96e2-5ad26ab45a27.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_dWhQJW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eP3tUp": {
+          "type": "heading",
+          "settings": {
+            "title": "approved by Jack Merrick-Thrilway",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_tmrp8p": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_937aJz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 20 years of hair industry  experience Jack is more than a hairstylist—he’s a true trendsetter. From regularly working at the Paris Fashion Week to styling the iconic locks of A-list celebrities, including Victoria’s Secret Angels like Elsa Hosk and Romee Strijd, Jack’s know-how is unmatched. Beyond the runways and celebrity hair styling, he serves as Creative Director at Neville London Salon, where his visionary approach continues to redefine hair trends.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "play_button_Whqe4z": {
+          "type": "play-button",
+          "settings": {
+            "video_source": "shopify",
+            "video": "shopify://files/videos/ANSWR_heated_brush_blowout_interview.mp4",
+            "video_url": "",
+            "aspect_ratio": "natural",
+            "text": "Watch Jack's interview",
+            "icon_style": "light"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eP3tUp",
+        "spacer_tmrp8p",
+        "text_937aJz",
+        "play_button_Whqe4z"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Screenshot_2023-12-14_at_11.43.41.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_hero_NGztgU": {
+      "type": "video-hero",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "video": "shopify://files/videos/Answr_volumewave_brush_Trialist_horizontal.mp4",
+        "video_mobile": "shopify://files/videos/Answr_volumewave_brush_Trialist_vertical.mp4",
+        "media_link": "",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Brush_Step1_04.webp",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. attach & plug",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Snap on your chosen brush and hit the switch button. Allow 5 minutes to heat up. </p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Brush_step2_01.webp",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. style",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Start styling from the crown down taking small sections. Work your way through each layer and section with a good grip.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Brush_step3_01.webp",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. ready",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Finish up with a light mist of hairspray and step out and watch heads turn.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "settings": {
+        "title": "How to use",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_pDBfUH": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_XJDTyk": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "text_8bCp3r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Watch our easy-to-follow tutorials guided by celebrity hairstylist Jack Merrick-Thirlway and learn the secrets to achieving various styles.  </p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_XJDTyk",
+        "text_8bCp3r"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_slider_w7PMqi": {
+      "type": "video-slider",
+      "blocks": {
+        "video_YzUPy4": {
+          "type": "video",
+          "settings": {
+            "video_title": "Voluminous blowout",
+            "description": "Classic bouncy blowout for longer hair",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/fec15966bfc347448e352adc8035dca1.mp4",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2024-01-22_at_18.20.41.png"
+          }
+        },
+        "video_GM9cT9": {
+          "type": "video",
+          "settings": {
+            "video_title": "CURLY BLOWOUT",
+            "description": "Soft unstructured waves for long hairs",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/05f8433153e0412791ab1611333215f8.mp4",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2024-01-22_at_18.18.43.png"
+          }
+        },
+        "video_MpiyUH": {
+          "type": "video",
+          "settings": {
+            "video_title": "CLASSIC BOB",
+            "description": "A chic classic for shorter hair",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/5f95cbfd7f0044c9a7ab701da5f3dacd.mp4",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2024-01-22_at_18.18.05.png"
+          }
+        }
+      },
+      "block_order": [
+        "video_YzUPy4",
+        "video_GM9cT9",
+        "video_MpiyUH"
+      ],
+      "settings": {
+        "section_heading": "",
+        "p": "",
+        "layout": "section",
+        "range": 3,
+        "stack": true
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "high-volume or your money back",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order risk-free and see the difference for yourself. If you're not satisfied, just let us know within 30 days and we'll have you covered. No questions asked.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Voluwave_Brush_amira_close_up.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is this different from other blowout brushes on the market?",
+            "text": "<p>Think beyond the blow-dry! Unlike most blowout brushes that use hot air, limiting styling options for dry hair, our Volumewave Heated Brush excels in versatility. Traditional brushes typically come with a single brush size, restricting the range of styles you can create. Recognizing this limitation, ANSWR's founder sought a more adaptable and convenient solution. She envisioned a tool that not only enables dry use and refreshing second-day hair but also offers a variety of styling options, from blowouts to curls. The Volumewave Heated Brush fills this gap. It's designed to style dry hair effortlessly and comes with two different-sized attachments. The 45mm attachment is ideal for a voluminous, bouncy blowout, while the 30mm attachment is perfect for crafting tighter, more defined curls. It's the ultimate tool for diverse, stunning hair styles.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it work on all hair types?",
+            "text": "<p>Absolutely! The Volumewave Heated Brush is designed to work on all hair types given that the hair is long enough to be wrapped around the brush. For fine, flat hair, it's a volume and wave wizard. And if you're battling coarse, frizzy strands, get ready for smoothness, shine, and body like never before. Also, you can switch between the two-sized brush attachments to match the style you're aiming for.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can it be used on wet hair?",
+            "text": "<p>As a hot styling tool, the Volumewave Heated Brush should not meet wet hair to avoid heat damage. Always start with completely dry hair for the safest and most stunning results. Plus, it's your go-to for fabulous second-day hair touch-ups.</p>"
+          }
+        },
+        "item_NdbpU9": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What's the correct method for using it to achieve the desired style?",
+            "text": "<p>Small sections, strong grip! Start by gripping near the root and twist the brush 180°, gliding to the end of the section to beat the frizz. Do this a couple of times for each section for maximum frizz elimination. Then wrap each section around the brush up to the roots, hold for 20 seconds, then twirl the curl with your finger in the direction of the curl.</p>"
+          }
+        },
+        "item_eFFJRN": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What plug options are available?",
+            "text": "<p>Wherever you are, we've got you covered. The Volumewave Heated Brush comes with UK, EU, and US plug options. Shopping from the UK? We'll automatically add a UK plug at<a href=\"http://www.answr.uk/\" target=\"_blank\">www.answr.uk</a>. Internationally? Choose between EU and US plugs at <a href=\"http://www.answrbeauty.com/\" target=\"_blank\">www.answrbeauty.com</a>. If your country doesn't support UK, EU, or US plugs, simply use a compatible plug adapter. Easy peasy!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "item_NdbpU9",
+        "item_eFFJRN"
+      ],
+      "settings": {
+        "title": "frequently asked questions.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "16760892211c9e5d1b": {
+      "type": "apps",
+      "blocks": {
+        "e9c001e8-6d80-4443-81ff-1213bfb1b051": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "e9c001e8-6d80-4443-81ff-1213bfb1b051"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_hero_YiYDw8",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "image_with_text_GTJFft",
+    "image_with_text_dWhQJW",
+    "video_hero_NGztgU",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "rich_text_pDBfUH",
+    "video_slider_w7PMqi",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "16760892211c9e5d1b"
+  ]
+}

@@ -1,0 +1,607 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "547c50fc-965c-4124-b6b9-459074d1e663": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "text_ccyxiM": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-75",
+            "text": "<ul><li>Tames flyaways in seconds</li><li>Strong hold creating no grease or crust</li><li>Works on eye brows </li><li>Size: 7ml</li></ul>",
+            "column_placement": "right"
+          }
+        },
+        "tolstoy_shoppable_video_ugc_stories_block_JJxDdU": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "uko83md7r69t2"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "ingredients",
+            "heading_tag": "h3",
+            "content": "<p>Aqua (Water/Eau), Glycerin, Acrylates Copolymer, Camellia Japonica Flower Extract, Tocopherol, PVP, immondsia Chinensis (Jojoba) Seed Oil, enothera Biennis Extract, Diazolidinyl Urea, Biotin, Aroma</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "547c50fc-965c-4124-b6b9-459074d1e663",
+        "product_header",
+        "variant_picker",
+        "description",
+        "text_ccyxiM",
+        "tolstoy_shoppable_video_ugc_stories_block_JJxDdU",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The sleek look multitasker ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to deliver polished, sleek looks for any occasion. Perfect not only for taming flyaways but also for achieving the trendy bushy-yet-groomed brow look. Its compact size makes it convenient to carry, keeping your style fresh wherever you go. The all-day hold formula leaves no oily, greasy, or crusty residue while nourishing your hair with hydrating ingredients, including jojoba and biotin.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/flyaway_and_brow_control_02.gif",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Flyaway.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493": {
+      "type": "rich-text",
+      "blocks": {
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1": {
+      "type": "rich-text",
+      "blocks": {
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/flyaway_101_01.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. tie up the hair",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Put your hair up in the desired hair style.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/flyaway_1010_2.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. brush the flyaways",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Brush down all the flyaways. Little goes a long way.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/flyaway_101_03.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. Brush the brows",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Don't let your brows fall behind and brush them up. </p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "settings": {
+        "title": "HOW TO USE",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "faecffb1-b435-4cb8-b791-0c27d25890a1": {
+      "type": "rich-text",
+      "blocks": {
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "Sleekest look or your money back",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "45055274-5344-4a9d-9b44-6f22f11c1a03": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "No frizz, no dullness",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order risk-free and see the difference for yourself. If you're not satisfied, just let us know within 30 days and we'll have you covered. No questions asked.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "45055274-5344-4a9d-9b44-6f22f11c1a03",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/83_fef05952-fbac-4086-93d9-b1a7a2e0a24b.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0b480e01-5326-48f8-8f12-40f4e9503c51": {
+      "type": "rich-text",
+      "blocks": {
+        "4b0f3501-8dc5-426e-9b74-7539b631c148": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "4b0f3501-8dc5-426e-9b74-7539b631c148"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long will a tube last?",
+            "text": "<p>One tube lasts for 8 weeks on average, depending on how often and how much you use it.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it work on all hair types?",
+            "text": "<p>Yes! It's a master at taming flyaways, on any hair type, even eyebrows and beards.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do I need to wash my hair after using it?",
+            "text": "<p>Nope! It tames flyaways without any of the grease, stickiness, or flakes. Just simply brush out your hair when opening your hair. </p>"
+          }
+        },
+        "ae313e11-2789-40e1-999c-5ab7377c174f": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does one application last?",
+            "text": "<p>It depends on your hair type and the environment, but we recommend having your stick on the go, so you will always be ready for a quick touch-up.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "ae313e11-2789-40e1-999c-5ab7377c174f"
+      ],
+      "settings": {
+        "title": "all your questions answred.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "16756972612ac09577": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1676090066500997fb": {
+      "type": "apps",
+      "blocks": {
+        "bb240de0-a67b-4cac-822b-9b9e10f45672": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "bb240de0-a67b-4cac-822b-9b9e10f45672"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493",
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "faecffb1-b435-4cb8-b791-0c27d25890a1",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "0b480e01-5326-48f8-8f12-40f4e9503c51",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "16756972612ac09577",
+    "1676090066500997fb"
+  ]
+}

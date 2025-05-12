@@ -1,0 +1,948 @@
+{%- comment -%}
+  {
+    "name": "Video 02",
+    "author": "PusherCommerce",
+    "description": "Please DO NOT copy in any form. Any act of copying will be sued and held responsible with the law"
+  }
+{%- endcomment -%}
+
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js" defer></script>
+
+{%- capture minify -%}
+  {% comment %}
+    For Heading, Subheading, Button, Divider
+  {% endcomment %}
+  <style>
+    #psb-{{ section.id }} .psb-utilities-heading__heading,
+    #psb-{{ section.id }} .psb-utilities-heading__subheading,
+    #psb-{{ section.id }} .psb-btn-wrapper {
+      text-align: {{ section.settings.text_align_mobile }};
+    }
+
+    #psb-{{ section.id }} .psb-divider-wrapper {
+      display: flex;
+      justify-content: {{ section.settings.text_align_mobile }};
+      align-items: center;
+    }
+
+    #psb-{{ section.id }} .psb-utilities-heading__heading {
+      color: var(--heading-color);
+    }
+
+    #psb-{{ section.id }} .psb-utilities-heading__subheading {
+      color: var(--subheading-color);
+    }
+
+    #psb-{{ section.id }} .psb-divider {
+      display: inline-block;
+      width: 120px;
+      height: 4px;
+      background-color: var(--divider-color);
+    }
+
+
+    @media (min-width: 768px) {
+      #psb-{{ section.id }} .psb-utilities-heading__heading,
+      #psb-{{ section.id }} .psb-utilities-heading__subheading,
+      #psb-{{ section.id }} .psb-btn-wrapper {
+        text-align: {{ section.settings.text_align }};
+      }
+
+      #psb-{{ section.id }} .psb-divider-wrapper {
+        justify-content: {{ section.settings.text_align }};
+      }
+
+      #psb-{{ section.id }} .psb-divider {
+        width: 185px;
+      }
+    }
+  </style>
+
+  {% comment %}
+    For Modal
+  {% endcomment %}
+  <style>
+    #psb-{{ section.id }} .psb-modal__overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #psb-{{ section.id }} .psb-modal__container {
+      background-color: #fff;
+      padding: 30px;
+      max-width: 500px;
+      max-height: 100vh;
+      border-radius: 4px;
+      overflow-y: auto;
+      box-sizing: border-box;
+      margin: 15px;
+    }
+
+    #psb-{{ section.id }} .psb-modal__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #psb-{{ section.id }} .psb-modal__title {
+      margin-top: 0;
+      margin-bottom: 0;
+      box-sizing: border-box;
+    }
+
+    #psb-{{ section.id }} .psb-modal__close {
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+    }
+
+    #psb-{{ section.id }} .psb-modal__header .psb-modal__close:before {
+      content: '\2715';
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    #psb-{{ section.id }} .psb-modal__content {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    #psb-{{ section.id }} .psb-modal__btn {
+      font-size: 0.875rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      background-color: #e6e6e6;
+      color: rgba(0, 0, 0, 0.8);
+      border-radius: 0.25rem;
+      border-style: none;
+      border-width: 0;
+      cursor: pointer;
+      -webkit-appearance: button;
+      text-transform: none;
+      overflow: visible;
+      margin: 0;
+      will-change: transform;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      transition: -webkit-transform 0.25s ease-out;
+      transition: transform 0.25s ease-out;
+      transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    }
+
+    #psb-{{ section.id }} .psb-modal__btn:focus,
+    #psb-{{ section.id }} .psb-modal__btn:hover {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+
+    #psb-{{ section.id }} .psb-modal__btn-primary {
+      background-color: #00449e;
+      color: #fff;
+    }
+
+    @keyframes psbmmfadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes psbmmfadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+
+    @keyframes psbmmslideIn {
+      from {
+        transform: translateY(15%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes psbmmslideOut {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-10%);
+      }
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide {
+      display: none;
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide.psb-is-open {
+      display: block;
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide[aria-hidden='false'] .psb-modal__overlay {
+      animation: psbmmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide[aria-hidden='false'] .psb-modal__container {
+      animation: psbmmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide[aria-hidden='true'] .psb-modal__overlay {
+      animation: psbmmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide[aria-hidden='true'] .psb-modal__container {
+      animation: psbmmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    #psb-{{ section.id }} .psb-micromodal-slide .psb-modal__container,
+    #psb-{{ section.id }} .psb-micromodal-slide .psb-modal__overlay {
+      will-change: transform;
+    }
+  </style>
+
+  {% comment %} Section style  {% endcomment %}
+  <style>
+    #psb-{{ section.id }} {
+      background-color: {{ section.settings.background_color }};
+      padding-top: {{ section.settings.section_padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.section_padding_bottom_mobile }}px;
+    }
+
+    #psb-{{ section.id }} figure {
+      margin: 0;
+    }
+
+    #psb-{{ section.id }} figcaption {
+      margin-top: 15px;
+      color: {{ section.settings.text_color }};
+    }
+
+    #psb-{{ section.id }} .psb-relative {
+      position: relative;
+    }
+
+    #psb-{{ section.id }} .psb-image-wrapper {
+      position: relative;
+    }
+
+    #psb-{{ section.id }} .psb-image-wrapper svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #psb-{{ section.id }} .psb-image-wrapper img {
+      aspect-ratio: {{ section.settings.aspect_ratio }};
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: all 0.3s;
+    }
+
+    #psb-{{ section.id }} .psb-image-wrapper .psb-image__overlay {
+      background-color: #000;
+      opacity: {{ section.settings.opacity }};
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    #psb-{{ section.id }} .psb-swiper-control {
+      position: absolute;
+      bottom: -50px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #psb-{{ section.id }} .swiper-button-next,
+    #psb-{{ section.id }} .swiper-button-prev {
+      display: flex;
+      position: static;
+      color: {{ section.settings.swiper_control_color }};
+      margin: 0;
+    }
+
+    #psb-{{ section.id }} .swiper-button-next::after,
+    #psb-{{ section.id }} .swiper-button-prev::after {
+      position: static;
+      color: {{ section.settings.swiper_control_color }};
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    #psb-{{ section.id }} .swiper-button-next {
+      right: 15px;
+      margin-left: 15px;
+    }
+
+    #psb-{{ section.id }} .swiper-button-prev {
+      left: 15px;
+      margin-right: 15px;
+    }
+
+    #psb-{{ section.id }} .swiper-pagination {
+      width: fit-content;
+      position: static;
+      margin: 0;
+    }
+
+    #psb-{{ section.id }} .swiper-pagination .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      background: {{ section.settings.swiper_control_color | color_lighten: 10 }};
+    }
+
+    #psb-{{ section.id }} .swiper-pagination-fraction {
+      color: {{ section.settings.swiper_control_color }};
+      font-size: 14px;
+    }
+
+    #psb-{{ section.id }} .swiper-pagination .swiper-pagination-bullet-active {
+    	background: {{ section.settings.swiper_control_color }};
+    }
+
+    #psb-{{ section.id }} .psb-modal__container {
+      max-width: 992px;
+      width: 90%;
+    }
+
+    #psb-{{ section.id }} .psb-video-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: {{ section.settings.aspect_ratio }};
+    }
+
+    /* Media */
+    @media screen and (min-width: 768px) {
+      #psb-{{ section.id }} {
+        padding-top: {{ section.settings.section_padding_top }}px;
+        padding-bottom: {{ section.settings.section_padding_bottom }}px;
+      }
+    }
+  </style>
+{%- endcapture -%}
+{{ minify | strip_newlines }}
+
+<div id="psb-{{ section.id }}" class="psb-{{ section.id }} psb-section psb-video-video-02" style="display: none;">
+  <div class="{{ section.settings.container_width }}">
+    <div class="psb-video-heading psb-block-space">
+      <{{ section.settings.heading_tag }}
+        class="psb-utilities-heading__heading psb-rte"
+        style="--heading-color: {{ section.settings.heading_color }}"
+      >
+        {{ section.settings.heading }}
+      </{{ section.settings.heading_tag }}>
+      <div
+        class="psb-utilities-heading__subheading psb-rte psb-block-space"
+        style="--subheading-color: {{ section.settings.subheading_color }}"
+      >
+        {{ section.settings.subheading }}
+      </div>
+    </div>
+    <div class="psb-relative psb-block-space">
+      <psb-swiper data-config='
+          {
+            "pagination": {
+              "el": "#psb-{{ section.id }} .swiper-pagination",
+              "clickable": true,
+              "type": "{{ section.settings.pagination_type }}"
+            },
+            "navigation": {
+                  "nextEl": "#psb-{{ section.id }} .swiper-button-next",
+                  "prevEl": "#psb-{{ section.id }} .swiper-button-prev"
+            },
+            "slidesPerView": {{ section.settings.slider_per_view }},
+            "spaceBetween": 15,
+            "slidesPerView": 1.1,
+            "loop": {{ section.settings.enable_loop }},
+            "autoplay": {{ section.settings.enable_autoplay }},
+            "freeMode": true,
+            "grabCursor": true,
+            "breakpoints": {
+              "768": {
+                  "spaceBetween": 20,
+                  "slidesPerView": 2.2
+              },
+              "992": {
+                  "spaceBetween": 30,
+                  "slidesPerView": {{ section.settings.slider_per_view }}
+              }
+            }
+          }
+        '>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+              <div class="swiper-slide" {{ block.shopify_attributes }} data-micromodal-trigger="psb-{{ section.id }}-modal-{{ forloop.index }}">
+                <figure class="psb-masonry-item">
+                  <div class="psb-image-wrapper">
+                    {% if block.settings.background_image == blank %}
+                      {% capture current_placeholder_image %}
+                        {%
+                          cycle 'https://cdn.shopify.com/s/files/1/0738/6782/1357/files/customer-support-staff-smiles_500x.jpg',
+                          'https://cdn.shopify.com/s/files/1/0738/6782/1357/files/video-call-new-year_500x.jpg',
+                          'https://cdn.shopify.com/s/files/1/0738/6782/1357/files/man-in-video-meeting_500x.jpg',
+                          'https://cdn.shopify.com/s/files/1/0738/6782/1357/files/man-woman-video-chat_500x.jpg',
+                          'https://cdn.shopify.com/s/files/1/0738/6782/1357/files/customer-service-rep-on-headset_500x.jpg',
+                        %}
+                      {% endcapture %}
+                      <img src="{{ current_placeholder_image }}" alt="Placeholder image" width="1500" height="1500" loading="lazy">
+                    {% else %}
+                      {{ block.settings.background_image | image_url: width: 1500 | image_tag: loading: 'lazy' }}
+                    {% endif %}
+                    <div class="psb-image__overlay"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="{{ section.settings.icon_video_color }}"
+                      width="60px"
+                      height="60px"
+                      viewBox="0 0 24 24"
+                    >
+                      <g>
+                          <path fill="none" d="M0 0h24v24H0z"/>
+                          <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zM10.622 8.415a.4.4 0 0 0-.622.332v6.506a.4.4 0 0 0 .622.332l4.879-3.252a.4.4 0 0 0 0-.666l-4.88-3.252z"/>
+                      </g>
+                    </svg>
+                  </div>
+                  {% if block.settings.title != blank %}
+                    <figcaption>
+                      <{{ section.settings.video_heading_tag }} class="psb-section-title">
+                        {{ block.settings.title }}
+                      </{{ section.settings.video_heading_tag }}>
+                      <div class="psb-section-description">
+                        {{ block.settings.description }}
+                      </div>
+                    </figcaption>
+                  {% endif %}
+                </figure>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+        <div class="psb-swiper-control">
+          {% if section.settings.enable_navigation %}
+            <div class="swiper-button-prev"></div>
+          {% endif %}
+          {% if section.settings.enable_pagination %}
+            <div class="swiper-pagination"></div>
+          {% endif %}
+          {% if section.settings.enable_navigation %}
+            <div class="swiper-button-next"></div>
+          {% endif %}
+        </div>
+      </psb-swiper>
+    </div>
+    {% comment %} Modal  {% endcomment %}
+    {%- for block in section.blocks -%}
+      <div class="psb-modal psb-micromodal-slide" id="psb-{{ section.id }}-modal-{{ forloop.index }}" aria-hidden="true">
+        <div class="psb-modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="psb-modal__container" role="dialog" aria-modal="true" aria-labelledby="psb-{{ section.id }}-modal-{{ forloop.index }}-title">
+            <header class="psb-modal__header">
+              <div class="psb-keep-space"></div>
+              <button class="psb-modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="psb-modal__content" id="psb-{{ section.id }}-modal-{{ forloop.index }}-content">
+              <div class="psb-video-wrapper">
+                {%- if block.settings.video_url == blank -%}
+                  <iframe
+                    src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                {%- else -%}
+                  {%- if block.settings.video_url.type == 'youtube' -%}
+                    <iframe
+                      src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  {%- endif -%}
+                  {%- if block.settings.video_url.type == 'vimeo' -%}
+                    <iframe
+                      src="//player.vimeo.com/video/{{ block.settings.video_url.id }}?byline=0&portrait=0&badge=0"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
+              <div class="psb-video-content">
+                <div class="psb-modal__title psb-rte" id="modal-1-title">
+                  <{{ section.settings.video_heading_tag }} class="psb-section-title">
+                    {{ block.settings.title }}
+                  </{{ section.settings.video_heading_tag }}>
+                  <div class="psb-section-description">
+                    {{ block.settings.description }}
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  (function () {
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        MicroModal.init({
+          awaitCloseAnimation: true,
+          openClass: 'psb-is-open', // set to false, to remove close animation
+        });
+      } catch (e) {
+        console.log('micromodal error: ', e);
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "⚡︎PSB: Video 02",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "container_width",
+      "options": [
+        {
+          "value": "psb-container",
+          "label": "Container"
+        },
+        {
+          "value": "psb-container-fluid",
+          "label": "Container Fluid"
+        },
+        {
+          "value": "psb-container-fullwidth",
+          "label": "Container Fullwidth"
+        }
+      ],
+      "default": "psb-container",
+      "label": "Container width"
+    },
+    {
+      "type": "header",
+      "content": "Heading settings"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>Talk about your brand</p>",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        },
+        {
+          "value": "div",
+          "label": "Div"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading size"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+      "label": "Subheading"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#585454"
+    },
+    {
+      "type": "header",
+      "content": "Main settings"
+    },
+    {
+      "type": "select",
+      "id": "video_heading_tag",
+      "label": "Video title size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        },
+        {
+          "value": "div",
+          "label": "Div"
+        }
+      ],
+      "default": "h4",
+      "info": "Title font size"
+    },
+    {
+      "type": "select",
+      "id": "aspect_ratio",
+      "options": [
+        {
+          "value": "1/1",
+          "label": "1:1"
+        },
+        {
+          "value": "2/3",
+          "label": "2:3"
+        },
+        {
+          "value": "3/4",
+          "label": "3:4"
+        },
+        {
+          "value": "4/3",
+          "label": "4:3"
+        },
+        {
+          "value": "3/2",
+          "label": "3:2"
+        },
+        {
+          "value": "16/9",
+          "label": "16:9"
+        }
+      ],
+      "default": "3/2",
+      "label": "Image ratio"
+    },
+    {
+      "type": "range",
+      "id": "opacity",
+      "min": 0.1,
+      "max": 1,
+      "step": 0.1,
+      "label": "Overlay opacity",
+      "default": 0.2
+    },
+    {
+      "type": "header",
+      "content": "Slider settings"
+    },
+    {
+      "type": "range",
+      "id": "slider_per_view",
+      "min": 1,
+      "max": 10,
+      "step": 0.1,
+      "unit": "pic",
+      "label": "Slider Per View",
+      "default": 3.3
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_loop",
+      "label": "Enable loop",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "Enable auto play",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_pagination",
+      "label": "Enable pagination",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_navigation",
+      "label": "Enable navigation",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "pagination_type",
+      "options": [
+        {
+          "value": "bullets",
+          "label": "Bullets"
+        },
+        {
+          "value": "fraction",
+          "label": "Fraction"
+        }
+      ],
+      "default": "fraction",
+      "label": "Pagination type"
+    },
+    {
+      "type": "header",
+      "content": "Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "icon_video_color",
+      "label": "Icon video color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "swiper_control_color",
+      "label": "Slider control color",
+      "default": "#57301b"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Text align",
+      "info": "On Desktop"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "select",
+      "id": "text_align_mobile",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Text align",
+      "info": "On Mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 35
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Video item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Image"
+        },
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "label": "Video link",
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+          "accept": ["youtube", "vimeo"]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Our Link"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Intro your service"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "⚡︎PSB: Video 02",
+      "settings": {
+        "heading": "<p>Support videos for your product</p>",
+        "subheading": "<p><a href=\"/\" target=\"_blank\" title=\"/\">Check All &#8594;</a></p>",
+        "subheading_color": "#00ADE5",
+        "slider_per_view": 3
+      },
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "title": "Call",
+            "description": "From our experts"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Meet",
+            "description": "We're a team"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Talk",
+            "description": "Share your problem"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Record",
+            "description": "Explore our services"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Done",
+            "description": "Thank you"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,127 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:groups.header_group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>BIGGEST SALE EVER</p>",
+            "title_mobile": "<p>BIGGEST SALE EVER</p>",
+            "link": ""
+          }
+        },
+        "408fc3d7-aa3c-494e-a08c-1af469731b59": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>30% OFF SITEWIDE OR 40% OVER £100</p>",
+            "title_mobile": "<p>30% OFF SITEWIDE OR 40% OVER £100</p>",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "408fc3d7-aa3c-494e-a08c-1af469731b59"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_announcement_bar": "never",
+        "autoplay_enabled": true,
+        "autoplay_delay": 4,
+        "color_background": "#ffffff",
+        "color_text": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "128bb530-49f9-440d-8bee-12eff320b9f3": {
+          "type": "full_width_meganav",
+          "disabled": true,
+          "settings": {
+            "dropdown_parent_link": "",
+            "column_count": 2,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 700,
+            "promo_height": 400,
+            "secondary_position": "right",
+            "focal_point": "center",
+            "promo_text": "Newest Releases",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 33
+          }
+        },
+        "c4636010-a86d-4ad7-9118-77e19b973170": {
+          "type": "compact_meganav",
+          "disabled": true,
+          "settings": {
+            "dropdown_parent_link": "Dresses",
+            "columns_width": 270,
+            "column_count": 1,
+            "show_column_borders": false,
+            "show_promo": true,
+            "promo_width": 550,
+            "promo_height": 350,
+            "secondary_position": "right",
+            "focal_point": "top",
+            "promo_text": "Newest Releases",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "128bb530-49f9-440d-8bee-12eff320b9f3",
+        "c4636010-a86d-4ad7-9118-77e19b973170"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "logo-center_nav-left",
+        "enable_sticky_header": false,
+        "cart_icon": "bag",
+        "divider_width": "0px",
+        "enable_locale_selector": false,
+        "enable_country_selector": false,
+        "show_social_media": false,
+        "show_social_media_mobile": true,
+        "logo": "shopify://shop_images/ANSWR_logo_R_3x_f45bdf49-1690-4f58-9e95-a96fc460d637.png",
+        "logo_width": 160,
+        "mobile_logo_width": 90,
+        "menu": "main-menu",
+        "secondary_menu": "",
+        "enable_transparent_on_home": true,
+        "enable_transparent_template_list": "",
+        "logo_transparent": "shopify://shop_images/Answr-logo_no_R_white.png",
+        "color_text_transparent": "#ffffff",
+        "color_count_transparent": "#000000"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

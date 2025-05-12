@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "t:groups.overlay_group.name",
+  "sections": {
+    "quick-cart": {
+      "type": "quick-cart",
+      "disabled": true,
+      "settings": {
+        "enable_quick_cart": false,
+        "show_product_currency": true,
+        "promotion_text": "<p>Check out these collections.</p>",
+        "collection_list": [],
+        "collection_list_button_style": "btn--secondary"
+      }
+    },
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "ee3884b4-1df2-41fd-a756-8e61774ec0c3": {
+          "type": "popup_countdown_signup",
+          "disabled": true,
+          "settings": {
+            "delay": "timer_30000",
+            "frequency": "frequency_100000",
+            "show_on_exit_intent": false,
+            "disable_for_account_holders": true,
+            "show_on_specific_page": false,
+            "target_page": "",
+            "year": 2022,
+            "month": "january",
+            "day": "1",
+            "hour": "0",
+            "minute": "0",
+            "time_zone_selection": "shop",
+            "hide_timer_on_complete": false,
+            "timer_complete_message": "",
+            "countdown_positioning": "above_heading",
+            "accent": "Get 10% off",
+            "heading": "Announce your event",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "text": "<p>Use this timer to create urgency, highlight a coming soon product, or promote an upcoming event.</p>",
+            "link_text": "Notify me",
+            "dismiss_text": "No thanks",
+            "footer_text": "<p>By completing this form, you are signing up to receive our emails and can unsubscribe at any time</p>",
+            "tags": "newsletter",
+            "show_social_icons": true,
+            "popup_size": "medium",
+            "content_alignment": "center",
+            "image_position": "left",
+            "focal_point": "image_presentation",
+            "show_image_on_mobile": true,
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "input_color": "#000000",
+            "input_background": "#ffffff",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 0,
+            "enable_tab": true,
+            "tab_text": "Upcoming event",
+            "text_font_class": "fs-body-100",
+            "tab_position": "bottom_left_floating",
+            "tab_text_color": "#000000",
+            "tab_background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "ee3884b4-1df2-41fd-a756-8e61774ec0c3"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "quick-cart",
+    "popup"
+  ]
+}

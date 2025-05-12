@@ -1,0 +1,1000 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "65456547-7c43-45e2-8fea-5e1d414d231c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FAQ_girls_1728x_278d4016-7fc4-4670-80f9-fc0847eba643.jpg",
+            "content_width": "full",
+            "image_size": 1000,
+            "image_size_mobile": 350
+          }
+        },
+        "block-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "all your questions answred",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "65456547-7c43-45e2-8fea-5e1d414d231c",
+        "block-1",
+        "block-0",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "full",
+        "custom_content_width": 1000
+      }
+    },
+    "rich-text-4": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "At-home keratin treatment",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "block-0"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible-row-list-3": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are all your products vegan and cruelty free?",
+            "text": "<p>Yes. We are a PETA certified brand. We don’t use any animal derived ingredients in any of our products and we’re committed to being cruelty free: this means we do not test on animals at any stage of product development, and we will only work with vendors who uphold the same standards. </p>"
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What chemicals are not found in your products?",
+            "text": "<p>All our products are free of formaldehyde, sulfates, parabens, silicones and alcohols.</p>"
+          }
+        },
+        "52904234-5e12-43d1-bee1-e3ace3a01213": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are your products safe for use during pregnancy or while breastfeeding?",
+            "text": "<p>Our formulas are free from ingredients that are unsafe during pregnancy. The active ingredient in our keratin treatment, glyoxylic acid, is completely safe for use during both pregnancy and breastfeeding.</p>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What does your at-home keratin treatment do?",
+            "text": "<p>It is an at-home alternative to expensive salon keratin treatments. One easy application at home results in up to three months of perfectly frizz-free hair. The exclusive VeratinTechTM technology, a 100% vegan keratin, combined with gentle acids, helps control frizz, seal cuticles, and balance your hair’s pH while restoring softness and shine. </p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the main benefits?",
+            "text": "<ul><li>Unique formula with antioxidant action which proves moisture retention resulting in incredibly smooth and shiny hair</li><li>Hair will maintain its natural body while becoming softer, shinier, and more manageable.</li><li>Quick and easy application process</li><li>Results last up to three months with only one easy application</li><li>Gives you 30 minutes of more sleep each morning as you are free from having to style your hair daily.</li><li>Say goodbye to daily-use of hair iron that burns your hair</li><li>Cuts blow-dry time by half</li><li>Effective on all hair types</li></ul>"
+          }
+        },
+        "a07ef016-c732-468c-8bbc-ed06d294ded4": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it work exactly like salon keratin treatments?",
+            "text": "<p>Our at-home keratin treatment has the same effect and gives you the same outcome as the traditional keratin treatments done at the salons.</p>"
+          }
+        },
+        "57b9dd99-3e99-41e9-aebb-1fab4573a56e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it safe to apply the keratin treatment at home?",
+            "text": "<p>The treatment is in all ways a safe alternative to traditional chemical-rich salon keratin treatments, as it is 100% formaldehyde-free, making it entirely safe to be performed at home. As the treatment doesn’t consist of any harsh chemicals the treatment doesn’t irritate your scalp and there is no need to use gloves when applying the treatment. However, we do recommend checking the ingredients list to see if you are allergic to any of the natural ingredients included in the formula. Our product may react with some coloured fabrics, to avoid colour fading and stains on your clothes, we recommend using an old towel for covering the shoulders during the treatment.</p>"
+          }
+        },
+        "e9f3e406-409d-44c8-bff0-9b8a2a8db700": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is the smooth and silky effect achieved? VERATIN TECH ™ Technology explained.",
+            "text": "<p>Typically similar treatments on the market utilize animal sourced keratin and strong chemicals as their active ingredients to achieve effective results. As we believe that looking good should never compromise our health nor our furry friends we use only gentle, high quality ingredients and 100% vegan sourced keratin - without compromising the effectiveness of the treatment. Our own unique combination of 87% natural ingredients and a blend of amino acids is the hero of our exclusive VeratinTech™ technology. VeratinTech™  technology is grounded on the acidic oxoacetamides synergy and utilizes keratin amino acids sourced from wheat and soy. The unique technology enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p><p>VeratinTech™  technology is grounded on the acidic oxoacetamides synergy and utilizes keratin amino acids sourced from wheat and soy. The unique technology enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p>"
+          }
+        },
+        "cd6b1fa1-8579-46a7-b715-be966848292e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What actually happens inside your hair during the treatment?",
+            "text": "<p>1. After the application of the treatment, it absorbs to the hair cuticle - the topmost layer of the hair strand.</p><p>2. During the action time, treatment enters the second and thickest layer of the hair strand.</p><p>3. The acids modify the weak and reversible bonds between protein chains.</p><p>4. Amino acids of the vegan keratin creates new links between existing proteins and keratin is absorbed by the core of the hair strand. </p><p>5. The treatment is washed off when the viable links have been fixed. Some stronger bonds, such as ones damaged by bleaching, may not be fixed.</p><p>6. The heat of the iron seals the new bonds and the cuticle back down - making the hair de-frizzed and shiny. </p><p>7. Blow-drying with hot air after each wash makes the cuticles settle down again, which enables the hair to be smooth for up to three months. </p><p>8. Links between protein chains fade gradually with each hair wash. To seal them again, the treatment can be repeated every second month. </p><p>VeratinTech™  technology is grounded on the acidic oxoacetamides synergy and utilizes keratin amino acids sourced from wheat and soy. The unique technology enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p>"
+          }
+        },
+        "5f10f569-49e7-4745-b3c8-b11b6ae8ba67": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What tools are needed for applying the treatment?",
+            "text": "<p>Straightening iron,  blow dryer, hair clip, comb, shower, and towel.</p>"
+          }
+        },
+        "d69b7b04-1239-4e57-873d-58deba4f7dc8": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How many application is one bottle enough for?",
+            "text": "<p>The 100ml spray bottle is designed for 1-2 time application, depending on the length and thickness of your hair. Remember that it is vital to apply a generous amount of solution so that your hair is completely saturated</p>"
+          }
+        },
+        "75403838-0726-4675-9454-4381e1adb528": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it straighten the hair?",
+            "text": "<p>While it de-frizzes and might make your curls appear more loose it won't straighten your hair. After the first wash, your hair's natural volume will resume while the smoothness and shine will remain. On a technical level, our treatment differs from straightening treatments and perms because of the way it works on the hair. Straightening treatments and perms use harsh chemicals that alter the disulfide bonds in the hair to restructure the strands. On the other hand, our treatment uses natural chemicals that work on a different level and target the weaker, modified bonds in the hair. This allows us to achieve smooth, frizz-free locks without damaging the hair.</p>"
+          }
+        },
+        "f445b584-f599-421f-a5c2-fcd53c1c3815": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it damage the hair as permanent straightening?",
+            "text": "<p>No. The technology of permanent straightening leads to the breakage of the disulfide bridges while our technology only affects the weak and reversible bonds, hence doesn’t damage the hair. It involves formation of cross-links with two or more polypeptide chains. Reversible reactions are created between the fibers and the carbonyl group of the glyoxylic acid.  The centers of the reactions of the fibers are the aminoacids that have particular free chemical groups containing sulfur, oxygen and nitrogen. In this context, the keratin amino acids can also react to create new links and to give new shapes of the hair.</p>"
+          }
+        },
+        "abb4edc1-f934-476e-bbbc-57c476dfd629": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it suitable for all hair types?",
+            "text": "<p>Yes it is! However, please keep in mind that it will not repair bonds damaged by bleaching treatments. Also colored hair may be subject to fading in color when flat iron is applied on hair - especially if hair has been colored with semi permanent dye. To avoid any fading of you colored hair we recommend passing the iron on a small section of hair and waiting until your hair cools. If you notice any fading, lower the temperature and test it until  you no longer see any fading. </p>"
+          }
+        },
+        "18aad015-c3ed-496c-8204-b3640f2ce898": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What is the application process?",
+            "text": "<p><strong>1. Section & spray.</strong> Divide clean, dry hair into sections and spray on each section until saturated. Usually, this means applying the entire bottle. More is more. </p><p><strong>2. Comb through.</strong> Make sure treatment is evenly distributed and leave your hair open. </p><p><strong>3. Let it act. </strong>Let those botanicals work their magic. 40 minutes for thinner hair; 60 for thicker hair.</p><p><strong>4. Rinse</strong> thoroughly with only water.</p><p><strong>5. Blow-dry</strong> until fully dry. </p><p><strong>6. Straighten.</strong> Comb through thin sections (approx. 2cm wide) slowly and lock in the treatment with a styling iron set to 200°C*. For best results, pass the iron 6 times on each section until entirely straight. </p><p>*On colored hair, test a small section of hair and wait until your hair cools. If you notice any fading, lower the temperature</p>"
+          }
+        },
+        "e6956c87-d256-4b37-9360-11aed43ee1b1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What should be avoided after the treatment?",
+            "text": "<ul><li>Don’t wash your hair for 24 hours. </li><li>Use sulfate-free shampoo and conditioners. Like ours!</li><li>Blow dry after every wash to reactivate the keratin.</li><li>Repeat the treatment after 2 months to keep it smooth. </li></ul>"
+          }
+        },
+        "1a5ad337-71ec-4039-a139-3fb7734f825e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does the application process take?",
+            "text": "<p>It will only take 10 minutes to spray in the treatment after which you let it act for 40-60 minutes. All in all the entire treatment process will take you only 1,5 to 2 hours and it will transform your frizzy and lifeless hair into silky-smooth which will last for up to three months.</p>"
+          }
+        },
+        "cce6d681-3884-4534-aa8c-a166fe15cc3c": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I apply it on dry and damaged hair?",
+            "text": "<p>The treatment works well to align even dry, porous, bleached hair but it may not restore the aggression already caused by previous chemical products. Please keep in mind that it will not repair bonds damaged by bleaching treatments. The treatment itself does not cause any damage or sensitivity to the hair fibers. But, if the hair is already fragile due to excessive bleaching or/and heavy chemical products, it might appear dry after the treatment as the application process requires sealing the treatment with a hot iron. If you have very damaged ends, we recommend avoiding passing the iron on the ends too excessively.</p>"
+          }
+        },
+        "5ff913f2-530f-49e8-a96a-a5a3402d5053": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I go wrong with the application?",
+            "text": "<p>There are a few things to avoid in order to achieve the optimal results:</p><ul><li>Not applying enough solution – Remember that your hair needs to be fully wet after spraying in the treatment</li><li>Not letting it act long enough – Remember to let it act for one hour and not less than that</li><li>Leaving the treatment to act for too long</li><li>Not rinsing the treatment properly – remember to wash the solution off entirely leaving no residue</li><li>Straightening too thick sections of hair – Remember to take very tiny (2 cm wide) sections at a time</li><li>Not going over each section of hair 6 times with the iron</li></ul>"
+          }
+        },
+        "31f3549a-dec4-4e02-85e8-280c8defbfe6": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it suitable for coloured hair?",
+            "text": "<p>Yes it is! However, please keep in mind that it will not repair the bonds of bleached hair. Also colored hair may be subject to fading in color when flat iron is applied on hair - especially if hair has been colored with semi permanent dye. To avoid any fading of you colored hair we recommend passing the iron on a small section of hair and waiting until your hair cools. If you notice any fading, lower the temperature and test it until  you no longer see any fading. </p>"
+          }
+        },
+        "a7054f2d-d70d-45d1-b682-2cc2a008be72": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How often should I reapply the treatment?",
+            "text": "<p>The results are semi-permanent, gradually fading over three months after application. To keep your hair at its smoothest and shiniest, we recommend reapplying the treatment every two months for consistently smooth hair.</p>"
+          }
+        },
+        "4d888ffe-7f1b-4d17-8777-1f9bebd2d2bd": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you guarantee results?",
+            "text": "<p>Yes we do offer a 100% money back guarantee! We guarantee that our keratin treatment will make your hair smoother and silkier than ever. However, please  keep in mind that everyone’s hair is different and results may vary from person to person. For some people the intensity of the shine can be stronger than for others. If you are not happy with the results please get in touch with our support team at <a href=\"mailto:ask@answrbeauty.com\" title=\"mailto:ask@answrbeauty.com\">ask@answrbeauty.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "52904234-5e12-43d1-bee1-e3ace3a01213",
+        "block-2",
+        "block-3",
+        "a07ef016-c732-468c-8bbc-ed06d294ded4",
+        "57b9dd99-3e99-41e9-aebb-1fab4573a56e",
+        "e9f3e406-409d-44c8-bff0-9b8a2a8db700",
+        "cd6b1fa1-8579-46a7-b715-be966848292e",
+        "5f10f569-49e7-4745-b3c8-b11b6ae8ba67",
+        "d69b7b04-1239-4e57-873d-58deba4f7dc8",
+        "75403838-0726-4675-9454-4381e1adb528",
+        "f445b584-f599-421f-a5c2-fcd53c1c3815",
+        "abb4edc1-f934-476e-bbbc-57c476dfd629",
+        "18aad015-c3ed-496c-8204-b3640f2ce898",
+        "e6956c87-d256-4b37-9360-11aed43ee1b1",
+        "1a5ad337-71ec-4039-a139-3fb7734f825e",
+        "cce6d681-3884-4534-aa8c-a166fe15cc3c",
+        "5ff913f2-530f-49e8-a96a-a5a3402d5053",
+        "31f3549a-dec4-4e02-85e8-280c8defbfe6",
+        "a7054f2d-d70d-45d1-b682-2cc2a008be72",
+        "4d888ffe-7f1b-4d17-8777-1f9bebd2d2bd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich_text_CQJTaM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QhrUG4": {
+          "type": "heading",
+          "settings": {
+            "title": "SHAMPOO & CONDITIONER",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QhrUG4"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible_row_list_T8knB6": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_XTm6Rd": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use ANSWR shampoo and conditioner even though I haven't used your keratin treatment?",
+            "text": "<p>You sure can! Many of our customers swear by our shampoo and conditioner combo for keeping the hair smooth daily. This are the best products on the market for visibly healthy-looking, smooth hair from the first wash!</p>"
+          }
+        },
+        "item_8EtGUB": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does the shampoo lather even though it is sulfate-free?",
+            "text": "<p>Yes, it does! Knowing how annoying it is when the shampoo doesn’t lather we made sure to optimise our shampoo to be lather-rich.</p>"
+          }
+        },
+        "item_JheDRw": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is the conditioner silicone-free?",
+            "text": "<p>Yes. The formula is three times thicker than regular conditioner and it delivers instant hair mask-like results. The secret is in AHA and pineapple extract, a silicone-free hydration powerhouse that deeply penetrates strands to boost hydration and smoothness.</p>"
+          }
+        },
+        "item_eXcmpD": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it suitable for coloured hair?",
+            "text": "<p>Yes, the shampoo & conditioner are  both ideal for coloured hair! As they are both sulfate free it doesn't dull or strip your colour and the conditioner restores your hairs vibrancy & shine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XTm6Rd",
+        "item_8EtGUB",
+        "item_JheDRw",
+        "item_eXcmpD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich_text_b6FTcg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6WPMGB": {
+          "type": "heading",
+          "settings": {
+            "title": "VOLUMEWAVE HEATED BRUSH",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6WPMGB"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible_row_list_MCEXGf": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_JkrWGP": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is it different from other blowout brushes on the market?",
+            "text": "<p>Think beyond the blow-dry! Unlike most blowout brushes that use hot air, limiting styling options for dry hair, our Volumewave Heated Brush excels in versatility. Traditional brushes typically come with a single brush size, restricting the range of styles you can create. Recognizing this limitation, ANSWR's founder sought a more adaptable and convenient solution. She envisioned a tool that not only enables dry use and refreshing second-day hair but also offers a variety of styling options, from blowouts to curls. The Volumewave Heated Brush fills this gap. It's designed to style dry hair effortlessly and comes with two different-sized attachments. The 45mm attachment is ideal for a voluminous, bouncy blowout, while the 30mm attachment is perfect for crafting tighter, more defined curls. It's the ultimate tool for diverse, stunning hair styles.</p>"
+          }
+        },
+        "item_zXPeV8": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it work on all hair types?",
+            "text": "<p>Absolutely! The Volumewave Heated Brush is designed to work on all hair types given that the hair is long enough to be wrapped around the brush. For fine, flat hair, it's a volume and wave wizard. And if you're battling coarse, frizzy strands, get ready for smoothness, shine, and body like never before. Also, you can switch between the two-sized brush attachments to match the style you're aiming for.</p>"
+          }
+        },
+        "item_pNjLTr": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can it be used on wet hair?",
+            "text": "<p>As a hot styling tool, the Volumewave Heated Brush should not meet wet hair to avoid heat damage. Always start with completely dry hair for the safest and most stunning results. Plus, it's your go-to for fabulous second-day hair touch-ups.</p>"
+          }
+        },
+        "item_6qiwPg": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What's the correct method of using it to achieve the desired style?",
+            "text": "<p>Small sections, strong grip! Start by gripping near the root and twist the brush 180°, gliding to the end of the section to beat the frizz. Do this a couple of times for each section for maximum frizz elimination. Then wrap each section around the brush up to the roots, hold for 20 seconds, then twirl the curl with your finger in the direction of the curl.</p>"
+          }
+        },
+        "item_CbqNte": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What plug options are available?",
+            "text": "<p>The Volumewave Heated Brush comes with UK, EU, and US plug options. Shopping from the UK? We'll automatically add a UK plug at <a href=\"http://www.answr.uk/\">www.answr.uk</a>. Internationally? Choose between EU and US plugs at <a href=\"http://www.answrbeauty.com/\">www.answrbeauty.com</a>. If your country doesn't support UK, EU, or US plugs, simply use a compatible plug adapter. Easy peasy!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_JkrWGP",
+        "item_zXPeV8",
+        "item_pNjLTr",
+        "item_6qiwPg",
+        "item_CbqNte"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich_text_BUnRXh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gjaDaT": {
+          "type": "heading",
+          "settings": {
+            "title": "At-home lash extensions",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gjaDaT"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible_row_list_hmMEUi": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_hRjFiV": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long do the lashes stay on?",
+            "text": "<p>Our lashes are developed to last a minimum of 7 days, but with proper application and care, they can easily stay on for up to 10 days. We recommend watching our tutorial videos for the best tips and techniques to maximize wear time.</p>"
+          }
+        },
+        "item_yfdChM": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does the application require prior experience?",
+            "text": "<p>Not at all! Like all of our products, our lashes are made for easy at-home use, with no prior skills required. Thanks to the under-lash cluster method, the application is simple and takes around 10 minutes from start to finish. Just follow the instructions, and you're good to go! You can check our lash video tutorials <a href=\"/pages/lashguide\" title=\"lashguide\">HERE</a></p>"
+          }
+        },
+        "item_ccTCD8": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does it take to apply the lashes?",
+            "text": "<p>Thanks to the under-lash cluster technique, applying a full set of lashes takes just 10 minutes—quick, easy, and completely fuss-free!</p>"
+          }
+        },
+        "item_WzU6pP": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are the lashes reusable?",
+            "text": "<p>No, our lashes are intended for single use to ensure hygiene and the best possible results each time. The delicate faux silk fibers we use create the most natural look and feel but are more prone to breaking during removal.</p>"
+          }
+        },
+        "item_LLieAd": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I wear mascara or eyeliner with the lashes?",
+            "text": "<p>Yes, you can! However, the lashes look so natural that most users find they don’t need additional eye makeup. It's entirely up to your personal preference.</p>"
+          }
+        },
+        "item_gKGWw6": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Will they damage my natural lashes?",
+            "text": "<p>No. Unlike traditional salon lash extensions that can create tension due to the fiber-by-fiber application and strong adhesive, our lashes are applied with gentle adhesive in clusters under your natural lashes. This creates no tension and ensures no damage when applied and removed correctly.</p>"
+          }
+        },
+        "item_XwRjJY": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use traditional strip lash adhesive?",
+            "text": "<p>This is a big no. Strip lash adhesives are formulated for one-day wear and won’t provide the hold necessary for our at-home lash extensions. Using them will make it impossible for the lashes to stay in place.</p>"
+          }
+        },
+        "item_A7a9ni": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What do I need to get started?",
+            "text": "<ul><li>Lash clusters</li><li>⁠Double Adhesive</li><li>Sealant</li><li>⁠Lash Cluster Tweezers</li><li>Pinchers</li><li>Oil Remover</li></ul><p>If it is your first purchase, we recommend ordering our <a href=\"/products/at-home-lash-extensions-starter-kit\" title=\"At-home lash extensions starter kit\">Starter Kit</a>, which contains everything you need to get started.</p>"
+          }
+        },
+        "item_YdfamG": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "⁠Are the lashes suitable for sensitive eyes?",
+            "text": "<p>Yes! Our lashes are made from hypoallergenic materials, and the adhesive is formulated to be gentle enough for sensitive eyes. If you experience any discomfort, it’s likely that the lash clusters were applied too close to your waterline. In this case, or if you feel any burning or irritation, we recommend removing the lashes and reapplying them slightly further from the lash line for a more comfortable fit.</p>"
+          }
+        },
+        "item_faiJDh": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I care for my lashes to make them last longer?",
+            "text": "<p>To maximize the wear time of your lashes, avoid getting them wet for the first 24 hours after application. Additionally, steer clear of oil-based products around your eyes, as these can weaken the adhesive and shorten the life of your lashes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_hRjFiV",
+        "item_yfdChM",
+        "item_ccTCD8",
+        "item_WzU6pP",
+        "item_LLieAd",
+        "item_gKGWw6",
+        "item_XwRjJY",
+        "item_A7a9ni",
+        "item_YdfamG",
+        "item_faiJDh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich_text_TxmaRT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fg48hR": {
+          "type": "heading",
+          "settings": {
+            "title": "EXFOLIATING HAIR REMOVAL DROP",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fg48hR"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible_row_list_yczcnD": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_BbLyAc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Which areas can the drop be used on?",
+            "text": "<p>Best results are achieved when used on even areas such as legs, arms chest, and back. Using it on more delicate and uneven areas might cause sensitivity. We also don’t recommend using it on the face.</p>"
+          }
+        },
+        "item_8f6qze": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How does it remove hair?",
+            "text": "<p>The glass surface of the drop gently exfoliates and removes hair from the skin. It uses friction to remove hair from the surface of the skin while also removing dead skin leaving the skin feeling baby-like. It does not pull hair out from the root like waxing.</p>"
+          }
+        },
+        "item_PTBB3p": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "When and how often should the drop be used?",
+            "text": "<p>We recommend using the drop on clean and dry skin for optimal results. Use it as needed for hair removal and to combat dead skin. Depending on the rate of hair growth, it may be beneficial to use the product regularly to maintain smooth skin. The more often you use it the less time it takes to treat the desired areas. However, it's important to note that every individual's skin is unique and sensitivity may vary. If you experience any discomfort, adjust usage accordingly to suit your skin's tolerance.</p>"
+          }
+        },
+        "item_FkPgyX": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can it be used on sensitive skin?",
+            "text": "<p>The method is a gentler alternative to shaving or waxing. However, if you have sensitive skin, it is recommended to test it on a small area first. Apply it in a circular motion with light pressure. If you feel any discomfort, adjust the pressure to suit your skin's tolerance. If you have issues such as Keratosis Pilaris (KP), dryness, or strawberry skin, you may benefit from using the drop as with regular use it can improve the appearance and softness of the skin.</p>"
+          }
+        },
+        "item_j4pgiL": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "When do I know it is time to change the drop to a new one?",
+            "text": "<p>When you notice that the drop is no longer effectively removing hair and you have to rub it longer than usual, it is time to replace it. When used a couple of times a week, the product should remain effective for approximately six months.</p>"
+          }
+        },
+        "item_iMNiaX": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Should I wash the drop after every use and how should it be cleaned?",
+            "text": "<p>Yes! When using the Drop, you may notice that the glass-coated surface collects dead skin. To maintain effectiveness and hygiene, it is crucial to wash the Drop after each use. Clean it under running water and remove any debris, such as hair and dead skin. You may also clean t using a tiny amount of body wash and a brush.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_BbLyAc",
+        "item_8f6qze",
+        "item_PTBB3p",
+        "item_FkPgyX",
+        "item_j4pgiL",
+        "item_iMNiaX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich-text-3": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping & Returns",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        }
+      },
+      "block_order": [
+        "block-0"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible-row-list-1": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does shipping take?",
+            "text": "<p>Orders are typically dispatched within 24 hours, and you can expect to receive a shipping confirmation email within that timeframe. Please note that during peak demand periods, processing times may be slightly longer.</p><p>We operate from two warehouse locations, in the UK and Germany, ensuring your order is dispatched from the warehouse closest to your location for optimal delivery times.</p><h3>Standard Delivery Times:</h3><ul><li><strong>UK</strong>: 2–3 business days</li><li><strong>EU Countries</strong>: 4–8 business days</li><li><strong>Rest of the world</strong>: 7–10 business days</li></ul>"
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What if I am unable to collect my parcel?",
+            "text": "<p>If your parcel is not collected within 10 days, it will be returned to our warehouse. We recommend  contacting the courier directly to arrange a second delivery before it gets returned back. If you are unable to collect the package in person, you may authorize someone else to collect it on your behalf. The authorized person must present:</p><ol><li>A letter of authorization.</li><li>A valid proof of identity.</li></ol>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Where do you ship the orders from?",
+            "text": "<p>We ship all orders from our warehouses in UK and Germany. We ship your order from the warehouse that is closest to you to optimize the shipping time. </p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Will my order be subject to duties and VAT charges?",
+            "text": "<p>All UK orders are fulfilled from our UK warehouse, so no additional VAT charges apply. Similarly, orders within the EU are shipped from our Germany-based warehouse, ensuring no VAT charges are incurred. For orders shipped outside the UK and EU, duties, tariffs, or other fees may apply depending on the destination country. Please note that ANSWR is not responsible for any such charges; customers are solely responsible for covering any applicable duties, VAT, or additional fees.</p>"
+          }
+        },
+        "21de5c7a-0338-41cf-bc97-86d9c11253c1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I change my address after the order has been placed?",
+            "text": "<p>If you need to update your shipping address, please email us immediately at <a><strong>ask@answrbeauty.com</strong></a>. We will do our best to amend the address before your order is dispatched. However, as orders are processed promptly, we cannot guarantee changes once the order has been placed. Please note that once an order has been processed, the shipping address cannot be modified. We kindly ask that you double-check your shipping details at checkout to avoid any mistakes.</p>"
+          }
+        },
+        "cb80d39f-3b3a-4743-8aa5-756b5f5d236f": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I track my order?",
+            "text": "<p>You will receive an automated shipping confirmation email including a tracking link once your order has been dispatched. If you have any questions regarding tracking please email us at <a href=\"mailto:ask@answrbeauty.com\" title=\"mailto:ask@answrbeauty.com\">ask@answrbeauty.com</a></p>"
+          }
+        },
+        "c40ae887-3b86-4366-b3ba-da3dcd98e242": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I amend my order?",
+            "text": "<p>Since we begin processing each order as soon as it has been submitted, we are unfortunately unable to amend an order after it has been placed. However, you are always welcome to email us and request a change to your order and we will assist you if possible. We kindly ask that you please take care to double check your details before placing your order.</p>"
+          }
+        },
+        "fb9f5019-6dd9-447e-bfb3-e5e920ca90c4": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What is your return policy?",
+            "text": "<p>Due to the nature of our products and EU health regulations, we cannot accept physical returns. However, we offer a 30-day money-back guarantee if you are not satisfied with your purchase.</p>"
+          }
+        },
+        "3bf17c56-eaad-40c7-9170-9efa74d1c945": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How does the money-back guarantee work?",
+            "text": "<p>We stand by the quality of our products and confidently offer a 30-day money-back guarantee if they do not deliver the desired results.</p><p>To initiate a claim, please email us at <a><strong>ask@answrbeauty.com</strong></a> with the following details:</p><ul><li>Your order number</li><li>Before and after photos</li><li>The lot number (found on the bottom of the bottle)</li><li>Any relevant information about your process, results, hair type, or previous treatments</li></ul><p>Please note that the guarantee applies to your first order only.</p>"
+          }
+        },
+        "6a2fb5e3-41cc-4a9a-9143-a48e10a321c7": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How will my refund be processed?",
+            "text": "<p>Refunds will be issued to the original payment method used when placing your order. Processing times may vary depending on the payment method, but refunds typically appear in your account within 2–10 business days.</p>"
+          }
+        },
+        "9d1df1b5-7c50-4597-9f41-10932258743a": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How will my refund be processed?",
+            "text": "<p>Refunds will be returned to the form of payment used when you placed your order.Refund processing may vary slightly depending on the payment method used but will generally show up on your account in 2-10 business days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "21de5c7a-0338-41cf-bc97-86d9c11253c1",
+        "cb80d39f-3b3a-4743-8aa5-756b5f5d236f",
+        "c40ae887-3b86-4366-b3ba-da3dcd98e242",
+        "fb9f5019-6dd9-447e-bfb3-e5e920ca90c4",
+        "3bf17c56-eaad-40c7-9170-9efa74d1c945",
+        "6a2fb5e3-41cc-4a9a-9143-a48e10a321c7",
+        "9d1df1b5-7c50-4597-9f41-10932258743a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich-text-5": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Still have questions?",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel free to reach out. We’ll be happy to assist you further. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact-us",
+            "link_text": "Contact us",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text-1",
+    "rich-text-4",
+    "collapsible-row-list-3",
+    "rich_text_CQJTaM",
+    "collapsible_row_list_T8knB6",
+    "rich_text_b6FTcg",
+    "collapsible_row_list_MCEXGf",
+    "rich_text_BUnRXh",
+    "collapsible_row_list_hmMEUi",
+    "rich_text_TxmaRT",
+    "collapsible_row_list_yczcnD",
+    "rich-text-3",
+    "collapsible-row-list-1",
+    "rich-text-5"
+  ]
+}

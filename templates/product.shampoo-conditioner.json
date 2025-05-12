@@ -1,0 +1,535 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "2043f621-9be8-4997-8131-19d3f158252e": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "accordion_trP8XC": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "DESCRIPTION",
+            "heading_tag": "h3",
+            "content": "<p>The sulfate-free shampoo and conditioner duo, specially formulated to prolong the results of your keratin treatment - protects your hair while enhancing the smoothness and shine you love. With a tropical twist of pineapple extract and a powerhouse of AHA and Phyto-ceramides from sunflower seeds, your hair will be protected, repaired, and ready to stun.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "ingredients",
+            "heading_tag": "h3",
+            "content": "<p><strong>Shampoo - naturally derived 92%</strong></p><p>aqua (water), potassium laureth-4 carboxylate, sorbitan oleate decylglucoside crosspolymer, cocamidopropyl hydroxysultaine, maris sal (sea salt), polyquaternium-22, sodium benzoate, parfum (fragrance), citric acid, potassium sorbate, ananas sativus (pineapple) fruit extract, sodium pca, tetrasodium glutamate diacetate, ci 16035 (red 40), ci 19140 (yellow 5)</p><p><strong>Conditioner - naturally derived 97%</strong></p><p>aqua (water), cetearyl alcohol, cetyl alcohol, stearamidopropyl dimethylamine, cetrimonium chloride, phenoxyethanol, citric acid, parfum (fragrance), potassium sorbate, ananas sativus (pineapple) fruit extract, glycerin, ethylhexylglycerin, tetrasodium glutamate diacetate, helianthus annuus (sunflower) seed extract, decyl glucoside, ci 16035 (red 40), ci 19140 (yellow 5)</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "2043f621-9be8-4997-8131-19d3f158252e",
+        "product_header",
+        "variant_picker",
+        "description",
+        "accordion_trP8XC",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "SERVING SMOOTHNESS",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The sulfate-free shampoo and conditioner duo, specially formulated to prolong the results of your keratin treatment - protects your hair while enhancing the smoothness and shine you love. Free from drying sulfates yet rich in luxurious lather, it leaves your hair feeling fresher  and smooth for longer. Infused with powerful AHAs and Phyto-ceramides for added strength and moisture, plus the irresistible scent of tropical pineapple to elevate your hair care routine.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/keratin_product_page_images_4.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Shampoo_conditioner.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "b972dc47-3e5f-43dd-a2d4-9ef695e8b0d8": {
+      "type": "rich-text",
+      "blocks": {
+        "1b11f996-0dd7-45ae-9481-c40b3d03716e": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "1b11f996-0dd7-45ae-9481-c40b3d03716e"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/shampooing.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. shampoo",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Lather the shampoo in your hands, then gently massage it thoroughly into your hair.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/rinse_85db6c4f-8466-4ac0-b8c0-e5989206c8e9.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. rinse",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Rinse the shampoo thoroughly, ensuring no residue is left behind.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/conditioner_2.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. condition",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Squeeze out excess water from your hair, then apply the conditioner evenly. Comb it through and let it act for 3 minutes, and rinse thoroughly with cool water.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "settings": {
+        "title": "HOW TO USE",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "66be8443-6eb4-48b3-b08c-4fe9a3eb7d6b": {
+      "type": "rich-text",
+      "blocks": {
+        "9a78c111-3b1b-4f6c-9a88-f833799a3cde": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "9a78c111-3b1b-4f6c-9a88-f833799a3cde"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "Smoothest hair or your money back.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered, no questions asked.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/7_b243c79d-e329-44de-94bd-c5056c095a81.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does the shampoo lather even though it is sulfate-free?",
+            "text": "<p>Yes, it does! Knowing how annoying it is when the shampoo doesn’t lather we made sure to optimise our shampoo to be lather-rich.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can use this shampoo & conditioner even though i haven't used your keratin treatment?",
+            "text": "<p>You sure can! Many of our customers swear by our shampoo and conditioner combo for keeping the hair smooth daily. This are the best products on the market for visibly healthy-looking, smooth hair from the first wash!</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is the conditioner silicone-free?",
+            "text": "<p>The formula is three times thicker than regular conditioner and it delivers instant hair mask-like results. The secret is in AHA and pineapple extract, a silicone-free hydration powerhouse that deeply penetrates strands to boost hydration and smoothness.</p>"
+          }
+        },
+        "6a9388b5-236d-46e1-acb7-4267a9eb0b51": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it good for coloured hair?",
+            "text": "<p>Yes, the shampoo & conditioner are  both ideal for coloured hair! As our shampoo is sulfate free it doesn't dull or strip your colour and the conditioner restores your hairs vibrancy & shine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "6a9388b5-236d-46e1-acb7-4267a9eb0b51"
+      ],
+      "settings": {
+        "title": "frequently asked questions.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1676273409d04b288e": {
+      "type": "apps",
+      "blocks": {
+        "c113dbaa-9d44-4090-8a42-89f52b7ed96a": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "c113dbaa-9d44-4090-8a42-89f52b7ed96a"
+      ],
+      "settings": {
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "b972dc47-3e5f-43dd-a2d4-9ef695e8b0d8",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "66be8443-6eb4-48b3-b08c-4fe9a3eb7d6b",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "1676273409d04b288e"
+  ]
+}

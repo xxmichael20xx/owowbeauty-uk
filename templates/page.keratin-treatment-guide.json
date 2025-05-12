@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_auto_play_NQPWWR": {
+      "type": "video-auto-play",
+      "blocks": {
+        "video_C4gGNa": {
+          "type": "video",
+          "settings": {
+            "video_title": "1. spray",
+            "description": "Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6aeb55d811e446ee815928a72acd44be.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_spray_combposter.jpg"
+          }
+        },
+        "video_AwTUn8": {
+          "type": "video",
+          "settings": {
+            "video_title": "2. rinse & dry",
+            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ea42694b60fa42d8b5c187e4dea32411.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_blowdry_poster.jpg"
+          }
+        },
+        "video_NxDNFx": {
+          "type": "video",
+          "settings": {
+            "video_title": "3. seal",
+            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/863aa4b29f3c4474b59405d48ef48ade.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_straighten_posgter.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_C4gGNa",
+        "video_AwTUn8",
+        "video_NxDNFx"
+      ],
+      "settings": {
+        "section_heading": "HOW TO APPLY",
+        "p": "",
+        "layout": "section",
+        "range": 3,
+        "stack": true
+      }
+    },
+    "image_with_text_FBkAHh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mFhGpT": {
+          "type": "heading",
+          "settings": {
+            "title": "APPROVED BY BERNARDO VASCONCELOS",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_JgTUNf": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_WFkUHt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With unmatched industry-leading expertise, Bernardo Vasconcelos is here to guide you step-by-step, ensuring your at-home keratin treatment achieves stunning, long-lasting results. From Brazil, the birthplace of keratin treatments, Bernardo brings over a decade of experience. Now leading his own London salon, he’s trusted by global icons like Gisele, Adriana Lima, Alessandra Ambrosio, and Izabel Goulart.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mFhGpT",
+        "spacer_JgTUNf",
+        "text_WFkUHt"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/rory.b.gullan_shot_for_forbes_article_link_in_my_bio_.._check_it_out_if_you_got_5min_Great_Friday_ahead_of_us_bco.london_bernardohairco_tryo.hairextensions_bcolondon_tryohairextension.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_pLiaWK": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_cpUknE": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        },
+        "text_JWP7Ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Under Bernardo's expert guidance, discover the simple steps to achieve the hair you've always wanted.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_cpUknE",
+        "text_JWP7Ea"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_PRFMHq": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_Ah4XQt": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_Ah4XQt"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "video_LWUQkc": {
+      "type": "video",
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify://files/videos/How to apply ANSWR's  at-home keratin treatment_.mp4",
+        "video_url": "",
+        "image": "shopify://shop_images/Bernardo_keratin_treatment_poster_03.jpg",
+        "loop": true,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_RFkDVV": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_pnQppJ": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_pnQppJ"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_auto_play_NQPWWR",
+    "image_with_text_FBkAHh",
+    "rich_text_pLiaWK",
+    "rich_text_PRFMHq",
+    "video_LWUQkc",
+    "rich_text_RFkDVV"
+  ]
+}

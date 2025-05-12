@@ -1,0 +1,356 @@
+
+<div class="video-slider-section {{ section.settings.layout }}">  
+  <div class="video-header">
+  {% if section.settings.section_heading != blank %}
+  <h2>{{ section.settings.section_heading }}</h2>
+    {% endif %}
+  {% if section.settings.p != blank %}  
+  <div class='rte' style="text-align: center;">
+    {{ section.settings.p }}
+  </div>   
+    {% endif %}
+  </div>
+  <div class="video-slider video-slider{{ section.id }}">
+    {% for block in section.blocks %}
+      <div class="video-slide">
+        <div  class="video-lightbox2" >
+          <video class="video_auto"  loop autoplay muted playsinline poster="{{ block.settings.video_thumbnail | img_url: 'master' }}">
+            <source src="{{ block.settings.video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>   
+        <div class="multi-column__grid-item-text-container">
+          {% if block.settings.video_title != blank %}   
+            <h3 class="multi-column__grid-item-heading ff-heading fs-heading-3-base">
+              {{ block.settings.video_title }}
+            </h3>
+            {% endif %}
+           {% if block.settings.description != blank %}
+          <div class="multi-column__grid-item-text ff-body fs-body-75" style="--text-max-width: 100%">
+            <p>{{ block.settings.description }}</p>
+          </div>
+        {% endif %}
+        </div>
+          
+        </div>
+      </div>   
+    {% endfor %}
+  </div>
+  <div class="slider_controls">
+    <div class="prev_arrow">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+<path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"/>
+</svg>
+    </div>
+      <div class="next_arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+<path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"/>
+</svg>
+      </div>
+  </div>  
+</div>
+   
+<style>
+ .video-lightbox2 video {
+    margin-bottom: 15px;
+    width: 100%;
+}
+  .video-lightbox2 {
+    padding: 0 10px;
+}
+  .video-lightbox img {
+    width: 100%;
+    max-height: 33vw;
+    object-fit: cover;
+}
+  .video-lightbox {
+    padding: 0 10px;
+}
+  .rte_rte {
+    margin-top: 5px;
+}
+  .lightbox-content video {
+    width: 100%;
+}
+ .lightbox-overlay {
+  position: fixed;
+  top: 0;   
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   padding-top: 4%;
+    padding-bottom: 4%;
+   overflow-y: scroll;
+  z-index: 9999; /* Ensure it's above other elements */
+}
+
+.lightbox-content {
+    position: relative;
+    padding: 20px;
+    max-width: 1300px;
+    width: 80%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lightbox-content iframe {
+  width: 100%;
+  /* height: 50vw; */
+}
+    
+.lightbox-close {
+  position: absolute;
+  top: -7px;
+  right: 1px;   
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+  button.lightbox-close {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    box-shadow: var(--box-shadow-double);
+    border-radius: 50%;
+    transition: transform .2s ease;
+    width: 43px;
+    height: 43px;
+    margin-top: var(--spacing-4);
+    margin-right: var(--spacing-4);
+}   
+  .video_player svg {   
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;  
+    margin: 0 auto;
+    width: 4vw;
+    height: 4vw;
+}
+  .video_player {
+    position: relative;
+    margin-bottom: 20px;
+}
+  .video-lightbox p {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+  .video-lightbox p.p2 {
+   font-size: var(--font-size-body-75);
+    margin-top: 0;
+    text-transform: unset;
+}
+  .video-slider-section .rte {
+    max-width: 693px;
+    margin: 0 auto;
+  }
+  .video-header {
+    margin-bottom: 20px;
+}
+  span.icon.icon-new.icon-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  button.lightbox-close svg {
+    width: 18px;
+    height: 18px;
+}
+
+  @media screen and (min-width: 750px) {
+    .lightbox-close {
+    position: absolute;
+    top: -30px;
+    right: -57px;
+  }
+     .video-slider:not(.slick-initialized) {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .video-slider:not(.slick-initialized) .video-slide  {
+    width: 33.33%;
+}
+  }
+  
+@media screen and (max-width: 750px) {
+  .video_player svg {
+        position: absolute;
+        top: 39%;
+        width: 12vw;
+        height: 12vw;
+    }
+  {% if section.settings.stack %}
+    .slider_controls {
+    display: none;
+}
+    .video-slide {
+    margin-top: 25px;
+}
+  {% endif %}
+  .video-lightbox img {
+    max-height: 100vw;
+}    
+  .slider_controls .slick-arrow svg {
+    width: 20px;
+    height: 20px;
+}
+  .lightbox-content iframe {
+    width: 100%;
+    /* height: 100vw; */
+}
+     .lightbox-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+  .video-slider-section h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+}
+  </style>
+<script>
+$(document).ready(function () {   
+  $('.video-slider{{ section.id }}').slick({
+    slidesToShow: {{ section.settings.range }},
+    slidesToScroll: {{ section.settings.range }},
+    infinite: true,
+    dots: false,
+    arrows: true,
+    prevArrow: ".prev_arrow",
+    nextArrow: ".next_arrow",
+    responsive: [
+      {  
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,   
+         {% if section.settings.stack %}      
+          settings: "unslick"
+            {% else %}
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+            {% endif %}
+      },
+      {
+        breakpoint: 480,
+         {% if section.settings.stack %}   
+          settings: "unslick"
+            {% else %}
+        settings: {     
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+           {% endif %}
+      }
+    ]
+  });
+   
+});
+
+</script>
+
+{% schema %}
+{
+  "name": "Video Autoplay Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Featured Videos"
+    },
+     {
+      "type": "richtext",
+      "id": "p",
+      "label": "Section Description"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Select Layout",
+      "default": "wide",
+      "options": [
+        {
+          "label": "Standard",
+          "value": "section"
+        },
+        {
+          "label": "Wide",
+          "value": "wide"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "range",
+      "label": "Show slides",
+      "min": 2,
+      "max": 6,
+      "default": 4
+    },
+    {
+      "type": "checkbox",
+      "id": "stack",
+      "label": "Stack On Mobile",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",   
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_title",
+          "label": "Video Title",
+          "default": "My Video"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Video Description"  
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL"
+        },
+        
+        {
+          "type": "image_picker",
+          "id": "video_thumbnail",
+          "label": "Video Thumbnail"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Autoplay",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}

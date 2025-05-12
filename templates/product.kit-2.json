@@ -1,0 +1,1036 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "db97e022-6a34-4bb9-a3a7-214447d1b2be": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "description",
+            "heading_tag": "h3",
+            "content": "<p>The world’s first-ever at-home keratin treatment is an affordable alternative to costly salon keratin treatments. With just one simple application at home, it delivers up to three months of frizz-free, shiny hair. Powered by award-winning VeratinTech™ technology, this 100% vegan formula, combined with gentle acids, tames frizz, seals cuticles, and balances your hair’s pH—all while restoring softness and hydration - and cutting the blow dry time into half. The kit comes with sulfate free shampoo and conditioner specifically formulated for after treatment care to prolong the effect of the treatment.<br/></p><p>Vegan and cruelty-free</p><p>Free from: formaldehydes, sulfates, parabens, silicones, and alcohols</p><p>Powerful keratin smoothing results at home</p><p>Ultimate anti-frizz effect: the most effective anti-frizz keratin treatment available</p><p>Winner of the best hair product of the year award</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "tolstoy_shoppable_video_ugc_stories_block_fdDET6": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "6uqcne93jkp2j"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "fordeer_preorder_now_presale_pre_order_dLXKJt": {
+          "type": "shopify://apps/fordeer-preorder-now-presale/blocks/preOrder/fc52eb6a-d4c7-47e1-9c4c-db0485af36b4",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": true,
+            "enable_sticky_atc_bar_mobile": true,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "accordion_xRdGWG": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "ingredients",
+            "heading_tag": "h3",
+            "content": "<p><strong>Keratin treatment</strong></p><p>aqua (water/eau), glyoxylic acid, glyoxyloyl keratin amino acids, glyoxyloyl carbocysteine, propylene glycol, parfum (fragrance), sodium hydroxide, vinegar, vitis vinifera (grape) fruit extract, behentrimonium chloride, cetearyl alcohol, myristyl alcohol, cetrimonium chloride, tetrasodium glutamate diacetate, fructose, glucose, gluconic acid, gluconolactone, hexyl cinnamal, styrax benzoin resin extract, ananas sativus (pineapple) fruit extract, commiphora myrrha (myrrh) resin extract, etidronic acid, caesalpinia spinosa (tara) gum, myroxylon balsamum (balsam tolu) resin, ci 16035 (red 40), ci 19140 (yellow 5).</p><p><strong>Shampoo</strong></p><p>aqua (water), potassium laureth-4 carboxylate, sorbitan oleate decylglucoside crosspolymer, cocamidopropyl hydroxysultaine, maris sal (sea salt), polyquaternium-22, sodium benzoate, parfum (fragrance), citric acid, potassium sorbate, ananas sativus (pineapple) fruit extract, sodium pca, tetrasodium glutamate diacetate, ci 16035 (red 40), ci 19140 (yellow 5).</p><p><strong>Conditioner</strong></p><p>aqua (water), cetearyl alcohol, cetyl alcohol, stearamidopropyl dimethylamine, cetrimonium chloride, phenoxyethanol, citric acid, parfum (fragrance), potassium sorbate, ananas sativus (pineapple) fruit extract, glycerin, ethylhexylglycerin, tetrasodium glutamate diacetate, helianthus annuus (sunflower) seed extract, decyl glucoside, ci 16035 (red 40), ci 19140 (yellow 5).</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "db97e022-6a34-4bb9-a3a7-214447d1b2be",
+        "product_header",
+        "description",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "tolstoy_shoppable_video_ugc_stories_block_fdDET6",
+        "quantity_selector",
+        "variant_picker",
+        "fordeer_preorder_now_presale_pre_order_dLXKJt",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts",
+        "accordion_xRdGWG",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "image_compare_FjXx6B": {
+      "type": "image-compare",
+      "blocks": {
+        "image_cQzGbg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ANSWR_Kit_box.jpg",
+            "focal_point": "image_presentation",
+            "filter_effect": "none",
+            "filter_amount": 100,
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0,
+            "show_label": true,
+            "text": "OUTSIDE",
+            "text_position": "flex-end_flex-start",
+            "text_color": "#000000",
+            "text_container_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_mrADed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ANSWR_Kit_bottles.jpg",
+            "focal_point": "image_presentation",
+            "filter_effect": "none",
+            "filter_amount": 100,
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0,
+            "show_label": true,
+            "text": "INSIDE",
+            "text_position": "flex-end_flex-end",
+            "text_color": "#000000",
+            "text_container_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_cQzGbg",
+        "image_mrADed"
+      ],
+      "settings": {
+        "image_position": "right",
+        "aspect_ratio": "square",
+        "reveal_direction": "horizontal",
+        "image_max_width": 1400,
+        "slider_color": "#ffffff",
+        "slider_arrows_color": "#000000",
+        "text_alignment": "left",
+        "heading": "INCLUDES",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "<p>100ml Keratin treatment, shampoo & conditioner</p><p>100% vegan & cruelty-free</p>",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "b62152ef-2709-4e28-8e46-d3800901af2f": {
+      "type": "image-with-text",
+      "blocks": {
+        "fbf62fbf-12de-46e8-8915-7790598b322b": {
+          "type": "heading",
+          "settings": {
+            "title": "THREE MONTHS OF GLASS-LIKE HAIR",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "b039170e-14fd-4f47-bd6d-6f4fdc38cd3f": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
+        "5f741895-84f7-42a9-80b3-f9ea1f95a48b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "fbf62fbf-12de-46e8-8915-7790598b322b",
+        "b039170e-14fd-4f47-bd6d-6f4fdc38cd3f",
+        "5f741895-84f7-42a9-80b3-f9ea1f95a48b"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/keratin_user_hair.gif",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Shampoo and Conditioner That Extend Your Results",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The sulfate-free shampoo and conditioner duo, specially formulated to prolong the results of your keratin treatment - protects your hair while enhancing the smoothness and shine you love. Free from drying sulfates yet rich in luxurious lather, it leaves your hair feeling fresher  and smooth for longer. Infused with powerful AHAs and Phyto-ceramides for added strength and moisture, plus the irresistible scent of tropical pineapple to elevate your hair care routine.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/keratin_product_page_images_4_fe87cee8-b35a-44aa-9850-d715ba47da1f.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Keratin_treatment_kit_box_open.gif",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493": {
+      "type": "rich-text",
+      "blocks": {
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "c42dd2d5-8d8c-4563-a3bf-1e605e77dcc9"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/spray_0bdd7a1b-44b9-447f-82d0-a3962805fd54.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. spray",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/dry_768f8d8b-7025-4741-9c98-6dca9506cd17.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. rinse & dry",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/straighten_9da968c9-1fb5-4a87-93a2-990bd1ae227a.gif",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. seal",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "How to apply the keratin treatment",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_auto_play_hbM37i": {
+      "type": "video-auto-play",
+      "blocks": {
+        "video_LTJYJK": {
+          "type": "video",
+          "settings": {
+            "video_title": "1. spray",
+            "description": "Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6aeb55d811e446ee815928a72acd44be.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_spray_combposter.jpg"
+          }
+        },
+        "video_4PPNME": {
+          "type": "video",
+          "settings": {
+            "video_title": "2. rinse & dry",
+            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ea42694b60fa42d8b5c187e4dea32411.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_blowdry_poster.jpg"
+          }
+        },
+        "video_ab4T8x": {
+          "type": "video",
+          "settings": {
+            "video_title": "3. seal",
+            "description": "Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/863aa4b29f3c4474b59405d48ef48ade.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_straighten_posgter.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_LTJYJK",
+        "video_4PPNME",
+        "video_ab4T8x"
+      ],
+      "settings": {
+        "section_heading": "HOW TO APPLY THE KERATIN TREATMENT",
+        "p": "",
+        "layout": "section",
+        "range": 3,
+        "stack": true
+      }
+    },
+    "image_with_text_p6VAmG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a6rr3E": {
+          "type": "heading",
+          "settings": {
+            "title": "VeratinTech™ VEGAN FORMULA",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_3TkWy6": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
+        "text_7mbKW6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that looking great should never come at the cost of our health or the well-being of our furry friends. That's why we prioritize gentle, effective ingredients and use 100% vegan keratin, derived from wheat and soy, to deliver the same benefits as traditional animal-based salon keratin treatments.<br/><br/>FORMALDEHYDE & SULFATE FREE<br/><br/>CRUELTY FREE & VEGAN<br/><br/>COSTS 1/10TH OF SALON TREATMENTS</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a6rr3E",
+        "spacer_3TkWy6",
+        "text_7mbKW6"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/13_ee18452f-c9e2-4e1f-bfdb-8cfa4d98efc4.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Keratin_treatment_kit_box_open.gif",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_RahtVd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iNm9XC": {
+          "type": "heading",
+          "settings": {
+            "title": "APPROVED BY BERNARDO VASCONCELOS",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "spacer_GbDDdk": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        },
+        "text_bwr69J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With unmatched industry-leading expertise, Bernardo Vasconcelos is here to guide you step-by-step, ensuring your at-home keratin treatment achieves stunning, long-lasting results. From Brazil, the birthplace of keratin treatments, Bernardo brings over a decade of experience. Now leading his own London salon, he’s trusted by global icons like Gisele, Adriana Lima, Alessandra Ambrosio, and Izabel Goulart.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iNm9XC",
+        "spacer_GbDDdk",
+        "text_bwr69J"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/rory.b.gullan_shot_for_forbes_article_link_in_my_bio_.._check_it_out_if_you_got_5min_Great_Friday_ahead_of_us_bco.london_bernardohairco_tryo.hairextensions_bcolondon_tryohairextension.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/Keratin_treatment_kit_box_open.gif",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1": {
+      "type": "rich-text",
+      "blocks": {
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "71dcec4c-c84d-44f1-b9ea-8d26850b6066"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "32c48d1b-93ad-4dda-b2e3-e6818befb52e": {
+      "type": "rich-text",
+      "blocks": {
+        "95b64b2f-6c88-4197-a8f1-d74ccb3b290c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Under Bernardo's expert guidance, discover the simple steps to achieve the hair you've always wanted.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "95b64b2f-6c88-4197-a8f1-d74ccb3b290c"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1c9ee519-241f-41b2-8b53-411d2e94efc0": {
+      "type": "video",
+      "blocks": {
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Video",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this section to promote a particular feature with editorial video.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-2": {
+          "type": "play-button",
+          "disabled": true,
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-0",
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-1",
+        "template--16155228307619__1c9ee519-241f-41b2-8b53-411d2e94efc0-167534057681e0c167-2"
+      ],
+      "settings": {
+        "video_source": "shopify",
+        "video": "shopify://files/videos/How to apply ANSWR's  at-home keratin treatment_.mp4",
+        "video_url": "https://youtu.be/41x5i2F2-rA",
+        "image": "shopify://shop_images/Bernardo_keratin_treatment_poster_03.jpg",
+        "loop": true,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "image_presentation",
+        "text_position": "flex-end_flex-end",
+        "text_position_mobile": "center",
+        "button_background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_text": "#ffffff",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "faecffb1-b435-4cb8-b791-0c27d25890a1": {
+      "type": "rich-text",
+      "blocks": {
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "702a4eb4-c520-4bc5-9a96-1da418b6af7d"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "SMOOTHEST HAIR OR YOUR MONAY BACK",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered, no questions asked.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/2_f0f9923d-c952-4684-9f93-3e8c65c05532.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0b480e01-5326-48f8-8f12-40f4e9503c51": {
+      "type": "rich-text",
+      "blocks": {
+        "4b0f3501-8dc5-426e-9b74-7539b631c148": {
+          "type": "spacer",
+          "settings": {
+            "space": 32
+          }
+        }
+      },
+      "block_order": [
+        "4b0f3501-8dc5-426e-9b74-7539b631c148"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the main benefits of at-home keratin treatment?",
+            "text": "<p>It is an at-home alternative to expensive salon keratin treatments. One easy application at home results in up to three months of perfectly frizz-free hair. The exclusive VeratinTechTM technology, a 100% vegan keratin, combined with gentle acids, helps control frizz, seal cuticles, and balance your hair’s pH while restoring softness and shine.</p><p></p><ul><li>Unique formula with antioxidant action which proves moisture retention resulting in incredibly smooth and shiny hair</li><li>Hair will maintain its natural body while becoming softer, shinier, and more manageable.</li><li>Quick and easy application process</li><li>Results last up to three months with only one easy application</li><li>Gives you 30 minutes of more sleep each morning as you are free from having to style your hair daily.</li><li>Say goodbye to daily-use of hair iron that burns your hair</li><li>Cuts blow-dry time by half</li><li>Effective on all hair types</li></ul>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it straighten the hair?",
+            "text": "<p>While it de-frizzes and might make your curls appear more loose it won't straighten your hair. After the first wash, your hair's natural volume will resume while the smoothness and shine will remain. On a technical level, our treatment differs from straightening treatments and perms because of the way it works on the hair. Straightening treatments and perms use harsh chemicals that alter the disulfide bonds in the hair to restructure the strands. On the other hand, our treatment uses natural chemicals that work on a different level and target the weaker, modified bonds in the hair. This allows us to achieve smooth, frizz-free locks without damaging the hair.</p>"
+          }
+        },
+        "item_68dTPp": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does it work exactly like salon keratin treatments?",
+            "text": "<p>Our at-home keratin treatment has the same effect and gives you the same outcome as the traditional keratin treatments done at the salons.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How often should I redo the treatment?",
+            "text": "<p>The results are semi-permanent, gradually fading over three months after application. To keep your hair at its smoothest and shiniest, we recommend reapplying the treatment every two months for consistently smooth hair.</p>"
+          }
+        },
+        "item_ENiA4F": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it safe to apply keratin treatment at home?",
+            "text": "<p>The treatment is in all ways a safe alternative to traditional chemical-rich keratin treatments, as it is 100% formaldehyde-free, making it entirely safe to be performed at home. As the treatment doesn’t consist of any harsh chemicals the treatment doesn’t irritate your scalp and there is no need to use gloves when applying the treatment. </p><p>However, we do recommend checking the ingredients list to see if you are allergic to any of the natural ingredients included in the formula. Our product may react with some coloured fabrics, to avoid colour fading and stains on your beloved clothes, we recommend using an old towel for covering the shoulders during the treatment.</p>"
+          }
+        },
+        "item_VNbdWj": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is the smooth and silky effect achieved? VERATIN TECH ™ Technology explained.",
+            "text": "<p>Typically similar treatments on the market utilize animal sourced keratin and strong chemicals as their active ingredients to achieve effective results. <br/><br/>As we believe that looking good should never compromise our health nor our furry friends we use only gentle, high quality ingredients and 100% vegan sourced keratin - without compromising the effectiveness of the treatment. Our own unique combination of 87% natural ingredients and a blend of amino acids is the hero of our exclusive VeratinTech™ technology. </p><p>However, we do recommend checking the ingredients list to see if you are allergic to any of the natural ingredients included in the formula. Our product may react with some coloured fabrics, to avoid colour fading and stains on your beloved clothes, we recommend using an old towel for covering the shoulders during the treatment.</p>"
+          }
+        },
+        "item_CN7tpj": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What actually happens inside your hair during the treatment?",
+            "text": "<p>1. After the application of the treatment, it absorbs to the hair cuticle - the topmost layer of the hair strand.</p><p>2. During the action time, treatment enters the second and thickest layer of the hair strand.</p><p>3. The acids modify the weak and reversible bonds between protein chains.</p><p>4. Amino acids of the vegan keratin creates new links between existing proteins and keratin is absorbed by the core of the hair strand. </p><p>5. The treatment is washed off when the viable links have been fixed. Some stronger bonds, such as ones damaged by bleaching, may not be fixed.</p><p>6. The heat of the iron seals the new bonds and the cuticle back down - making the hair de-frizzed and shiny. </p><p>7. Blow-drying with hot air after each wash makes the cuticles settle down again, which enables the hair to be smooth for up to three months. </p><p>8. Links between protein chains fade gradually with each hair wash. To seal them again, the treatment can be repeated every second month. </p><p>VeratinTech™  technology is grounded on the acidic oxoacetamides synergy and utilizes keratin amino acids sourced from wheat and soy. The unique technology enables capillary realignment which results in natural smooth and shiny hair that lasts for up to three months - all this without damaging the hair.</p>"
+          }
+        },
+        "item_UtPQWq": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What tools are needed for applying the treatment?",
+            "text": "<p>Straightening iron,  blow dryer, hair clip, comb, shower, and towel.</p>"
+          }
+        },
+        "item_hnHJBc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How many application is one bottle enough for?",
+            "text": "<p>The 100ml spray bottle is designed for 1-2 time application, depending on the length and thickness of your hair. Remember that it is vital to apply a generous amount of solution so that your hair is completely saturated</p>"
+          }
+        },
+        "item_qM8k8n": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it suitable for all hair types?",
+            "text": "<p>Yes it is! However, please keep in mind that it will not repair bonds damaged by bleaching treatments. Also colored hair may be subject to fading in color when flat iron is applied on hair - especially if hair has been colored with semi permanent dye. </p><p>To avoid any fading of you colored hair we recommend passing the iron on a small section of hair and waiting until your hair cools. If you notice any fading, lower the temperature and test it until  you no longer see any fading. </p>"
+          }
+        },
+        "item_aJEQP7": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What should be avoided after the treatment?",
+            "text": "<ul><li>Don’t wash your hair for 24 hours. </li><li>Use sulfate-free shampoo and conditioners. Like ours!</li><li>Blow dry after every wash to reactivate the keratin.</li><li>Repeat the treatment after 2 months to keep it smooth. </li></ul>"
+          }
+        },
+        "item_nrgDdc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does the application process take?",
+            "text": "<p>It will only take 10 minutes to spray in the treatment after which you let it act for 40-60 minutes. All in all the entire treatment process will take you only 1,5 to 2 hours and it will transform your frizzy and lifeless hair into silky-smooth which will last for up to three months.</p>"
+          }
+        },
+        "item_B7JgpL": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I go wrong with the application?",
+            "text": "<p>There are a few things to avoid in order to achieve the optimal results:</p><ul><li>Not applying enough solution – Remember that your hair needs to be fully wet after spraying in the treatment</li><li>Not letting it act long enough – Remember to let it act for one hour and not less than that</li><li>Leaving the treatment to act for too long</li><li>Not rinsing the treatment properly – remember to wash the solution off entirely leaving no residue</li><li>Straightening too thick sections of hair – Remember to take very tiny (2 cm wide) sections at a time</li><li>Not going over each section of hair 6 times with the iron</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "item_68dTPp",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "item_ENiA4F",
+        "item_VNbdWj",
+        "item_CN7tpj",
+        "item_UtPQWq",
+        "item_hnHJBc",
+        "item_qM8k8n",
+        "item_aJEQP7",
+        "item_nrgDdc",
+        "item_B7JgpL"
+      ],
+      "settings": {
+        "title": "frequently asked questions.",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1675682242a9b5d4db": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "heading": "Reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1676270632f9aabb97": {
+      "type": "apps",
+      "blocks": {
+        "768fe1eb-9020-451c-9ad5-1d73c6ac95f3": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "768fe1eb-9020-451c-9ad5-1d73c6ac95f3"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_compare_FjXx6B",
+    "b62152ef-2709-4e28-8e46-d3800901af2f",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "3acf7a4e-c02b-4686-a9c2-624f762fe493",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "video_auto_play_hbM37i",
+    "image_with_text_p6VAmG",
+    "image_with_text_RahtVd",
+    "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1",
+    "32c48d1b-93ad-4dda-b2e3-e6818befb52e",
+    "1c9ee519-241f-41b2-8b53-411d2e94efc0",
+    "faecffb1-b435-4cb8-b791-0c27d25890a1",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "0b480e01-5326-48f8-8f12-40f4e9503c51",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "1675682242a9b5d4db",
+    "1676270632f9aabb97"
+  ]
+}

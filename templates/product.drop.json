@@ -1,0 +1,715 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "60d03ee7-8472-4215-9eb1-32f1457f6430": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "save_percent",
+            "show_product_rating": false,
+            "show_sale_badge": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "2col"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "text_BYR66K": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-75",
+            "text": "<ul><li>Removes hair on legs and arms</li><li>Gently exfoliates dead skin</li><li>Painless</li><li>Suitable for sensitive skin</li><li>Sustainable option - average use time 6 months</li></ul>",
+            "column_placement": "right"
+          }
+        },
+        "tolstoy_shoppable_video_ugc_stories_block_PkK79Q": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "uko83md7r69t2"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": false,
+            "enable_sticky_atc_bar_mobile": false,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "package-closed",
+            "text_1": "Fast",
+            "icon_2": "paper-airplane",
+            "text_2": "Trustworthy",
+            "icon_3": "chat",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "82a57e0b-fdb5-4a90-89b5-83287e228437": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "ingredients",
+            "heading_tag": "h3",
+            "content": "<p>aqua (water/eau), glyoxylic acid, glyoxyloyl keratin amino acids, glyoxyloyl carbocysteine, propylene glycol, parfum (fragrance), sodium hydroxide, vinegar, vitis vinifera (grape) fruit extract, behentrimonium chloride, cetearyl alcohol, myristyl alcohol, cetrimonium chloride, tetrasodium glutamate diacetate, fructose, glucose, gluconic acid, gluconolactone, hexyl cinnamal, styrax benzoin resin extract, ananas sativus (pineapple) fruit extract, commiphora myrrha (myrrh) resin extract, etidronic acid, caesalpinia spinosa (tara) gum, myroxylon balsamum (balsam tolu) resin, ci 16035 (red 40), ci 19140 (yellow 5).</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "heading_tag": "h3",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        }
+      },
+      "block_order": [
+        "60d03ee7-8472-4215-9eb1-32f1457f6430",
+        "product_header",
+        "variant_picker",
+        "description",
+        "text_BYR66K",
+        "tolstoy_shoppable_video_ugc_stories_block_PkK79Q",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts_mini",
+        "product_callouts",
+        "82a57e0b-fdb5-4a90-89b5-83287e228437",
+        "b482f3aa-ec2e-43f7-b974-f81d2e2c02e8"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "list",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "large",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "ccd7b7a7-8f41-448e-a02e-98844cf6b9b6": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-0",
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-1",
+        "template--16184596758691__ccd7b7a7-8f41-448e-a02e-98844cf6b9b6-167541630091e94c86-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "small",
+        "quote_font": "heading",
+        "background_color": "",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "32c48d1b-93ad-4dda-b2e3-e6818befb52e": {
+      "type": "rich-text",
+      "blocks": {
+        "e17aee70-fc06-4f81-9db5-b952e83fffc8": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "e17aee70-fc06-4f81-9db5-b952e83fffc8"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Silk-like skin awaits",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Combining hair removal and gentle exfoliation for smooth, refreshed skin, it also helps improve keratosis pilaris, strawberry skin, and dryness. Designed for effortless use, it works with a circular rubbing motion on the skin and lasts up to six months, providing a sustainable alternative to traditional razors by replacing an average of 12 razors.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__68f21f02-4e27-439d-8c2d-230d9b48ebc5-167533762479399dd1-0",
+        "5e8c3070-a684-472b-b4ec-cd08a553fd32",
+        "9bb5cebe-0abd-42dc-9b66-aa94554b7268"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/73_40616eb2-c26f-4f52-bf7d-5bd8efdb9808.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "29683064-b8ca-4045-b5e1-295cf72c57d9": {
+      "type": "rich-text",
+      "blocks": {
+        "4b275fb5-aced-4537-a55a-a043c1fb9e21": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "4b275fb5-aced-4537-a55a-a043c1fb9e21"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a": {
+      "type": "multi-column",
+      "blocks": {
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/drop_skin_2.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "1. pull skin tight",
+            "heading_font_class": "fs-heading-3-base",
+            "text": "<p>Pull the treated area tight with your non-dominant hand.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Drop_rotate.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "2. rub in circular motion",
+            "heading_font_class": "fs-heading-3-base",
+            "text": "<p>Applying moderate pressure, gently rub the drop in circular motions. Always work on dry skin only. </p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/drop_oil.gif",
+            "image_width": 100,
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "3. moisturize",
+            "heading_font_class": "fs-heading-3-base",
+            "text": "<p>For an extra-smooth finish, complete the routine with body oil or cream.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "5d2ea347-144d-4ff4-8f7a-db6bf5c42ef1",
+        "b6de8576-9c54-4cf7-96d3-c3b1d692bad2",
+        "9da1dff4-08d1-4978-b4ca-4ec6135acba6"
+      ],
+      "settings": {
+        "title": "How to USE",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "736c3231-ef68-4768-9415-5853c5e45c39": {
+      "type": "image-with-text",
+      "blocks": {
+        "522cc740-67a8-464a-a8e4-07887cd468ad": {
+          "type": "accent",
+          "settings": {
+            "accent": "See the difference."
+          }
+        },
+        "51794c9b-97ad-4ea7-9c52-a02ccb979846": {
+          "type": "heading",
+          "settings": {
+            "title": "drop vs. razor",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "9f6a29bf-5dff-44ac-9f77-3900084d9d71": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Ditch those old-fashioned hair removal methods and join the drop squad for baby-smooth skin. You'll be amazed at how irresistibly soft your skin feels - may sound strange, but you won't be able to stop touching it.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "522cc740-67a8-464a-a8e4-07887cd468ad",
+        "51794c9b-97ad-4ea7-9c52-a02ccb979846",
+        "9f6a29bf-5dff-44ac-9f77-3900084d9d71"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f5fcdfb9-407c-428d-acfc-5f86c583135e": {
+      "type": "rich-text",
+      "blocks": {
+        "0f15c035-1d17-4761-a20d-cd0b75161693": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "0f15c035-1d17-4761-a20d-cd0b75161693"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631": {
+      "type": "image-with-text",
+      "blocks": {
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d": {
+          "type": "heading",
+          "settings": {
+            "title": "Silky skin or your money back",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order risk-free and see the difference for yourself. If you're not satisfied, just let us know within 30 days and we'll have you covered. No questions asked.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "c4f9b695-84df-453f-ae35-6a173fb03b0d",
+        "86e93f7b-0fe3-4471-b612-3d89c082ea77",
+        "bc7dbf4e-0168-4f1a-9b14-56ceda9d0734"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/product_page_images_1.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/money_back_stamp_ed1f4eb4-8673-47b3-a682-7a715544dc9d.png",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "eff86b73-571c-4773-a36b-fde147c020e3": {
+      "type": "rich-text",
+      "blocks": {
+        "37203445-9949-49b2-b094-8eeba0ff50af": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "37203445-9949-49b2-b094-8eeba0ff50af"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Which areas can the drop be used on?",
+            "text": "<p>Best results are achieved when used on even areas such as legs, arms chest, and back. Using it on more delicate and uneven areas might cause sensitivity. We also don’t recommend using it on the face.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How does it remove hair?",
+            "text": "<p>The glass surface of the drop gently exfoliates and removes hair from the skin. It uses friction to remove hair from the surface of the skin while also removing dead skin leaving the skin feeling baby-like. It does not pull hair out from the root like waxing.</p>"
+          }
+        },
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "When and how often should the drop be used?",
+            "text": "<p>We recommend using the drop on clean and dry skin for optimal results. Use it as needed for hair removal and to combat dead skin. Depending on the rate of hair growth, it may be beneficial to use the product regularly to maintain smooth skin. The more often you use it the less time it takes to treat the desired areas. However, it's important to note that every individual's skin is unique and sensitivity may vary. If you experience any discomfort, adjust usage accordingly to suit your skin's tolerance.</p>"
+          }
+        },
+        "9f18800d-b526-4228-b632-2f558b9cbbd7": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is it ok to use on sensitive skin?",
+            "text": "<p>his method is a gentler alternative to shaving or waxing. However, if you have sensitive skin, it is recommended to test it on a small area first. Apply it in a circular motion with light pressure. If you feel any discomfort, adjust the pressure to suit your skin's tolerance. If you have issues such as Keratosis Pilaris (KP), dryness, or strawberry skin, you may benefit from using the drop as with regular use it can improve the appearance and softness of the skin.</p>"
+          }
+        },
+        "0188ef0b-eebd-47b5-b3b3-6fcfe6234687": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "When do I know it is time to change the drop to a new one?",
+            "text": "<p>When you notice that the drop is no longer effectively removing hair and you have to rub it longer than usual, it is time to replace it. When used a couple of times a week, the product should remain effective for approximately six months.</p>"
+          }
+        },
+        "dff38921-6239-4365-a92c-a6b8690760b9": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Should I wash the drop after every use and how should it be cleaned?",
+            "text": "<p>Yes! When using the Drop, you may notice that the glass-coated surface collects dead skin. To maintain effectiveness and hygiene, it is crucial to wash the Drop after each use. Clean it under running water and remove any debris, such as hair and dead skin. You may also clean t using a tiny amount of body wash and a brush. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-0",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-1",
+        "template--16155228307619__f6067e5c-800d-40b7-b7ea-bf2d64d882c2-16753409871715bdf0-2",
+        "9f18800d-b526-4228-b632-2f558b9cbbd7",
+        "0188ef0b-eebd-47b5-b3b3-6fcfe6234687",
+        "dff38921-6239-4365-a92c-a6b8690760b9"
+      ],
+      "settings": {
+        "title": "frequently asked questions",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "167609818098d6a8b0": {
+      "type": "apps",
+      "blocks": {
+        "991abc88-213e-4623-8f25-0b9da074c952": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "991abc88-213e-4623-8f25-0b9da074c952"
+      ],
+      "settings": {
+        "container": "w-full",
+        "heading": "reviews",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ccd7b7a7-8f41-448e-a02e-98844cf6b9b6",
+    "32c48d1b-93ad-4dda-b2e3-e6818befb52e",
+    "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
+    "29683064-b8ca-4045-b5e1-295cf72c57d9",
+    "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "736c3231-ef68-4768-9415-5853c5e45c39",
+    "f5fcdfb9-407c-428d-acfc-5f86c583135e",
+    "2a878eab-e4c2-47d2-a5fd-0765d46ba631",
+    "eff86b73-571c-4773-a36b-fde147c020e3",
+    "f6067e5c-800d-40b7-b7ea-bf2d64d882c2",
+    "167609818098d6a8b0"
+  ]
+}
