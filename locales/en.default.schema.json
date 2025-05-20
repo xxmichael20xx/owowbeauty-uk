@@ -2074,7 +2074,9 @@
           "label": "Gallery style",
           "option_grid": "Grid",
           "option_list": "List",
-          "option_thumbnails": "Thumbnails"
+          "option_thumbnails": "Thumbnails",
+          "option_thumbnails_alt": "Show alternative thumbnails?",
+          "option_thumbnails_alt_info": "Only works on 'thumbnails' style",
         },
         "gallery_style_mobile": {
           "label": "Gallery style mobile",

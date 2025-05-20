@@ -12,6 +12,7 @@
   assign first_3d_model = product.media | where: 'media_type', 'model' | first
   assign gallery_style = section.settings.gallery_style
   assign gallery_style_mobile = section.settings.gallery_style_mobile
+  assign gallery_thumbnail_alt = section.settings.gallery_thumbnail_alt
   assign gallery_size = section.settings.gallery_size
   assign gallery_overflow = section.settings.gallery_overflow
   assign gallery_overflow_mobile = section.settings.gallery_overflow
@@ -413,6 +414,9 @@
       <div
         class="product__media-container above-mobile{% if section.settings.enable_product_lightbox %} lightbox-media-container{% endif %}"
         data-gallery-style="{{ gallery_style }}"
+        {%- if gallery_thumbnail_alt == true -%}
+          data-gallery-thumbnail-alt
+        {%- endif -%}
       >
         {% if gallery_style == 'thumbnails' -%}
           {% render 'product-thumbnails',
@@ -733,6 +737,13 @@
           "label": "t:sections.main_product_overview.settings.gallery_style_mobile.option_grid"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "gallery_thumbnail_alt",
+      "label": "t:sections.main_product_overview.settings.gallery_style.option_thumbnails_alt",
+      "default": false,
+      "info": "t:sections.main_product_overview.settings.gallery_style.option_thumbnails_alt_info"
     },
     {
       "type": "select",

@@ -1,0 +1,177 @@
+{% schema %}
+{
+    "name": "Expandable Content",
+    "settings": [
+        {
+            "type": "text",
+            "id": "main_title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "main_description",
+            "label": "Description"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "content_block",
+            "name": "Content Block (Column 1)",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "content_title",
+                    "label": "Content Title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "content_text",
+                    "label": "Content Text"
+                }
+            ]
+        },
+        {
+            "type": "image_block",
+            "name": "Image Block (Column 2)",
+            "limit": 2,
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "image_title",
+                    "label": "Title"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "icon_list_1",
+                    "label": "Icon List Image 1"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "icon_list_2",
+                    "label": "Icon List Image 2"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "icon_list_3",
+                    "label": "Icon List Image 3"
+                },
+                {
+                    "type": "text",
+                    "id": "text_list_1",
+                    "label": "Text List Image 1"
+                },
+                {
+                    "type": "text",
+                    "id": "text_list_2",
+                    "label": "Text List Image 2"
+                },
+                {
+                    "type": "text",
+                    "id": "text_list_3",
+                    "label": "Text List Image 3"
+                }
+            ]
+        }
+    ],
+    "max_blocks": 10,
+    "presets": [
+        {
+            "name": "Expandable Content"
+        }
+    ]
+}
+{% endschema %}
+
+<div class="expandable-content section">
+    <div class="expandable-content__columns">
+        <!-- Column 1 -->
+        <div class="expandable-content__col expandable-content__col--left">
+            {% if section.settings.main_title != blank %}
+                <h2 class="section__title">{{ section.settings.main_title }}</h2>
+            {% endif %}
+            {% if section.settings.main_description != blank %}
+                <div class="expandable-content__description">
+                    {{ section.settings.main_description }}
+                </div>
+            {% endif %}
+            <div class="expandable-content__blocks">
+                {% for block in section.blocks %}
+                    {% if block.type == 'content_block' %}
+                        <div class="expandable-content__block">
+                            {% if block.settings.content_title != blank %}
+                                <h3>{{ block.settings.content_title }}</h3>
+                            {% endif %}
+                            {% if block.settings.content_text != blank %}
+                                <div>{{ block.settings.content_text }}</div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="expandable-content__col expandable-content__col--right">
+            {% assign image_blocks = section.blocks | where: "type", "image_block" | slice: 0, 2 %}
+            {% for image_block in image_blocks %}
+                <div class="expandable-content__image-block">
+                    {% if image_block.settings.image != blank %}
+                        <img src="{{ image_block.settings.image | img_url: 'medium' }}" alt="{{ image_block.settings.image_title | escape }}">
+                    {% endif %}
+                    {% if image_block.settings.image_title != blank %}
+                        <h4>{{ image_block.settings.image_title }}</h4>
+                    {% endif %}
+                    <ul class="expandable-content__icon-list">
+                        {% for icon_block in section.blocks %}
+                            {% if icon_block.type == 'icon_list' and icon_block.parent_id == image_block.id %}
+                                <li>
+                                    {% if icon_block.settings.icon_image != blank %}
+                                        <img src="{{ icon_block.settings.icon_image | img_url: 'small' }}" alt="{{ icon_block.settings.icon_text | escape }}">
+                                    {% endif %}
+                                    {{ icon_block.settings.icon_text }}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+.expandable-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.expandable-content__columns {
+    display: flex;
+    gap: 2rem;
+}
+.expandable-content__col {
+    flex: 1;
+}
+.expandable-content__image-block img {
+    max-width: 100%;
+    height: auto;
+}
+.expandable-content__icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.expandable-content__icon-list img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+</style>
