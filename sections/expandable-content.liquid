@@ -20,12 +20,12 @@
             "settings": [
                 {
                     "type": "text",
-                    "id": "content_title",
+                    "id": "title",
                     "label": "Content Title"
                 },
                 {
                     "type": "richtext",
-                    "id": "content_text",
+                    "id": "text",
                     "label": "Content Text"
                 }
             ]
@@ -102,12 +102,17 @@
             <div class="expandable-content__blocks">
                 {% for block in section.blocks %}
                     {% if block.type == 'content_block' %}
+                        {%- render 'collapsible-row-list-item',
+                            block: block,
+                            item_heading_font: 'heading',
+                            forloop: forloop
+                        -%}
                         <div class="expandable-content__block">
-                            {% if block.settings.content_title != blank %}
-                                <h3>{{ block.settings.content_title }}</h3>
+                            {% if block.settings.title != blank %}
+                                <h3>{{ block.settings.title }}</h3>
                             {% endif %}
-                            {% if block.settings.content_text != blank %}
-                                <div>{{ block.settings.content_text }}</div>
+                            {% if block.settings.text != blank %}
+                                <div>{{ block.settings.text }}</div>
                             {% endif %}
                         </div>
                     {% endif %}
