@@ -189,8 +189,9 @@
         "show_breadcrumbs": false,
         "show_navigation_buttons": false,
         "show_featured_media_first": false,
-        "gallery_style": "list",
+        "gallery_style": "thumbnails",
         "gallery_style_mobile": "carousel",
+        "gallery_thumbnail_alt": true,
         "gallery_size": "medium",
         "gallery_overflow": "3",
         "enable_video_looping": true,
@@ -202,6 +203,122 @@
         "hide_mobile_carousel_dots": false,
         "enable_gift_card_recipient": true,
         "enable_animation": true
+      }
+    },
+    "video_auto_play_ArTTyE": {
+      "type": "video-auto-play",
+      "blocks": {
+        "video_EPKgFU": {
+          "type": "video",
+          "settings": {
+            "video_title": "spray",
+            "description": "Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6aeb55d811e446ee815928a72acd44be.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_spray_combposter.jpg"
+          }
+        },
+        "video_RybrDn": {
+          "type": "video",
+          "settings": {
+            "video_title": "rinse & dry",
+            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ea42694b60fa42d8b5c187e4dea32411.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_blowdry_poster.jpg"
+          }
+        },
+        "video_mAFNqV": {
+          "type": "video",
+          "settings": {
+            "video_title": "seal",
+            "description": "Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/863aa4b29f3c4474b59405d48ef48ade.mp4",
+            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_straighten_posgter.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_EPKgFU",
+        "video_RybrDn",
+        "video_mAFNqV"
+      ],
+      "settings": {
+        "section_heading": "HOW TO APPLY",
+        "p": "<p>Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.</p>",
+        "layout": "section",
+        "range": 3,
+        "stack": true,
+        "show_block_number": true,
+        "block_number_text": "Step"
+      }
+    },
+    "expandable_content_7Gx6cj": {
+      "type": "expandable-content",
+      "blocks": {
+        "content_block_9gdkHb": {
+          "type": "content_block",
+          "settings": {
+            "content_title": "THREE MONTHS OF GLASS-LIKE HAIR",
+            "content_text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>"
+          }
+        },
+        "content_block_bGKrQ3": {
+          "type": "content_block",
+          "settings": {
+            "content_title": "The Shampoo and Conditioner That Extend Your Results",
+            "content_text": "<p>We believe that looking great should never come at the cost of our health or the well-being of our furry friends. That's why we prioritize gentle, effective ingredients and use 100% vegan keratin, derived from wheat and soy, to deliver the same benefits as traditional animal-based salon keratin treatments.</p>"
+          }
+        },
+        "content_block_izfmb8": {
+          "type": "content_block",
+          "settings": {
+            "content_title": "VeratinTech™ VEGAN FORMULA",
+            "content_text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered—no questions asked.</p>"
+          }
+        },
+        "content_block_YnC7Uh": {
+          "type": "content_block",
+          "settings": {
+            "content_title": "SMOOTHEST HAIR OR YOUR MONEY BACK",
+            "content_text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered—no questions asked.</p>"
+          }
+        },
+        "image_block_yECjyT": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/ANSWR_Keratin_Treatment_Award.jpg",
+            "image_title": "Keratine Treatment",
+            "icon_list_1": "shopify://shop_images/when-icon_e6cef6c1-2efe-4627-9669-eb28a7543a5e.png",
+            "icon_list_2": "shopify://shop_images/time-icon_5e54492b-48e8-48c0-a2bb-1334a1786478.png",
+            "text_list_1": "Single application every second month",
+            "text_list_2": "Keeps hair frizz-free & shine for +2 months",
+            "text_list_3": ""
+          }
+        },
+        "image_block_aXWFft": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/300ml_shampoo_and_conditioner_Answr.jpg",
+            "image_title": "Keratine Treatment",
+            "icon_list_1": "shopify://shop_images/when-icon_e6cef6c1-2efe-4627-9669-eb28a7543a5e.png",
+            "icon_list_2": "shopify://shop_images/time-icon_5e54492b-48e8-48c0-a2bb-1334a1786478.png",
+            "text_list_1": "Daily use",
+            "text_list_2": "Post treatment to prolong the effect",
+            "text_list_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_block_9gdkHb",
+        "content_block_bGKrQ3",
+        "content_block_izfmb8",
+        "content_block_YnC7Uh",
+        "image_block_yECjyT",
+        "image_block_aXWFft"
+      ],
+      "name": "Expandable Content",
+      "settings": {
+        "main_title": "Everything your hair needs to shine!",
+        "main_description": "<p>Powered by award-winning VeratinTech™ technology, this 100% vegan formula, combined with gentle acids, tames frizz, seals cuticles, and balances your hair’s pH—all while restoring softness and hydration - and cutting the blow dry time into half.<br/><br/>The kit comes with <strong>sulfate free shampoo</strong> and <strong>conditioner</strong> specifically formulated for after treatment care to prolong the effect of the treatment.</p>"
       }
     },
     "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
@@ -553,50 +670,6 @@
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "video_auto_play_ArTTyE": {
-      "type": "video-auto-play",
-      "blocks": {
-        "video_EPKgFU": {
-          "type": "video",
-          "settings": {
-            "video_title": "1. spray",
-            "description": "Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/6aeb55d811e446ee815928a72acd44be.mp4",
-            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_spray_combposter.jpg"
-          }
-        },
-        "video_RybrDn": {
-          "type": "video",
-          "settings": {
-            "video_title": "2. rinse & dry",
-            "description": "Rinse your hair thoroughly with only water, ensuring no residue is left behind. Blow-dry your hair completely.",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/ea42694b60fa42d8b5c187e4dea32411.mp4",
-            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_blowdry_poster.jpg"
-          }
-        },
-        "video_mAFNqV": {
-          "type": "video",
-          "settings": {
-            "video_title": "3. seal",
-            "description": "Using a 180°C straightening iron, take narrow sections of hair until all strands are straight. Enjoy silk-like hair for the next three months.",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/863aa4b29f3c4474b59405d48ef48ade.mp4",
-            "video_thumbnail": "shopify://shop_images/Answr_keratin_treatment_video_steps_straighten_posgter.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "video_EPKgFU",
-        "video_RybrDn",
-        "video_mAFNqV"
-      ],
-      "settings": {
-        "section_heading": "HOW TO APPLY",
-        "p": "<p>Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.</p>",
-        "layout": "section",
-        "range": 3,
-        "stack": true
       }
     },
     "image_with_text_UktJXt": {
@@ -1062,6 +1135,8 @@
   },
   "order": [
     "main",
+    "video_auto_play_ArTTyE",
+    "expandable_content_7Gx6cj",
     "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
     "3acf7a4e-c02b-4686-a9c2-624f762fe493",
     "rich_text_ATHpkM",
@@ -1069,7 +1144,6 @@
     "video_with_text_xmYwnW",
     "video_with_text_Uwrx3h",
     "db47a77a-810b-4f2b-a73f-ca22af059c5a",
-    "video_auto_play_ArTTyE",
     "image_with_text_UktJXt",
     "image_with_text_FfYgTb",
     "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1",
