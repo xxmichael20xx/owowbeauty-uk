@@ -51,6 +51,17 @@
   display: block;
 }
 
+.expandable-content .accordion__inner {
+    border-color: #00000020;
+}
+
+.expandable-content .accordion__inner h3.ff-heading {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
 .expandable-content__description * {
     font-family: Helvetica;
     font-weight: 400;
@@ -71,8 +82,9 @@
 }
 
 .expandable-content__columns {
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
 }
 
 .expandable-content__col {
@@ -139,4 +151,9 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 820px) {
+    .expandable-content__columns {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 /* End - Expandable Content section */
