@@ -242,8 +242,8 @@
         "video_mAFNqV"
       ],
       "settings": {
-        "section_heading": "HOW TO APPLY",
-        "p": "<p>Start with clean, dry hair. Spray the treatment onto your hair until fully saturated, then comb it through. Let it sit for one hour.</p>",
+        "section_heading": "HOW TO APPLY THE KERATIN TREATMENT",
+        "p": "",
         "layout": "section",
         "range": 3,
         "stack": true,
@@ -257,29 +257,29 @@
         "content_block_9gdkHb": {
           "type": "content_block",
           "settings": {
-            "content_title": "THREE MONTHS OF GLASS-LIKE HAIR",
-            "content_text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>"
+            "title": "THREE MONTHS OF GLASS-LIKE HAIR",
+            "text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>"
           }
         },
         "content_block_bGKrQ3": {
           "type": "content_block",
           "settings": {
-            "content_title": "The Shampoo and Conditioner That Extend Your Results",
-            "content_text": "<p>We believe that looking great should never come at the cost of our health or the well-being of our furry friends. That's why we prioritize gentle, effective ingredients and use 100% vegan keratin, derived from wheat and soy, to deliver the same benefits as traditional animal-based salon keratin treatments.</p>"
+            "title": "The Shampoo and Conditioner That Extend Your Results",
+            "text": "<p>Forget the frizz and say hello to smoothness and shine. Our keratin treatment delivers salon-level results at home in just a few easy steps at a fraction of the salon price. The groundbreaking formula is the first of its kind: vegan, clean, and giving results beyond the first wash. Whether you're taming frizz or making curls shiny and manageable, this treatment gives you a sleek look that lasts for three months, all without chemical damage enabled by its ultra-gentle formula.</p>"
           }
         },
         "content_block_izfmb8": {
           "type": "content_block",
           "settings": {
-            "content_title": "VeratinTech™ VEGAN FORMULA",
-            "content_text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered—no questions asked.</p>"
+            "title": "VeratinTech™ VEGAN FORMULA",
+            "text": "<p>We believe that looking great should never come at the cost of our health or the well-being of our furry friends. That's why we prioritize gentle, effective ingredients and use 100% vegan keratin, derived from wheat and soy, to deliver the same benefits as traditional animal-based salon keratin treatments.</p>"
           }
         },
         "content_block_YnC7Uh": {
           "type": "content_block",
           "settings": {
-            "content_title": "SMOOTHEST HAIR OR YOUR MONEY BACK",
-            "content_text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered—no questions asked.</p>"
+            "title": "SMOOTHEST HAIR OR YOUR MONEY BACK",
+            "text": "<p>Join over 500,000 happy customers who have transformed their hair to its smoothest ever. We’re confident you’ll love your results too. But if you’re not completely satisfied, just let us know within 30 days, and we’ve got you covered—no questions asked.</p>"
           }
         },
         "image_block_yECjyT": {
