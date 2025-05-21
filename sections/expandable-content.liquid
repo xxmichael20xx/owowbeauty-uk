@@ -102,18 +102,35 @@
             <div class="expandable-content__blocks">
                 {% for block in section.blocks %}
                     {% if block.type == 'content_block' %}
-                        {%- render 'collapsible-row-list-item',
-                            block: block,
-                            item_heading_font: 'heading',
-                            forloop: forloop
-                        -%}
-                        <div class="expandable-content__block">
-                            {% if block.settings.title != blank %}
-                                <h3>{{ block.settings.title }}</h3>
-                            {% endif %}
-                            {% if block.settings.text != blank %}
-                                <div>{{ block.settings.text }}</div>
-                            {% endif %}
+                        <div class="accordion" {{ block.shopify_attributes }}>
+                        <div
+                            class="accordion__inner"
+                            data-index="{{ forloop.index0 }}"
+                            data-open="false"
+                            {{ block.shopify_attributes }}
+                        >
+                            <button
+                                class="accordion__label"
+                                aria-expanded="false"
+                                aria-controls="{{ block.id }}"
+                            >
+                                <h3 class="ff-heading">
+                                    {{ block.settings.title }}
+                                </h3>
+                                <div class="accordion__label-icons">
+                                    {% render 'icon', icon: 'plus' %}
+                                    {% render 'icon', icon: 'minus' %}
+                                </div>
+                            </button>
+                            <div
+                                class="accordion__content fs-body-100"
+                                aria-hidden="true"
+                                style="display: none"
+                                id="accordion-content-{{ block.id }}"
+                            >
+                                {{ block.settings.text }}
+                            </div>
+                            </div>
                         </div>
                     {% endif %}
                 {% endfor %}

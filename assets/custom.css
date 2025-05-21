@@ -40,6 +40,17 @@
 /* End - PDP Styles */
 
 /* Start - Expandable Content Section */
+.expandable-content .accordion__content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease;
+  display: none;
+}
+
+.expandable-content .accordion__inner[data-open="true"] .accordion__content {
+  display: block;
+}
+
 .expandable-content__description * {
     font-family: Helvetica;
     font-weight: 400;

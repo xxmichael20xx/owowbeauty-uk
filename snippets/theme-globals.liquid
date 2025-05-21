@@ -28,6 +28,9 @@
 {% # Set the following line to true to import custom.css %}
 {% assign useCustomCSS = true %}
 
+{% # Set the following line to true to import custom.js %}
+ {% assign useCustomJs = true %}
+
 {% if useCustomEvents %}
   <script src="{{ 'custom-events.js' | asset_url }}" defer></script>
   <script>
@@ -46,6 +49,10 @@
   window.addEventListener('orientationchange', defineVH);
   defineVH();
 </script>
+
+{% if useCustomJs %}
+  <script defer src="{{ 'custom.js' | asset_url }}"></script>
+{% endif %}
 
 {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
 
