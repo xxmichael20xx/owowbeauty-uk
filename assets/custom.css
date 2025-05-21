@@ -25,15 +25,18 @@
     flex-direction: column-reverse;
     gap: 10px;
 }
+
 [data-gallery-thumbnail-alt] .product-thumbnails__items {
     display: flex !important;
     flex-direction: row;
     width: auto;
     gap: 5px;
 }
+
 [data-gallery-thumbnail-alt] .product-thumbnails__items .product-thumbnails__item {
     margin-top: 0 !important;
 }
+
 /* End - PDP Styles */
 
 /* Start - Expandable Content Section */
@@ -49,4 +52,80 @@
 .expandable-content__description b {
     font-weight: 700;
 }
+
+.expandable-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.expandable-content__columns {
+    display: flex;
+    gap: 10px;
+}
+
+.expandable-content__col {
+    flex: 1;
+}
+
+.expandable-content__image-block img {
+    max-width: 100%;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.expandable-content__icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.expandable-content__icon-list img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.expandable-content__icon-list li {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.expandable-content__columns .expandable-content__col.expandable-content__col--right {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+}
+
+.expandable-content__columns .expandable-content__col.expandable-content__col--right .expandable-content__image-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.expandable-content__columns .expandable-content__col.expandable-content__col--right .expandable-content__image-inner {
+    height: 30%;
+    text-align: center;
+}
+
+.expandable-content__columns .expandable-content__col.expandable-content__col--right .expandable-content__image-inner h4 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
 /* End - Expandable Content section */
