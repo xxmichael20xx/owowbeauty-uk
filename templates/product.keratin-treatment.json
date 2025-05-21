@@ -321,6 +321,108 @@
         "main_description": "<p>Powered by award-winning VeratinTech™ technology, this 100% vegan formula, combined with gentle acids, tames frizz, seals cuticles, and balances your hair’s pH—all while restoring softness and hydration - and cutting the blow dry time into half.<br/><br/>The kit comes with <strong>sulfate free shampoo</strong> and <strong>conditioner</strong> specifically formulated for after treatment care to prolong the effect of the treatment.</p>"
       }
     },
+    "scrolling_content_JBQjYX": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_U6dU64": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SHIPPING",
+            "link": ""
+          }
+        },
+        "text_Grxi6Q": {
+          "type": "text",
+          "settings": {
+            "text": "500K+ HAPPY CUSTOMERS",
+            "link": ""
+          }
+        },
+        "text_CQnPJT": {
+          "type": "text",
+          "settings": {
+            "text": "MONEY-BACK GUARANTEE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_U6dU64",
+        "text_Grxi6Q",
+        "text_CQnPJT"
+      ],
+      "name": "t:sections.scrolling_content.presets.name",
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_showcase_PMbe6N": {
+      "type": "video-showcase",
+      "blocks": {
+        "video_block_rQYQeh": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/Answr_keratin_treatment_video_steps_straighten_slomo_03.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_XVjwx3": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/Answr_keratin_treatment_video_steps_straighten_slomo_03.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_QCdEdd": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/Answr_keratin_treatment_video_steps_straighten_slomo_03.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_BLYhbc": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/Answr_keratin_treatment_video_steps_straighten_slomo_03.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_bxe3Tf": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/Answr_keratin_treatment_video_steps_straighten_slomo_03.mp4",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_block_rQYQeh",
+        "video_block_XVjwx3",
+        "video_block_QCdEdd",
+        "video_block_BLYhbc",
+        "video_block_bxe3Tf"
+      ],
+      "name": "Video Showcase Custom",
+      "settings": {
+        "reviews_text": "543 Happy Customers",
+        "title": "SEE IT IN ACTION",
+        "button_label": "SHOP NOW",
+        "button_link": "#!"
+      }
+    },
     "68f21f02-4e27-439d-8c2d-230d9b48ebc5": {
       "type": "image-with-text",
       "blocks": {
@@ -1137,6 +1239,8 @@
     "main",
     "video_auto_play_ArTTyE",
     "expandable_content_7Gx6cj",
+    "scrolling_content_JBQjYX",
+    "video_showcase_PMbe6N",
     "68f21f02-4e27-439d-8c2d-230d9b48ebc5",
     "3acf7a4e-c02b-4686-a9c2-624f762fe493",
     "rich_text_ATHpkM",
