@@ -1,5 +1,5 @@
+{% # This is done here AND in the JS so it's responsive in the theme editor before the JS is loaded %}
 <script>
-  {% # This is done here AND in the JS so it's responsive in the theme editor before the JS is loaded %}
   document.documentElement.setAttribute("data-enable-sticky-announcement-bar", "{{ section.settings.sticky_enabled }}");
 </script>
 
@@ -19,7 +19,7 @@
         {%- if block.settings.title_mobile != blank and block.settings.title_mobile != block.settings.title -%}
           {%- assign has_mobile_text = true -%}
           <div class="announcement-bar__item-inner announcement-bar__item-inner-mobile-only">
-            {%- if block.settings.link != blank -%}   
+            {%- if block.settings.link != blank -%}
               <a class="announcement-bar__link color-inherit" href="{{ block.settings.link }}">
                 {{ block.settings.title_mobile | replace: '<a ', '<span class="fake-link" ' | replace: '</a>', '</span>' }}
               </a>
@@ -64,9 +64,9 @@
           </button>
         </div>
         <div class="ui-overlap-item-clones" aria-hidden="true">
-          {{ items }}    
-        </div>    
-        <div class="fader right">   
+          {{ items }}
+        </div>
+        <div class="fader right">
           <button class="slider-nav-button slider-nav-button-next" title="{{ 'general.accessibility.next' | t }}">
             {% render 'icon' with icon: 'chevron' %}
           </button>
@@ -80,11 +80,53 @@
       data-autoplay-delay="{{ section.settings.autoplay_delay | times: 1000 }}"
     >
       <div class="swiper-wrapper">
+        {% if section.settings.enable_close_bar %}
+          <img src="{{ 'bar-close-icon.svg' | asset_url }}" class="announcement-bar__close" alt="Close announcement bar" width="9.3" height="9.3" />
+        {% endif %}
         {{ items }}
       </div>
     </div>
   </div>
 {%- endif -%}
+
+<style>
+  .announcement-bar__item .announcement-bar__item-inner p {
+    font-size: {{ section.settings.font_size_text }}px;
+    font-weight: {{ section.settings.font_weight_text }};
+  }
+
+  .announcement-bar__item .announcement-bar__item-inner p strong,
+  .announcement-bar__item .announcement-bar__item-inner p b {
+    color: {{ section.settings.bold_color_text }};
+  }
+
+  {% if section.settings.enable_close_bar %}
+    .announcement-bar {
+      position: relative;
+    }
+
+    .announcement-bar .announcement-bar__close {
+      position: absolute;
+      right: max(calc((100vw - 1565px) / 2), 10px);
+      z-index: 10;
+      cursor: pointer;
+    }
+  {% endif %}
+</style>
+
+<script>
+  {% if section.settings.enable_close_bar %}
+    (function () {
+      document.body.addEventListener('click', e => {
+        const closeBtn = e.target.closest('.announcement-bar .announcement-bar__close')
+        if (! closeBtn) return
+
+        const wrapper = closeBtn.closest('.announcement-bar__outer-wrapper')
+        if (wrapper) wrapper.remove()
+      })
+    })()
+  {% endif %}
+</script>
 
 {% schema %}
 {
@@ -134,6 +176,12 @@
       "unit": "s"
     },
     {
+      "type": "checkbox",
+      "id": "enable_close_bar",
+      "label": "Enable close bar?",
+      "default": false
+    },
+    {
       "id": "color_background",
       "type": "color",
       "label": "t:sections.announcement_bar.settings.color_background.label",
@@ -144,6 +192,59 @@
       "type": "color",
       "label": "t:sections.announcement_bar.settings.color_text.label",
       "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "font_size_text",
+      "label": "Text Font size",
+      "min": 12,
+      "max": 24,
+      "step": 2,
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "font_weight_text",
+      "label": "Text Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "font_style_text",
+      "label": "Text Font style",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "italic",
+          "label": "Italic"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "bold_color_text",
+      "label": "Bold Text Color",
+      "default": "#ffffff"
     }
   ],
   "blocks": [
