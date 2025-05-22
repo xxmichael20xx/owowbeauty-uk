@@ -6,9 +6,9 @@
           <h2 class="video-showcase-content__title">{{ section.settings.title | escape }}</h2>
         {% endif %}
         {% if section.settings.content != blank %}
-          <p class="video-showcase-content__text">
+          <div class="video-showcase-content__text">
             {{ section.settings.content }}
-          </p>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -124,13 +124,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style>
   .video-showcase-content {
-    padding: 40px 0;
+    padding: 0;
     text-align: center;
-    background-color: #F6F6F6;
   }
 
   .video-showcase-content__header {
     margin: 0 auto 40px auto;
+  }
+
+  .video-showcase-content__container {
+    padding-top: 0;
   }
 
   .video-showcase-content__title {
@@ -140,6 +143,22 @@ document.addEventListener('DOMContentLoaded', function() {
     line-height: 120%;
     text-transform: uppercase;
     margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .video-showcase-content__text p {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+  }
+
+  .video-showcase-content__text p strong,
+  .video-showcase-content__text p b, {
+    font-weight: 700 !important;
   }
 
   .video-showcase-content__grid-container {
@@ -296,7 +315,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     .video-showcase-content__header {
-      max-width: 61%;
+      max-width: 52%;
+    }
+
+    .video-showcase-content {
+      padding: 40px 0;
+    }
+
+    .video-showcase-content__container {
+      padding-top: 40px;
     }
   }
 </style>

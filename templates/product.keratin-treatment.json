@@ -454,7 +454,7 @@
         "9bb5cebe-0abd-42dc-9b66-aa94554b7268"
       ],
       "settings": {
-        "image_position": "right",
+        "image_position": "left",
         "text_alignment": "left",
         "image": "shopify://shop_images/keratin_user_hair.gif",
         "aspect_ratio": "portrait",
@@ -772,6 +772,42 @@
         "enable_animation": false,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_showcase_content_jxQXYL": {
+      "type": "video-showcase-content",
+      "blocks": {
+        "video_block_wkVeJR": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/tolstoy_904c70df-9530-4464-9ad5-e09d775855bb_preview.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_xBRKfY": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/tolstoy_904c70df-9530-4464-9ad5-e09d775855bb_preview.mp4",
+            "alt_text": ""
+          }
+        },
+        "video_block_JfGRPH": {
+          "type": "video_block",
+          "settings": {
+            "video_selected": "shopify://files/videos/tolstoy_904c70df-9530-4464-9ad5-e09d775855bb_preview.mp4",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_block_wkVeJR",
+        "video_block_xBRKfY",
+        "video_block_JfGRPH"
+      ],
+      "name": "Video Showcase Content",
+      "settings": {
+        "title": "Approved by Bernardo Vasconcelos",
+        "content": "<p>With unmatched industry-leading expertise, <strong>Bernardo Vasconcelos</strong> is here to guide you step-by-step, ensuring your at-home keratin treatment achieves stunning, long-lasting results. From Brazil, the birthplace of keratin treatments, Bernardo brings over a decade of experience. <br/><br/>Now leading his own London salon, he’s trusted by global icons like <strong>Gisele, Adriana Lima, Alessandra Ambrosio, and Izabel Goulart.</strong></p>"
       }
     },
     "image_with_text_UktJXt": {
@@ -1248,6 +1284,7 @@
     "video_with_text_xmYwnW",
     "video_with_text_Uwrx3h",
     "db47a77a-810b-4f2b-a73f-ca22af059c5a",
+    "video_showcase_content_jxQXYL",
     "image_with_text_UktJXt",
     "image_with_text_FfYgTb",
     "5a9b7eaa-b6db-4392-bc11-ed6fd6fb49b1",
