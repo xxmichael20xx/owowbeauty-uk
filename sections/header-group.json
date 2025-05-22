@@ -16,6 +16,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "title": "<p>BIGGEST SALE EVER</p>",
             "title_mobile": "<p>BIGGEST SALE EVER</p>",
@@ -24,24 +25,38 @@
         },
         "408fc3d7-aa3c-494e-a08c-1af469731b59": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "title": "<p>30% OFF SITEWIDE OR 40% OVER £100</p>",
             "title_mobile": "<p>30% OFF SITEWIDE OR 40% OVER £100</p>",
             "link": "shopify://collections/all"
           }
+        },
+        "announcement_3EYEjN": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>BUY AT-HOME KERATIN TREATMENT KIT - GET VOLUMEWAVE HEATED BRUSH <strong>FOR FREE!</strong></p>",
+            "title_mobile": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "408fc3d7-aa3c-494e-a08c-1af469731b59"
+        "408fc3d7-aa3c-494e-a08c-1af469731b59",
+        "announcement_3EYEjN"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky_announcement_bar": "never",
         "autoplay_enabled": true,
         "autoplay_delay": 4,
-        "color_background": "#ffffff",
-        "color_text": "#000000"
+        "enable_close_bar": true,
+        "color_background": "#000000",
+        "color_text": "#ffffff",
+        "font_size_text": 14,
+        "font_weight_text": "700",
+        "font_style_text": "normal",
+        "bold_color_text": "#ff8674"
       }
     },
     "header": {
