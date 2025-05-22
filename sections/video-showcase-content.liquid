@@ -1,24 +1,23 @@
-<div class="video-showcase video-showcase--{{ section.id }}" data-section-id="{{ section.id }}">
-  <div class="video-showcase__container section">
-    {% if section.settings.reviews_text != blank or section.settings.title != blank %}
-      <div class="video-showcase__header">
-        {% if section.settings.reviews_text != blank %}
-          <p class="video-showcase__reviews">
-            <img src="{{ 'video-showcase-stars.svg' | asset_url }}" alt="Star" class="video-showcase__star-icon" />
-            {{ section.settings.reviews_text | escape }}
-            </p>
-        {% endif %}
+<div class="video-showcase-content video-showcase-content--{{ section.id }}" data-section-id="{{ section.id }}">
+  <div class="video-showcase-content__container section">
+    {% if section.settings.content != blank or section.settings.title != blank %}
+      <div class="video-showcase-content__header">
         {% if section.settings.title != blank %}
-          <h2 class="video-showcase__title">{{ section.settings.title | escape }}</h2>
+          <h2 class="video-showcase-content__title">{{ section.settings.title | escape }}</h2>
+        {% endif %}
+        {% if section.settings.content != blank %}
+          <p class="video-showcase-content__text">
+            {{ section.settings.content }}
+          </p>
         {% endif %}
       </div>
     {% endif %}
 
     {% if section.blocks.size > 0 %}
-      <div class="video-showcase__grid-container">
-        <div class="video-showcase__grid">
+      <div class="video-showcase-content__grid-container">
+        <div class="video-showcase-content__grid">
           {% for block in section.blocks %}
-            <div class="video-showcase__item video-item video-item--{{ block.id }}" {{ block.shopify_attributes }}>
+            <div class="video-showcase-content__item video-item video-item--{{ block.id }}" {{ block.shopify_attributes }}>
               <div class="video-item__wrapper">
                 {%- assign selected_video = block.settings.video_selected -%}
                 {%- assign primary_alt = block.settings.alt_text | default: 'Promotional video' -%}
@@ -77,20 +76,12 @@
         </div>
       </div>
     {% endif %}
-
-    {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-      <div class="video-showcase__footer">
-        <a href="{{ section.settings.button_link }}" class="video-showcase__button">
-          {{ section.settings.button_label | escape }}
-        </a>
-      </div>
-    {% endif %}
   </div>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const videoShowcaseSections = document.querySelectorAll('.video-showcase[data-section-id]');
+  const videoShowcaseSections = document.querySelectorAll('.video-showcase-content[data-section-id]');
 
   videoShowcaseSections.forEach(section => {
     const videoItems = section.querySelectorAll('.video-item');
@@ -132,30 +123,17 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
-  .video-showcase {
+  .video-showcase-content {
     padding: 40px 0;
     text-align: center;
     background-color: #F6F6F6;
   }
 
-  .video-showcase__header {
-    margin-bottom: 40px;
+  .video-showcase-content__header {
+    margin: 0 auto 40px auto;
   }
 
-  .video-showcase__reviews {
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: rgba(0, 0, 0, .2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  }
-
-  .video-showcase__title {
+  .video-showcase-content__title {
     font-family: Helvetica;
     font-weight: 400;
     font-size: 22px;
@@ -164,37 +142,37 @@ document.addEventListener('DOMContentLoaded', function() {
     margin-top: 20px;
   }
 
-  .video-showcase__grid-container {
-    overflow-x: auto; /* Enables horizontal scrolling on mobile */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    margin-left: -15px; /* Counteract container padding for full-bleed scroll */
+  .video-showcase-content__grid-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -15px;
     margin-right: -15px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* Hide scrollbar for a cleaner look, but ensure usability */
-  .video-showcase__grid-container::-webkit-scrollbar {
-    display: none; /* For Webkit browsers */
+
+  .video-showcase-content__grid-container::-webkit-scrollbar {
+    display: none;
   }
-  .video-showcase__grid-container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  .video-showcase-content__grid-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
 
-  .video-showcase__grid {
+  .video-showcase-content__grid {
     display: flex;
-    flex-wrap: nowrap; /* Prevents wrapping, forces horizontal scroll */
-    gap: 20px; /* Space between video items */
-    padding-bottom: 16px; /* Space for scrollbar if visible or just visual padding */
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-bottom: 16px;
   }
 
-  .video-showcase__item {
-    flex: 0 0 auto; /* Prevent items from shrinking */
-    min-width: 258px; /* Width of each video item on mobile */
+  .video-showcase-content__item {
+    flex: 0 0 auto;
+    min-width: 258px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: #f0f0f0; /* Placeholder background */
+    background-color: #f0f0f0;
   }
 
   .video-item__wrapper {
@@ -228,7 +206,6 @@ document.addEventListener('DOMContentLoaded', function() {
     font-size: 0.9em;
     text-align: center;
   }
-
 
   .video-item__play-button {
     position: absolute;
@@ -275,12 +252,11 @@ document.addEventListener('DOMContentLoaded', function() {
     padding: 10px;
   }
 
-
-  .video-showcase__footer {
+  .video-showcase-content__footer {
     margin-top: 40px;
   }
 
-  .video-showcase__button {
+  .video-showcase-content__button {
     padding: 12px 30px;
     background-color: #F6F6F6;
     color: #000;
@@ -299,55 +275,48 @@ document.addEventListener('DOMContentLoaded', function() {
     justify-content: center;
   }
 
-  .video-showcase__button:hover {
+  .video-showcase-content__button:hover {
     background-color: #000;
     color: #fff;
   }
 
   @media (min-width: 820px) {
-    .video-showcase__grid-container {
+    .video-showcase-content__grid-container {
       overflow-x: visible;
       margin-left: 0;
       margin-right: 0;
       padding-left: 0;
       padding-right: 0;
     }
-    .video-showcase__grid {
+
+    .video-showcase-content__grid {
       flex-wrap: wrap;
       justify-content: center;
       gap: 25px;
+    }
+
+    .video-showcase-content__header {
+      max-width: 61%;
     }
   }
 </style>
 
 {% schema %}
 {
-  "name": "Video Showcase Custom",
+  "name": "Video Showcase Content",
   "tag": "section",
-  "class": "shopify-section-video-showcase",
+  "class": "shopify-section-video-showcase-content",
   "settings": [
-    {
-      "type": "text",
-      "id": "reviews_text",
-      "label": "Reviews Text",
-      "default": "543 Happy Customers"
-    },
     {
       "type": "text",
       "id": "title",
       "label": "Title",
-      "default": "SEE IT IN ACTION"
+      "default": "Approved by Bernardo Vasconcelos"
     },
     {
-      "type": "text",
-      "id": "button_label",
-      "label": "Button Label",
-      "default": "SHOP NOW"
-    },
-    {
-      "type": "url",
-      "id": "button_link",
-      "label": "Button Link"
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
     }
   ],
   "blocks": [
@@ -373,10 +342,8 @@ document.addEventListener('DOMContentLoaded', function() {
   ],
   "presets": [
     {
-      "name": "Video Showcase Custom",
+      "name": "Video Showcase Content",
       "blocks": [
-        { "type": "video_block" },
-        { "type": "video_block" },
         { "type": "video_block" },
         { "type": "video_block" },
         { "type": "video_block" }
